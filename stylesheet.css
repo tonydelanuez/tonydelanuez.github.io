@@ -42,11 +42,11 @@ h1,h2,h3,h4,h5{
 
 
 h1{
-	font-size: 48px;
+	font-size: 4em;
 }
 
 h2{
-	font-size: 26px;
+	font-size: 2em;
 }
 
 h1.hero{
