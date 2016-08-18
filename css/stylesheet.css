@@ -29,6 +29,7 @@ body{
 }
 *{
 	box-sizing:border-box;
+	background-repeat:repeat;
 }
 a{
 	color:#cc0000;
@@ -42,11 +43,11 @@ h1,h2,h3,h4,h5{
 
 
 h1{
-	font-size: 48px;
+	font-size: 4em;
 }
 
 h2{
-	font-size: 26px;
+	font-size: 2em;
 }
 
 h1.hero{
@@ -155,7 +156,7 @@ h1.hero{
 
 
 footer{
-	background-color:black;
+	background-color:lightblue;
 	font-family:"Roboto", sans-serif;
 	color:#777378;
 	text-align:center;
