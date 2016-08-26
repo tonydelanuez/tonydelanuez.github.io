@@ -1,30 +1,53 @@
 html, body{
 	height:100%;
+	margin:0;
+	padding:0;
+
 }
-/* header{
+header{
+	position:fixed;
 	background-color:white;
 	font-family:"Roboto", sans-serif;
 	color:#777378;
-	text-align:left;
-	padding:10px;
+	text-align:right;
+	padding:5px;
 	top:0;
-	height:30px;
+	height:40px;
 	width:100%;
-	display: -webkit-flex;
-   	display: flex;
-   	-webkit-align-items: left;
-   	align-items: left;
-   	-webkit-justify-content: left;
-   	justify-content: left;
-	position: relative;
+   	display: inline-block;
+   	-webkit-align-items: right;
+   	align-items: right;
+   	-webkit-justify-content: right;
+   	justify-content: right;
+	
 }
-*/
+header>span{
+	justify-content: left;
+   	color:black;
+   	font-family:"Lato", sans-serif;
+   	float:left;
+   	padding-top:10px;
+   	padding-left:20px;
+   	font-size:1.3em;
+	margin: 0 0 0.75em
+}
 
-body{
-	font-size: 14px;
-	font-family: 'Verdana', sans-serif;
+header>a{
+padding-right:20px;
+}
+
+
+body{	
+	font-size: 12px;
+	font-family:'Roboto', sans-serif;
 	background-color:lightblue;
+	
 
+	
+}
+#topHero{
+    -webkit-filter: opacity(90%); /* Chrome, Safari, Opera */
+    filter: opacity(90%);
 	
 }
 *{
@@ -37,17 +60,16 @@ a{
 }
 
 h1,h2,h3,h4,h5{
-	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 }
 
 
 h1{
-	font-size: 4em;
+	font-size: 3em;
 }
 
 h2{
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 h1.hero{
@@ -60,6 +82,8 @@ h1.hero{
 .container{
 	max-width: 1024px;
 	margin:0 auto;
+	margin-bottom:100px;
+
 }
 
 #home{
@@ -67,25 +91,30 @@ h1.hero{
 	text-align: center;
 	color:black;
 	padding:0px 0;
-	font-size:30;
+	font-size:25;
+
+
 }
 
-#home .introduction{
+#home #introduction{
 	display:flex;
 	justify-content:center;
 	text-align: left;
+	color:grey;
 }
 
-#home .introduction h1{
+#home #introduction h1{
 	margin:0;
+
 }
 
 #home .intro h1:first-child{
 	text-align: right;
 	margin-right: 8px;
+
 }
 
-#home .introduction h1:last-child{
+#home #introduction h1:last-child{
 	color:black;
 }
 
@@ -114,7 +143,7 @@ h1.hero{
 }
 
 #about img{
-	width:40%;
+	width:250px;
 	margin:auto;
 	
 }
@@ -123,7 +152,6 @@ h1.hero{
 	max-width:50%;
 	margin:auto;
 	text-align:center;
-	font-family:'Roboto', sans-serif;
 	font-size:1em;
 }
 
@@ -132,6 +160,7 @@ h1.hero{
 	color:black;
 	text-align: center;
 	margin:auto;
+	padding-bottom: 200px;
 }
 
 #contact ul.socialMediaLinks{
@@ -154,15 +183,48 @@ h1.hero{
 	font-weight:bold;
 }
 
+#redbar{
+	background-color:red;
+	text-align:center;
+}
+
+#portfolio{
+
+	background-color:white;
+	text-align:center;
+	font-size:1em;
+}
+
+
+#technologies{
+	font-size:3em;
+	height:25%;
+	padding:10px;
+	padding-top:20px;
+	text-align:center;
+	margin:auto;
+	background-color:white;
+}
+#bottomHero{
+	-webkit-filter: opacity(80%); Chrome, Safari, Opera */
+    filter: opacity(80%); 
+}
+#ecg{
+	width:50%;
+	margin:auto;
+}
+.projectTitle{
+	font-size:1.3em;
+	font-weight:bold;
+}
+#agar{
+	width:50%;
+	margin:auto;
+}
+
 
 footer{
-	background-color:lightblue;
-	font-family:"Roboto", sans-serif;
-	color:#777378;
-	text-align:center;
-	padding:10px;
-	bottom:0;
-	height:30px;
-	width:100%;
-
+	font-size:.9em;
+	font-family:'Roboto',sans-serif;
+	text-align: center;
 }
