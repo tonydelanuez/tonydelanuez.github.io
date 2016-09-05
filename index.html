@@ -1,129 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- meta -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
-  
-  <!-- links -->
-  <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700" rel="stylesheet"> 
-  <link href="scripts/javascript.js">
-</head>
-<div id="topHero">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js> </script>
+    
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Oswald|Roboto+Mono" rel="stylesheet">
+
+
+  </head>
+  <div id="header">
+        <a href="https://www.linkedin.com/in/tonydelanuez"> <img width=30px; src="img/linkedin.png"/></a>
+        <a href="https://github.com/tonydelanuez"><img width=30px; src="img/github.png"/></a>
+        <a href="https://twitter.com/tdelanuez"><img width=30px; src="img/twitter.png"/></a>
+        <a href="mailto:hello@tonydelanuez.me?Subject=Contact" target="_top"><img width=30px; src="img/email.png"/></a>
+</div>
+ <div id="topHero">
 <img src="img/hero.jpg" width=100%>
 </div>
-  <title> Tony De La Nuez Portfolio </title>
-  <header>
-  <span>Tony De La Nuez | <a href="#introduction">About</a> <a href="#portfolio">Projects</a> <a href="#contact">Contact</a> </span>
-    <a href="https://www.linkedin.com/in/tonydelanuez">
-        <img width=30px; src="img/linkedin.png"/>
-        </a>
-      
-        <a href="https://github.com/tonydelanuez"><img width=30px; src="img/github.png"/></a>
-    
-        <a href="https://twitter.com/tdelanuez"><img width=30px; src="img/twitter.png"/></a>
-    
-  </header>
 
-<body>
-	<section id="home" class="container"> 
-		<div id="introduction">
-     <h1 class="intro">
-     Hey there, my name is Tony De La Nuez.
-     </h1>
+<div class="jumbotron">
+  <div class="container">
+    <h1 id="hi">I'm Tony De La Nuez.</h1>
+    <p id="line2">FRONT-END & JAVA DEVELOPER, SKILLED IN ELECTRICAL ENGINEERING</p>
+    <p id="line3">AVID GAMER, PHOTOGRAPHER, JIU JITSU PLAYER</p>
+    <p id="line4"> Seeking experience in the San Francisco Bay Area</p>
+    <div class="row">
+    <div class="col-md-6">   
+      <img id="profilepic" width=40%; src="img/profilePicture.png"/>
     </div>
-    <h2>
-      I'm a Computer Science graduate student at Washington University in St. Louis. <br>
-      Read about some of my <a href="#portfolio">projects</a> below. 
-    </h2>
+    
+    <div class="col-md-6">
 
-    <div>
+    <!-- Progress Bars -->
+      <div class="progress">
+  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+    Java
+  </div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+    HTML
+  </div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+    CSS
+  </div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+    Javascript
+  </div>
+</div>
 
     </div>
-    </section>
-    
-    <section id="about">
-      <div class="aboutContainer">
-        <figure><img src="img/profilePicture.png" alt="face"></figure>
-        <p>
-        I'm constantly working on projects or throwing myself into new hobbies.<br> I play a ton of video games, build computers, practice Jiu Jitsu, and do amateuer <a href="https://www.flickr.com/tonydelanuez">photography</a>.
-        <br> Ever since I was little, my love of computers has directed me towards my path in Computer Science. When I was 12, I didn't have the money to play World of Warcraft so I decided to learn how to create a private server (sorry Blizzard!) off of my mom's desktop. This was my intro to web development as well, as I ran a site (Apache server) for my friends to register accounts on my server and send their account info to a mySQL database so they could log in and play with me. I taught myself how to create and compile scripts to generate the objects in the game and allow the emulated game to have similar functionality to the retail version. Once school started back up, I hired some people from our forums to take care of community problems while I was in class. Ever since then, I've been hooked. 
-        </p>
-      </div>
-    </section>
-    
-  <section id="redbar"> 
- </section>
-
-  <section id="portfolio"> 
- <h2>Projects</h2>
-  <div id="ecg">
-    <span class="projectTitle">Echocardiogram Design</span>
-    <br>Washington University in St. Louis<br>
-    <img width=250px src="img/ecgCircuit.png"/>
-    <p> For the final project of a microelectronics class, my colleague Prakrit Srestha and I designed an amplifying circuit that would take the signal from electrodes places at different spots on the human body, and amplify it to a level easily viewable on a computer. The project was a lesson in circuit theory, common-mode voltage filtering, grounding, and proper usage of Wilson's central terminal. We were required to implement the above ideas and more in order to create a design with an acceptable amount of noise and a very clear, stable signal. 
-    <br> <a href="github.com">Google Drive</a>
-    </p>
-    <p><em>Technologies Used:</em><br>
-    MATLAB<br>
-    Simulink<br>
-    Arduino<br>
-    </p>
-
-    </p>
+    </div>
+<!-- buttons -->
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Projects</a> <a class="btn btn-primary btn-lg" href="#" role="button">About</a></p>
   </div>
+</div>
 
-  <div id="agar">
-  <span class="projectTitle">Java Agar.io Clone</span>
-  <br>Washington University in St. Louis<br>
-  <img width=250px src="img/agarsrc.png"/>
-  <p> To familiarize myself with Java (my prior background was in Python and MATLAB) I completed an online class offered by Washington University. For the final project I constructed an Agar.io clone, a game where you start with a small blob that follows your mouse and gets bigger as you "eat" different size food. 
-  <br> <a href="github.com">Github</a>
-  </p>
+  <body>
+
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12" style="height:40%">
+
+    <!-- Flexslider CSS and JS -->
+<link rel="stylesheet" href="flex/css/flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="flex/js/jquery.flexslider.js"></script>
+
+<!-- Load the flexslider -->
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "fade",  // slide or fade
+          controlsContainer: ".flex-container" // the container that holds the flexslider
+    });
+  });
+</script>
+
+<!-- Slider Container and Images -->
+<div style="padding:5px;">
+  <div class="flexslider">
+    <ul class="slides">
+      <li><img src="flex/images/ecgCircuit.png" /></li>
+      <li><img src="flex/images/ecgCircuit.png" /></li>
+      <li><img src="flex/images/agarsrc.png" /></li>
+    </ul>
+   </div>
+</div>
   </div>
-  <p><em>Technologies Used:</em><br>
-    Java<br>
-    Eclipse IDE<br>
-    </p>
- </section>
- <div id="bottomHero">
-  <img width=100% src="img/IMG_1916.jpg"/>
- </div>
+</div>
 
-  <section id="technologies"> 
- <div id="technologies">
- <img width=60px; src="img/css3.png"/>
- <img width=60px; src="img/html5.png"/>
- <img width=80px; src="img/js.jpg"/> 
- <img width=80px; src="img/Eclipse.png"/>
-  <img width=80px; src="img/git.png"/>
+    <h1>Hello, world!</h1>
 
- </div>
- </section>
-    
- <section id="contact">
-   <h2>
-   Get in Contact with Me!
-   </h2>
-    Shoot me an email: <br> <div id="email">hello@tonydelanuez.me</div>
-   <br>
-    Social Accounts:
-    <br>
-        <a href="https://www.linkedin.com/in/tonydelanuez">
-        <img width=60px; src="img/linkedin.png"/>
-        </a>
-      	
-        <a href="https://github.com/tonydelanuez"><img width=60px; src="img/github.png"/></a>
-    
-        <a href="https://twitter.com/tdelanuez"><img width=60px; src="img/twitter.png"/></a>
-
-    
-
- </section>
-</body>
-
-<footer>
-Designed by Tony De La Nuez
-</footer>
-</html>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

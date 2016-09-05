@@ -1,0 +1,184 @@
+html, body{
+	height:100%;
+	margin:0;
+	padding:0;
+
+}
+
+#header{ 
+	border-bottom:1px solid #800000; 
+	background:#1a1a1a; 
+	padding:10px 15px 15px; 
+	position:fixed; 
+	top:0; 
+	left:0; 
+	z-index:2000; 
+	width:100%;
+}
+
+
+#header>a{
+padding-right:10px;
+
+}
+
+.jumbotron {
+	background:#1a1a1a;
+	border-bottom:1px solid #800000; 
+	color: white;
+	text-align: center;
+	border-top:1px solid #800000;
+}
+.jumbotron p {
+	color: white;
+	font-size: 26px;
+}
+
+#hi{
+	font-family:'Roboto', sans-serif;
+	color:lightgray;
+
+}
+#line2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.6em;
+	color:#EAC67A;
+}
+
+#line3{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.3em;
+	color:#984B43;
+}
+
+
+
+#line4{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	color:white;
+}
+.btn-primary {
+	color: lightgray;
+	background-color: transparent;
+	border-color: #984B43;
+	margin-bottom: 5px;
+}
+.btn-primary:hover {
+	color: white;
+	background-color: #984B43;
+	border-color: #984B43;
+}
+
+
+body{	
+	font-size: 12px;
+	font-family:'Roboto', sans-serif;
+	background-color:#1a1a1a;
+	}
+*{
+	box-sizing:border-box;
+	background-repeat:repeat;
+}
+a{
+	color:#cc0000;
+	text-decoration:none;
+}
+
+h1,h2,h3,h4,h5{
+	font-weight: bold;
+}
+
+
+h1{
+	font-size: 3em;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+h1.hero{
+	background:white;
+	padding:70px 0;	
+
+}
+
+
+.container{
+	margin:0 auto;
+	background:#1a1a1a;
+
+	color: white;
+	text-align: center;
+
+	width:100%;
+
+}
+
+
+
+#contact{
+	padding:70px 0;	
+	color:black;
+	text-align: center;
+	margin:auto;
+	padding-bottom: 200px;
+}
+
+#contact ul.socialMediaLinks{
+	list-style:none;
+	padding:0;
+	margin:auto;
+}
+
+#contact ul.socialMediaLinks li{
+	display: block;
+	margin:auto;
+	margin-bottom: 10px;
+}
+
+#contact small:first-of-type{
+	color:black;
+}
+
+#contact #email{
+	font-weight:bold;
+}
+
+#redbar{
+	background-color:red;
+	text-align:center;
+}
+
+#portfolio{
+
+	background-color:white;
+	text-align:center;
+	font-size:1em;
+}
+
+
+#technologies{
+	font-size:3em;
+	height:35%;
+	padding:10px;
+	padding-top:20px;
+	text-align:center;
+	margin:auto;
+	display:block;
+	background-color:white;
+}
+
+
+
+.item img{
+	width:30%;
+}
+
+
+footer{
+	font-size:.9em;
+	font-family:'Roboto',sans-serif;
+	text-align: center;
+}
