@@ -5,6 +5,10 @@ html, body{
 
 }
 
+ul{
+	padding:0;
+	list-style-type: none;
+}
 #header{ 
 	border-bottom:1px solid #800000; 
 	background:#1a1a1a; 
@@ -16,13 +20,26 @@ html, body{
 	width:100%;
 }
 
+.school, .job{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.3em;
+	color:white;
 
+}
+
+
+.projectTitle{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.4em;
+	color:#984B43;
+
+}
 #header>a{
 padding-right:10px;
 
 }
 
-.jumbotron {
+.jumbotron, #technologies {
 	background:#1a1a1a;
 	border-bottom:1px solid #800000; 
 	color: white;
@@ -50,7 +67,17 @@ padding-right:10px;
 	font-size: 1.3em;
 	color:#984B43;
 }
+#about{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.6em;
+	color:#EAC67A;
 
+}
+#resume{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.3em;
+	color:#984B43;
+}
 
 
 #line4{
@@ -70,6 +97,12 @@ padding-right:10px;
 	border-color: #984B43;
 }
 
+#botHero{
+	opacity:70%;
+	border-bottom:1px solid #800000; 
+	border-top: 1px solid #800000;
+
+}
 
 body{	
 	font-size: 12px;
@@ -119,11 +152,14 @@ h1.hero{
 
 
 #contact{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3em;
+	color:#EAC67A;
 	padding:70px 0;	
-	color:black;
 	text-align: center;
 	margin:auto;
 	padding-bottom: 200px;
+
 }
 
 #contact ul.socialMediaLinks{
@@ -144,12 +180,9 @@ h1.hero{
 
 #contact #email{
 	font-weight:bold;
+	color:#984B43;
 }
 
-#redbar{
-	background-color:red;
-	text-align:center;
-}
 
 #portfolio{
 
@@ -162,12 +195,11 @@ h1.hero{
 #technologies{
 	font-size:3em;
 	height:35%;
-	padding:10px;
-	padding-top:20px;
+	width:100%;
+	padding-top:40px;
 	text-align:center;
 	margin:auto;
 	display:block;
-	background-color:white;
 }
 
 
