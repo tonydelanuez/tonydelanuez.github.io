@@ -209,8 +209,12 @@ h1.hero{
 }
 
 
-footer{
+#footer{
 	font-size:.9em;
-	font-family:'Roboto',sans-serif;
+	color:lightgrey;
 	text-align: center;
+}
+
+#footer a{
+	color:#984B43;
 }
