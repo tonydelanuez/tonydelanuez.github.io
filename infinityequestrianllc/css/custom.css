@@ -12,6 +12,13 @@ a {
 
 }
 
+a:hover{
+	color:#00cfbb;
+	text-decoration: none;
+
+
+}
+
 
 .brand,
 .address-bar {
