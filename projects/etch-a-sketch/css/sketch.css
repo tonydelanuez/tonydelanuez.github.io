@@ -1,0 +1,57 @@
+body{
+	display:block;
+}
+#megacontainer{
+	margin:auto;
+	height:1000px;
+	width:960px;
+	background-color:darkred;
+	border:5px solid maroon;
+	overflow:hidden;
+	border-radius:100px;
+	opacity:.8;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#megacontainer h2{
+	text-align: center;
+	max-width: 400px;
+	margin:auto;
+	opacity:1;
+
+}
+
+#megacontainer p{
+	text-align: center;
+	max-width: 400px;
+	margin:auto;
+	opacity:1;
+}
+
+
+#container{
+
+	background-color:lightgray;
+	height:800px;
+	width:960px;
+	overflow:hidden;
+	margin:auto;
+
+
+}
+#reset{
+	margin:auto;
+	background-color: darkred;
+	font-weight: bold;
+	border-color: maroon;
+	
+}
+.unit{
+	background-color:grey;
+	opacity:0.1;
+	height:10px;
+	width:10px;
+	margin:1px;
+	display:inline-block;
+}
