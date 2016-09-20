@@ -9,7 +9,7 @@ ul{
 	padding:0;
 	list-style-type: none;
 }
-#header{ 
+header{ 
 	border-bottom:1px solid #800000; 
 	background:#1a1a1a; 
 	padding:10px 15px 15px; 
@@ -38,6 +38,7 @@ ul{
 padding-right:10px;
 
 }
+
 
 .jumbotron, #technologies {
 	background:#1a1a1a;
@@ -107,6 +108,7 @@ padding-right:10px;
 body{	
 	font-size: 15px;
 	font-family:'Roboto', sans-serif;
+
 	background-color:#1a1a1a;
 	}
 *{
@@ -143,7 +145,7 @@ h1.hero{
 	background:#1a1a1a;
 
 	color: white;
-	text-align: center;
+	text-align: left;
 
 	width:100%;
 
@@ -159,6 +161,7 @@ h1.hero{
 	text-align: center;
 	margin:auto;
 	padding-bottom: 200px;
+	width:100%;
 
 }
 
@@ -174,9 +177,7 @@ h1.hero{
 	margin-bottom: 10px;
 }
 
-#contact small:first-of-type{
-	color:black;
-}
+
 
 #contact #email{
 	font-weight:bold;
@@ -202,19 +203,23 @@ h1.hero{
 	display:block;
 }
 
-
+#lotusPreview iframe{
+	width:70%;
+	height:400px;
+	margin:auto;
+}
 
 .item img{
 	width:30%;
 }
 
 
-#footer{
-	font-size:.9em;
+footer{
+	font-size:.6em;
 	color:lightgrey;
 	text-align: center;
 }
 
-#footer a{
+footer a{
 	color:#984B43;
 }
