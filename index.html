@@ -192,7 +192,23 @@ Ever since I was little, my love of computers has directed me towards my path in
   <p id="projDirect"> </p>
   <h2 id="about">PROJECTS</h2>
   <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-3">
+  <span class="projectTitle">ARDUINO FITBIT CLONE</span><br>
+    <br>
+    <img width=350px src="img/fitbitDemo.png" alt="Arduino Fitbit Clone"/><br>
+    <br>
+    <p>
+    For a class project I created a Fitbit clone with step tracking, temperature detection, a sleep tracking mode, and live graphing of the accelerometer data through a Java GUI. This was also a lesson in protocols as I created a custom communication protocol to send messages and data from the Arduino to the Java program used for calculations and display output. I used a Sparkfun board DEV-12757 and the SparkFun Triple Axis Accelerometer (MMA8452Q) for the tracker. In order to effectively track step data and filter out noise from the accelerometer, I computed a rolling average of the input data and created both peak-detecting and threshold-matching algorithms to detect what was actually a full step. In the picture above, the green dots are the peaks at where a step was detected. Once 45 seconds passes, the x-axis adjusts and starts at 45(this increments every 45 seconds). The pedometer can be reset, and when the device is set to sleep tracking mode it will continue to count time spent under a certain threshold of movement (I allowed a certain amount of movement to account for tossing and turning in sleep). The device also displays a dynamic step rate, calculated using the time since last reset of the pedometer. Modes are indicated both in hardware by two LEDs and in software via the GUI. I did not create housing for the device, this was all set up on a breadboard. 
+    </p>
+<!--     <br> <a href="videolink">Website</a> -->
+  </p>
+  <p><em>Technologies Used:</em><br>
+    Java<br>
+    Arduino C<br>
+    </p>
+  </div>
+                                       
+  <div class="col-md-3">
   <span class="projectTitle">LOTUS PRINT SOLUTIONS</span><br>
     <br>
     <a href="http://lotusprnt.com"><img width=350px src="img/lotusprnt.png" alt="www.lotusprnt.com"/></a><br>
@@ -213,7 +229,7 @@ Ever since I was little, my love of computers has directed me towards my path in
 
 
   </div>
-  <div class="col-md-6">
+  <div class="col-md-3">
   <span class="projectTitle">TWITTER RESEARCH PROJECT</span><br>
     <br>
     <a href="http://twitter.com"><img width=200px src="img/twitter_2.png" alt="twitter project"/></a><br>
