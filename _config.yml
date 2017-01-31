@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: /assets/TonyDeLaNuez_Resume.pdf
 
-url: https://tonydelanuez.com
+url: http://tonydelanuez.com
 # your url: http://tonydelanuez.com
 
 permalink: /:title/
@@ -115,4 +115,4 @@ gems:
   - jekyll-paginate
 
 jekyll-mentions:
-    base_url: https://tonydelanuez.com
+    base_url: http://tonydelanuez.com
