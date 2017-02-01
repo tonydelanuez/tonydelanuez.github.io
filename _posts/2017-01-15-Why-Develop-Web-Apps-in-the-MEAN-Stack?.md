@@ -10,6 +10,7 @@ tag:
 - Web Development
 category: blog
 author: tony
+description: An in-depth report on the effectiveness of the MEAN stack vs other relevant web development technologies and projected growth/decline based on what developers "need". Includes runtime performance reports, tiobe index data for language popularity comparison, and BLS job growth forecasting. 
 
 ---
 
