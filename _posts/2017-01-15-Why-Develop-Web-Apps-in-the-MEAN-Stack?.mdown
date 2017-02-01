@@ -1,4 +1,8 @@
-#Why Develop Web Apps in the MEAN Stack?
+---
+layout: post
+title: Why Develop Web Apps in the MEAN Stack?
+---
+
 
 ##A Glance at the Job Market
 
