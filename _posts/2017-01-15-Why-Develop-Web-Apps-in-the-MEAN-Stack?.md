@@ -102,7 +102,7 @@ Node.js is what is called a *“headless JavaScript runtime.”* It is the same 
 
 In an experiment performed by Kai Lei, Yining Ma, and Zhi Tan at Peking University, Node.js doubled the performance of PHP (one of the oldest, most highly used programming languages for the web) in a simple “mean requests per second” test, and scored seven times higher than Python-Web.  Figure 4, shown below, outlines the mean time per request data of each prevalent web technology. Node.js has the quickest response time (although PHP comes close). In their study, they test many different benchmarks and Node.js continually comes out on top. For example, the group concluded in the 2014 study that Node.js was able to manage a significantly larger number of users than the other two technologies (Lei, Ma, Tan). 
 
-![alt text](http://tonydelanuez.com/assets/blog/1/testresults.png "Test Results")
+![alt text](http://tonydelanuez.com/assets/blog/1/studyresults.png "Study Results")
 
 
 _Figure 4: Results from “Calculate Fibonacci(10/20/30)” mean requests per second (higher is better), pulled from the Lei, Ma, Tan study._
