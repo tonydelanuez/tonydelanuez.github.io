@@ -1,6 +1,16 @@
 ---
 layout: post
 title: Why Develop Web Apps in the MEAN Stack?
+date: 2017-01-15 13:08
+tag:
+- MEAN Stack
+- JavaScript
+- PHP
+- Ruby on Rails
+- Web Development
+category: blog
+author: tony
+
 ---
 
 
