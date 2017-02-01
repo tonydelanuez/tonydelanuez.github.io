@@ -4,7 +4,7 @@ title: Why Develop Web Apps in the MEAN Stack?
 ---
 
 
-##A Glance at the Job Market
+## A Glance at the Job Market
 
 
 Software development is a rapidly growing industry; the Bureau of Labor Statistics reported 1,114,000 software engineering jobs in 2014 and ten percent growth in job outlook from 2014 to 2024, compared to mechanical engineering with 277,500 jobs and five percent growth, and electrical engineering at 315,900 jobs and zero percent growth. 
@@ -16,17 +16,17 @@ _Figure 1: “Where the STEM Jobs Will Be”, BLS.gov data analyzed by the Compu
 
 The Computing Research Association analyzed the BLS data and prepared the chart seen in Figure 1. Computing is growing at a staggering rate compared to other jobs in STEM fields.  However, software engineers continue to struggle with the early decision of which programming languages and technologies to learn on their entry into computer science. There are over three hundred programming languages, each with their own advantages and applications; to become fit for a job utilizing that language, one must dedicate a substantial amount of time committed to learning its syntax and usage then go on to build projects in the language to understand it at a higher level.
 
-##Who is this Paper Geared Towards? 
+## Who is this Paper Geared Towards? 
 Ideally if you’re reading this, you’re familiar with programming at least to a basic extent. You have an interest in web technologies and applications, along with their development and implementation; you may have taken a programming course in college or have reviewed a few tutorials to get your feet wet. However, if you’re very new to the programming world some of the terminology may confuse you. I try to explain some of the basics of web applications and the web in general, but some topics may be missed by people who haven’t worked with web development in the past. If you’re a seasoned veteran in coding/programming/development, the topics should come easy to you and you may benefit from the comparisons of the MEAN stack to other programming languages and frameworks.
 
-##What Does This Have to Do with the MEAN stack? 
+## What Does This Have to Do with the MEAN stack? 
 In this article, I discuss the advantages of using the MEAN stack over other popular web development technologies. To start, a “stack” is a combination of software products and/or programming languages used to create a web or mobile application. In web development, there are many different web stacks available that developers employ to build web pages and applications. The MEAN Stack is a combination of four technologies: MongoDB for the database, ExpressJS as a server-side or back-end framework, AngularJS as the front-end framework, and Node.js to link it all together in a powerful JavaScript-based server-side script execution environment. 
 
 The MEAN Stack is used to create fully scalable web applications written entirely in JavaScript (excluding the HTML and CSS). Other popular alternatives are Ruby on Rails, Django (Python), Java/Scala, Laravel (PHP), and many others. The MEAN stack has grown to extreme popularity in the last few years, boasting a huge developer community with a large variety
 of full-scale applications already built on the platform. Stacks are chosen because the technologies work very well together and are generally most of what a developer needs to build a fully functional application. Based on these criteria, I seek a definitive answer as to why MEAN (and its components) has grown so much hype in the last few years compared to its competitors. 
 
 
-##How Exactly do Web Stacks Work in an Application? 
+## How Exactly do Web Stacks Work in an Application? 
 A web stack commonly has the following: 
 
 **Databases**- databases manage your data and put it into a format so it can easily be modified. Database driven applications commonly use forms to move data to and from databases using the four basic SQL (Structured Query Language) commands: create, read, update, delete. Although MongoDB is a NoSQL database (which will be addressed later), it supports these commands.
@@ -58,7 +58,7 @@ Carey Woodhouse from Upwork writes,
 The reliance on speed, efficiency, and functionality forces developers to be very careful in their choice of programming languages and technologies. They want something that accomplishes these goals and is also scalable, easy to update, aesthetically pleasing, and robust. 
 
 
-##Why MEAN? 
+## Why MEAN? 
 Once you as a developer understand how a web app works, you’re now at the point of deciding which technologies you’d like to use to build your application. At this step, many decisions must be made but there are some distinct features to the MEAN stack that its competitors fail to match. One of the most significant features of the MEAN stack is that it uses one language, JavaScript, for everything, making it extremely attractive to developers. The MEAN stack is also highly scalable and works extremely well in Cloud-based applications because of the package management with NPM (Node Package Manager) – an explanation as to why eBay, LinkedIn, Uber, the New York Times, and more all use Node.js (the key component of MEAN) for their servers. Touching further on Node, it is also operating system-independent; it runs at the same speeds across Windows, OS X, and Linux. Not only can it be developed on any operating system with ease, client-side viewing and use of Node (and therefore MEAN) applications has no degradation of quality across user platforms (desktop, mobile, tablets). Developing an application entirely in one language (JavaScript) also allows for the development team to easily manage both the front and back end since they use the same language, which can be an outstanding advantage for small developer teams working on the entire application.  
 
 JavaScript, the programming language of MEAN, has amassed many followers over the last few years; I’ve included in Figure 3 a very popular image in leading people to JavaScript development. With the  many different applications of JavaScript, jobs in JS should always be plentiful and projects developed in it will always be relevant.
@@ -87,7 +87,7 @@ YouTube returns about 3,540,000 results if you search for “JavaScript”. The 
 
 Websites like Udemy, Coursera, Udacity, and Codecademy, W3Schools, CodeSchool, and many more help developers learn different aspects of JavaScript and its implementations; some courses have full university-level coursework while others offer hands-on, interactive tutorials.
 
-##Diving into Node.js
+## Diving into Node.js
 Node.js is what is called a *“headless JavaScript runtime.”* It is the same JavaScript Engine that runs inside of Google Chrome (V8), but allows JavaScript to be run from the command line of your (or the host) computer. Node.js allows for the running of modules, or packages of functions that can be imported and exported. It is lightweight and efficient, two of the main qualities that make it ideal for building web applications that run off on a wide array of devices and operating systems. Node also allows for asynchronous events and notifications, that is, applications where updates from multiple clients or users can be seen by everyone else in real time - like a Google Doc. 
 
 In an experiment performed by Kai Lei, Yining Ma, and Zhi Tan at Peking University, Node.js doubled the performance of PHP (one of the oldest, most highly used programming languages for the web) in a simple “mean requests per second” test, and scored seven times higher than Python-Web.  Figure 4, shown below, outlines the mean time per request data of each prevalent web technology. Node.js has the quickest response time (although PHP comes close). In their study, they test many different benchmarks and Node.js continually comes out on top. For example, the group concluded in the 2014 study that Node.js was able to manage a significantly larger number of users than the other two technologies (Lei, Ma, Tan). 
@@ -98,7 +98,7 @@ In an experiment performed by Kai Lei, Yining Ma, and Zhi Tan at Peking Universi
 _Figure 4: Results from “Calculate Fibonacci(10/20/30)” mean requests per second (higher is better), pulled from the Lei, Ma, Tan study._
 
 
-##An Aside About MongoDB and RESTful Web Services
+## An Aside About MongoDB and RESTful Web Services
 MongoDB fits the use case of a startup quickly building an application with the desire of speed and flexibility. MongoDB also returns data in JavaScript Object Notation (JSON) by default, allowing for the easy development of RESTful web services and manipulation of data without having to transform it. Oracle’s explanation of a RESTful web service is as follows, 
 
 >“RESTful web services are built to work best on the web. Representational State Transfer (REST) is an architectural style that specifies contraints, such as the uniform interface, that if applied to a web service induce desirable properties, such as performance, scalability, and modifiability, that enables services to work best on the Web.” 
@@ -120,7 +120,7 @@ _Figure 5: Sample Data from MongoDB organized in JSON format_
 
 In the past, MongoDB has been criticized with regards to dropping data; some developers were very worried that it may not suit an application where transactional guarantees are needed. When dealing with currency or other very pertinent information, they said MongoDB was risky as there had been “cases” of MongoDB reporting a successful transaction when it didn’t go through. Eliot Horowitz, CTO and co-founder of MongoDB refuted these points. He points out that there have been some incidents but as the product is always evolving these bugs have been worked out and MongoDB remains a stable platform (HackerNews, Observer). I’ve included the detailed explanations of these issues in the references if these are topics of interest for you as a reader. 
 
-##Growth/Decline Analysis of Competing Technologies
+## Growth/Decline Analysis of Competing Technologies
 Quincy Larson, an instructor at FreeCodeCamp.com wrote a great analysis on the growth trends of web technologies from 2012 to 2016. In his analysis he says that large development teams are choosing to go with Node.js due to the “high performance and massive ecosystem of tools” (Larson). A few examples he notes of large companies making the shift to Node.js: 
 
 >Walmart switched over to Node.js on a Black Friday, got more than 200 million visitors that day, and never went above 1% CPU.
@@ -159,12 +159,12 @@ A two-time performance increase and 50% better memory consumption will not allow
 
 Spike Brehm writes for Airbnb on the importance and prevalence of “Isomorphic JavaScript in the Wild.” He mentions Meteor, Asana, Mojito, Rendr (an Airbnb original) as examples of isomorphism in the JavaScript ecosystem. (Brehm) Ruby on Rails simply does not have the same number of options in terms of libraries that support isomorphism. If the development community continues to favor isomorphic apps, Ruby on Rails may take a huge hit in the future. 
 
-##In Conclusion: The Lean, MEAN, App Developing Machine
+## In Conclusion: The Lean, MEAN, App Developing Machine
 As long as JavaScript continues to climb, the MEAN stack will continue to grow with it. In good news for MEAN, JavaScript doesn’t look like it will stop its massive growth any time soon. Angular 2, the successor to AngularJS, has been released and basically revamps the framework while adding massive functionality. Early adopters of Angular 2 can also be drawn to the MEAN stack based on how well the technologies work together. These technologies will also benefit greatly as more companies welcome Node for their server-side work and hire developers to build applications on the framework. Node (and the MEAN stack in its entirety) has shown no signs of slowing down; if the current trends hold it will continue to be an increasingly useful technology for building web applications in the distant future, given how long PHP has been able to stay relevant.
 
 If the TIOBE index trends and performance benchmarks presented are any good for predicting the future state of the programming language market, it looks as though JavaScript, and hopefully the MEAN stack, will maintain its hold on the web application development world. 
 
-###References 
+### References 
 
 1. Lei, Kai, Yining Ma, and Zhi Tan. "Performance Comparison and Evaluation of Web
 Development Technologies in PHP, Python, and Node.js." _2014 IEEE 17th
