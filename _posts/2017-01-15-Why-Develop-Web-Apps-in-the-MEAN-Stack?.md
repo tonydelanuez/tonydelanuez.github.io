@@ -59,7 +59,7 @@ The user can then interact with the forms and content on the page, which will se
 
 ![alt text](http://tonydelanuez.com/assets/blog/1/frontend.png "Webpage Description")
 
-_Figure 2: “Basic breakdown of how a webpage works._
+_Figure 2: Basic breakdown of how a webpage works._
 
 Carey Woodhouse from Upwork writes, 
 
