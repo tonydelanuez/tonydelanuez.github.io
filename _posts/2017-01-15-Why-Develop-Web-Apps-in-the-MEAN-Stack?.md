@@ -14,7 +14,7 @@ author: tony
 ---
 
 
-## A Glance at the Job Market
+## A glance at the job market
 
 
 Software development is a rapidly growing industry; the Bureau of Labor Statistics reported 1,114,000 software engineering jobs in 2014 and ten percent growth in job outlook from 2014 to 2024, compared to mechanical engineering with 277,500 jobs and five percent growth, and electrical engineering at 315,900 jobs and zero percent growth. 
@@ -26,18 +26,18 @@ _Figure 1: “Where the STEM Jobs Will Be”, BLS.gov data analyzed by the Compu
 
 The Computing Research Association analyzed the BLS data and prepared the chart seen in Figure 1. Computing is growing at a staggering rate compared to other jobs in STEM fields.  However, software engineers continue to struggle with the early decision of which programming languages and technologies to learn on their entry into computer science. There are over three hundred programming languages, each with their own advantages and applications; to become fit for a job utilizing that language, one must dedicate a substantial amount of time committed to learning its syntax and usage then go on to build projects in the language to understand it at a higher level.
 
-## Who is this Paper Geared Towards? 
+## Who is this post geared towards? 
 Ideally if you’re reading this, you’re familiar with programming at least to a basic extent. You have an interest in web technologies and applications, along with their development and implementation; you may have taken a programming course in college or have reviewed a few tutorials to get your feet wet. However, if you’re very new to the programming world some of the terminology may confuse you. I try to explain some of the basics of web applications and the web in general, but some topics may be missed by people who haven’t worked with web development in the past. If you’re a seasoned veteran in coding/programming/development, the topics should come easy to you and you may benefit from the comparisons of the MEAN stack to other programming languages and frameworks.
 
-## What Does This Have to Do with the MEAN stack? 
+## What does this have to do with the MEAN stack? 
 In this article, I discuss the advantages of using the MEAN stack over other popular web development technologies. To start, a “stack” is a combination of software products and/or programming languages used to create a web or mobile application. In web development, there are many different web stacks available that developers employ to build web pages and applications. The MEAN Stack is a combination of four technologies: MongoDB for the database, ExpressJS as a server-side or back-end framework, AngularJS as the front-end framework, and Node.js to link it all together in a powerful JavaScript-based server-side script execution environment. 
 
 The MEAN Stack is used to create fully scalable web applications written entirely in JavaScript (excluding the HTML and CSS). Other popular alternatives are Ruby on Rails, Django (Python), Java/Scala, Laravel (PHP), and many others. The MEAN stack has grown to extreme popularity in the last few years, boasting a huge developer community with a large variety
 of full-scale applications already built on the platform. Stacks are chosen because the technologies work very well together and are generally most of what a developer needs to build a fully functional application. Based on these criteria, I seek a definitive answer as to why MEAN (and its components) has grown so much hype in the last few years compared to its competitors. 
 
 
-## How Exactly do Web Stacks Work in an Application? 
-A web stack commonly has the following: 
+## How exactly do technology stacks work in an application? 
+A software stack commonly has the following: 
 
 **Databases**- databases manage your data and put it into a format so it can easily be modified. Database driven applications commonly use forms to move data to and from databases using the four basic SQL (Structured Query Language) commands: create, read, update, delete. Although MongoDB is a NoSQL database (which will be addressed later), it supports these commands.
 
@@ -108,7 +108,7 @@ In an experiment performed by Kai Lei, Yining Ma, and Zhi Tan at Peking Universi
 _Figure 4: Results from “Calculate Fibonacci(10/20/30)” mean requests per second (higher is better), pulled from the Lei, Ma, Tan study._
 
 
-## An Aside About MongoDB and RESTful Web Services
+## An aside about MongoDB and RESTful web services
 MongoDB fits the use case of a startup quickly building an application with the desire of speed and flexibility. MongoDB also returns data in JavaScript Object Notation (JSON) by default, allowing for the easy development of RESTful web services and manipulation of data without having to transform it. Oracle’s explanation of a RESTful web service is as follows, 
 
 >“RESTful web services are built to work best on the web. Representational State Transfer (REST) is an architectural style that specifies contraints, such as the uniform interface, that if applied to a web service induce desirable properties, such as performance, scalability, and modifiability, that enables services to work best on the Web.” 
@@ -130,7 +130,7 @@ _Figure 5: Sample Data from MongoDB organized in JSON format_
 
 In the past, MongoDB has been criticized with regards to dropping data; some developers were very worried that it may not suit an application where transactional guarantees are needed. When dealing with currency or other very pertinent information, they said MongoDB was risky as there had been “cases” of MongoDB reporting a successful transaction when it didn’t go through. Eliot Horowitz, CTO and co-founder of MongoDB refuted these points. He points out that there have been some incidents but as the product is always evolving these bugs have been worked out and MongoDB remains a stable platform (HackerNews, Observer). I’ve included the detailed explanations of these issues in the references if these are topics of interest for you as a reader. 
 
-## Growth/Decline Analysis of Competing Technologies
+## Growth/Decline analysis of competing technologies
 Quincy Larson, an instructor at FreeCodeCamp.com wrote a great analysis on the growth trends of web technologies from 2012 to 2016. In his analysis he says that large development teams are choosing to go with Node.js due to the “high performance and massive ecosystem of tools” (Larson). A few examples he notes of large companies making the shift to Node.js: 
 
 >Walmart switched over to Node.js on a Black Friday, got more than 200 million visitors that day, and never went above 1% CPU.
