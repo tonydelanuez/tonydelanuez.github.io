@@ -21,7 +21,9 @@ layout: page
 <ul class="skill-list">
 	<li>Java</li>
 	<li>Arduino C</li>
-	<li>C++</li>	
+	<li>C++</li>
+    <li>Amazon Web Services</li>
+    <li>Linux/UNIX</li>
 </ul>
 <h3> Front-End Web Development </h3>
 <ul class="skill-list">
