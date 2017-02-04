@@ -1,2 +1,1 @@
-User-agent: *
-Disallow:
+Sitemap: http://tonydelanuez.com/sitemap.xml
