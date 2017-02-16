@@ -80,6 +80,7 @@ A recurrence defines *T(n)*, the time complexity of the algorithm/program in ter
 ### Examples of Recurrences: 
 Example of Recurrences: 
 > T(n) = 2(T(n/2))
+
 > T(n) = T(n-1) + 6
 
 Explanation of Divide-and-Conquer Relations ([Credit: Greg Baker, Simon Fraser University](https://www.cs.sfu.ca/~ggbaker/zju/math/recurrence.html))
@@ -103,7 +104,8 @@ We call this a recurrence because each step is calculated based on the results o
 Further, in this equation, the time taken to go from *T(n-1)* to *T(n)* is the difference between the two: 
 
 > T(n) - T(n-1) = T(n-1) + 6  - T(n-1) 
-= 6
+
+> = 6
 
 Now back to my Fibonacci Sequence example... 
 
@@ -128,21 +130,30 @@ Since many recurrences have multiple solutions, the initial conditions determine
 
 ### Substituting values (THIS IS NOT THE SUBSTITUTION METHOD): 
 *Example 1.*
->		Find the value of T(n) = 2(T(n-1)) + n     for n = 3, IC: T(1) = 4
+>	Find the value of T(n) = 2(T(n-1)) + n     for n = 3, IC: T(1) = 4
 
 
 *Solution:*
 
 >   Start at T(1) (given initial condition)
-    T(1) = 4
-    Solve T(2)
-    T(2) = 2(T(2 - 1)) + 2
-    T(2) = 2(T(1)) + 2 
-    T(2) = 2(4) + 2 
-    T(2) = 10
-    T(3) = 2(T(2)) + 3
-    T(3) = 2(10) + 3
-    T(3) = 23
+
+>   T(1) = 4
+
+>   Solve T(2)
+
+>    T(2) = 2(T(2 - 1)) + 2
+
+>    T(2) = 2(T(1)) + 2 
+
+>    T(2) = 2(4) + 2 
+
+>    T(2) = 10
+
+>    T(3) = 2(T(2)) + 3
+
+>    T(3) = 2(10) + 3
+
+>    T(3) = 23
 
 
 ### Approaches to Solving a Recurrence: 
@@ -171,10 +182,14 @@ Using example T(n) = T(n-1) + 1, IC T(1) = 2
 
 1. 
 >    T(1) = 2
-T(2) = T(1) + 1 = 2 + 1 = 3
-T(3) = 3 + 1 = 4
-T(4) = 4 + 1 = 5
-T(5) = 5 + 1 = 6
+
+>	T(2) = T(1) + 1 = 2 + 1 = 3
+
+>	T(3) = 3 + 1 = 4
+
+>	T(4) = 4 + 1 = 5
+
+>	T(5) = 5 + 1 = 6
 
 
 Hopefully you have picked up on the pattern, T(n) = n + 1. This is our guess. (Step 2 Complete)
@@ -182,8 +197,10 @@ Hopefully you have picked up on the pattern, T(n) = n + 1. This is our guess. (S
 
 3. 
 > T(n) = T(n-1) + 1 = [(n-1) + 1] + 1, Open form satisfied 
-= n + 1
-T(1) = 1 + 1 = 2, IC satisfied (substituted in 1)
+
+>	= n + 1
+
+>	T(1) = 1 + 1 = 2, IC satisfied (substituted in 1)
 
 In case you are confused about what happened in step 3: 
 We are using *T(n) = n + 1*. When we see *T(n-1)* we just substitue *n-1* in for *n*, yielding *(n-1) + 1* for *T(n-1)*, then we add the extra 1 because we are solving for *T(n)*. 
@@ -203,15 +220,22 @@ This says that *T(n) = O(nlogn)*
 
 Proof: 
 > Base Case: show that our guess holds for some base case
+
 > Assume it holds for (n/2): 
-    T(n/2) <= c(n/2) log(n/2)
+
+>	T(n/2) <= c(n/2) log(n/2)
 
 >   Prove it holds for n:
-    T(n) = 2(T(n/2)) + n
-    <= 2(c(n/2)log(n/2)) + n    (by substitution)
-    = cnlog(n/2) + n
-    = cnlogn - cnlog2 + n
-    = cnlogn - cn + n      (since log2 is just a constant)
+
+>   T(n) = 2(T(n/2)) + n
+
+>    <= 2(c(n/2)log(n/2)) + n    (by substitution)
+
+>    = cnlog(n/2) + n
+
+>    = cnlogn - cnlog2 + n
+
+>    = cnlogn - cn + n      (since log2 is just a constant)
 
 Example on Binary Search:
 
@@ -223,14 +247,20 @@ Guess T(n) = Θ(log n)
 Verify by substitution T(n) = O(n^2)
 
 >    T(n) <= k n^2 
-    - T(n/2) <= k(n/2)^2
-    - T(n/2) <= kn^2 /4
+
+>    - T(n/2) <= k(n/2)^2
+
+>    - T(n/2) <= kn^2 /4
     
 >    Substituting: 
-    - T(n) = T(n/2) + c <= kn^2 /4 + c  <= kn^2 ?    (plugging in T(n/2))
-    kn^2  + 4c <= 4kn^2 ?    (mult by 4)
-    4c <= 3kn^2 ? 	 (subtract kn^2 from each side)
-    Yes. Can choose k = 10c or k = 4/3 c
+
+>    - T(n) = T(n/2) + c <= kn^2 /4 + c  <= kn^2 ?    (plugging in T(n/2))
+
+>   kn^2  + 4c <= 4kn^2 ?    (mult by 4)
+
+>    4c <= 3kn^2 ? 	 (subtract kn^2 from each side)
+
+>    Yes. Can choose k = 10c or k = 4/3 c
 
 [More information on substitution from Cornell University](http://www.cs.cornell.edu/courses/cs3110/2014sp/recitations/24/using-the-substitution-and-master-method.html)
 
@@ -263,8 +293,10 @@ Solve the recurrence below:
 
 Based on the form from above, we know the following:
 a = 16, b = 4, d = 3
+
 Using the solutions given above:
 16 < 4 ^ 3, Case 1. 
+
 T(n) = Θ(n^3). 
 
 ## The General Master Method: 
@@ -289,16 +321,23 @@ The solutions and conditions for the general master method look very similar to 
 Example 1:
 
 >  T(n) = 2T(n/2) + n 
-    a = 2, b = 2, f(n) = n, log_b(a) = lg 2 = 1
-    Case 2
-    T(n) = Θ(nlgn)
+
+>    a = 2, b = 2, f(n) = n, log_b(a) = lg 2 = 1
+
+>	Case 2
+
+>   T(n) = Θ(nlgn)
 
 Example 2:
 
 >    T(n) = 8T(n/2) + n
-    a = 8, b=2, f(n) = n, log_b(a) = log_2(8) = 3
-    Case 3
-    T(n) = Θ(n^3)
+
+>    a = 8, b=2, f(n) = n, log_b(a) = log_2(8) = 3
+
+>   Case 3
+
+ >   T(n) = Θ(n^3)
+
 
 My suggestion to you: *when you can use the cookie cutter method, use the cookie cutter method.*
 
