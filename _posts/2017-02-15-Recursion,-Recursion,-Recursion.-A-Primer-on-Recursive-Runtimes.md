@@ -178,10 +178,11 @@ Techniques to solve recurrences:
 4. If closed form satisfies open and IC, informally correct
 5. If need to prove formally correct, use induction
 
-Using example T(n) = T(n-1) + 1, IC T(1) = 2 
+Using example:
+>	T(n) = T(n-1) + 1, IC T(1) = 2 
 
 1. 
->    T(1) = 2
+>   T(1) = 2
 
 >	T(2) = T(1) + 1 = 2 + 1 = 3
 
@@ -196,7 +197,7 @@ Hopefully you have picked up on the pattern, T(n) = n + 1. This is our guess. (S
 
 
 3. 
-> T(n) = T(n-1) + 1 = [(n-1) + 1] + 1, Open form satisfied 
+>	T(n) = T(n-1) + 1 = [(n-1) + 1] + 1, Open form satisfied 
 
 >	= n + 1
 
@@ -219,23 +220,23 @@ Guess *T(n) <= cnlogn* for some constant c
 This says that *T(n) = O(nlogn)*
 
 Proof: 
-> Base Case: show that our guess holds for some base case
+>	Base Case: show that our guess holds for some base case
 
-> Assume it holds for (n/2): 
+>	Assume it holds for (n/2): 
 
 >	T(n/2) <= c(n/2) log(n/2)
 
->   Prove it holds for n:
+>	Prove it holds for n:
 
->   T(n) = 2(T(n/2)) + n
+>	T(n) = 2(T(n/2)) + n
 
->    <= 2(c(n/2)log(n/2)) + n    (by substitution)
+>	<= 2(c(n/2)log(n/2)) + n    (by substitution)
 
->    = cnlog(n/2) + n
+>	= cnlog(n/2) + n
 
->    = cnlogn - cnlog2 + n
+>	= cnlogn - cnlog2 + n
 
->    = cnlogn - cn + n      (since log2 is just a constant)
+>	= cnlogn - cn + n      (since log2 is just a constant)
 
 Example on Binary Search:
 
@@ -246,21 +247,21 @@ Guess T(n) = Θ(log n)
 
 Verify by substitution T(n) = O(n^2)
 
->    T(n) <= k n^2 
+>	T(n) <= k n^2 
 
->    - T(n/2) <= k(n/2)^2
+>	T(n/2) <= k(n/2)^2
 
->    - T(n/2) <= kn^2 /4
+>	T(n/2) <= kn^2 /4
     
->    Substituting: 
+>	Substituting: 
 
->    - T(n) = T(n/2) + c <= kn^2 /4 + c  <= kn^2 ?    (plugging in T(n/2))
+>	T(n) = T(n/2) + c <= kn^2 /4 + c  <= kn^2 ?    (plugging in T(n/2))
 
->   kn^2  + 4c <= 4kn^2 ?    (mult by 4)
+>	kn^2  + 4c <= 4kn^2 ?    (mult by 4)
 
->    4c <= 3kn^2 ? 	 (subtract kn^2 from each side)
+>	4c <= 3kn^2 ? 	 (subtract kn^2 from each side)
 
->    Yes. Can choose k = 10c or k = 4/3 c
+>	Yes. Can choose k = 10c or k = 4/3 c
 
 [More information on substitution from Cornell University](http://www.cs.cornell.edu/courses/cs3110/2014sp/recitations/24/using-the-substitution-and-master-method.html)
 
@@ -320,23 +321,23 @@ The solutions and conditions for the general master method look very similar to 
 
 Example 1:
 
->  T(n) = 2T(n/2) + n 
+>	T(n) = 2T(n/2) + n 
 
->    a = 2, b = 2, f(n) = n, log_b(a) = lg 2 = 1
+>	a = 2, b = 2, f(n) = n, log_b(a) = lg 2 = 1
 
 >	Case 2
 
->   T(n) = Θ(nlgn)
+>	T(n) = Θ(nlgn)
 
 Example 2:
 
->    T(n) = 8T(n/2) + n
+>	T(n) = 8T(n/2) + n
 
->    a = 8, b=2, f(n) = n, log_b(a) = log_2(8) = 3
+>	a = 8, b=2, f(n) = n, log_b(a) = log_2(8) = 3
 
->   Case 3
+>	Case 3
 
- >   T(n) = Θ(n^3)
+>	T(n) = Θ(n^3)
 
 
 My suggestion to you: *when you can use the cookie cutter method, use the cookie cutter method.*
