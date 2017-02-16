@@ -17,6 +17,10 @@ Before I start I'll point out that a lot of the material I cover here comes from
 
 Now let's do some math! But first, explanations. 
 
+
+![alt text](http://tonydelanuez.com/assets/blog/2/Sierpinkski.png "Sierpinski's Triangle")
+
+
 ## What is a recurrence? 
 From [Wikipedia](https://en.wikipedia.org/wiki/Recurrence_relation), 
 > A recurrence relation is an equation that recursively defines a sequence or multidimensional array of valus, once one or more initial terms are given: each further term of the sequence or array is defined as a function of the preceding terms. 
@@ -275,6 +279,7 @@ Now I'm sorry to have strung you along this far only to tell you there's an easi
 ### Solving recurrences of the form: 
 
 ![alt text](http://tonydelanuez.com/assets/blog/2/cookiecutterform.png "Cookie Cutter Master Method Form")
+
 
 [Source and more at Radford.edu](http://www.radford.edu/~nokie/classes/360/recurrence.eqns.revised.html)
 
