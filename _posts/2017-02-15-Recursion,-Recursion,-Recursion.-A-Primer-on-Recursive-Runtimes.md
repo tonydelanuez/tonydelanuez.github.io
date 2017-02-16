@@ -23,7 +23,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Recurrence_relation),
 
 In computer science, we like to use recurrence relations to explain the mechanics of a *recursive* function. A recursive function has a solution that depends on solutions to smaller instances of the same problem. This means we call the function in itself. Think of calculating [Fibonacci numbers](https://www.mathsisfun.com/numbers/fibonacci-sequence.html): 
 
-public int fibonacci (int n){ 
+> public int fibonacci (int n){ 
 if (n <= 1) { 
 return 1; 
 } 
@@ -54,7 +54,7 @@ Performance: T(n) = Θ(n)
 This is what we call a non-recursive routine. The program above takes a number n, and increments the counter n times. The operation performed inside of the loop is trivial, it does not add any significant terms to the time complexity. 
 
 ### Example 2: 
-for(int i = 0; i < n; i++){
+> for(int i = 0; i < n; i++){
 for(int j = 0; j < n; j++){
 counter++;
 }
@@ -133,17 +133,16 @@ Since many recurrences have multiple solutions, the initial conditions determine
 
 *Solution:*
 
->
-Start at T(1) (given initial condition)
-T(1) = 4
-Solve T(2)
-T(2) = 2(T(2 - 1)) + 2
-T(2) = 2(T(1)) + 2 
-T(2) = 2(4) + 2 
-T(2) = 10
-T(3) = 2(T(2)) + 3
-T(3) = 2(10) + 3
-T(3) = 23
+>   Start at T(1) (given initial condition)
+    T(1) = 4
+    Solve T(2)
+    T(2) = 2(T(2 - 1)) + 2
+    T(2) = 2(T(1)) + 2 
+    T(2) = 2(4) + 2 
+    T(2) = 10
+    T(3) = 2(T(2)) + 3
+    T(3) = 2(10) + 3
+    T(3) = 23
 
 
 ### Approaches to Solving a Recurrence: 
@@ -170,17 +169,21 @@ Techniques to solve recurrences:
 
 Using example T(n) = T(n-1) + 1, IC T(1) = 2 
 
-1. T(1) = 2
+1. 
+>    T(1) = 2
 T(2) = T(1) + 1 = 2 + 1 = 3
 T(3) = 3 + 1 = 4
 T(4) = 4 + 1 = 5
 T(5) = 5 + 1 = 6
+
+
 Hopefully you have picked up on the pattern, T(n) = n + 1. This is our guess. (Step 2 Complete)
 
 
-3. T(n) = T(n-1) + 1 = [(n-1) + 1] + 1, Open form satisfied 
+3. 
+> T(n) = T(n-1) + 1 = [(n-1) + 1] + 1, Open form satisfied 
 = n + 1
-T(1) = 1 + 1 = 2, IC satisfied
+T(1) = 1 + 1 = 2, IC satisfied (substituted in 1)
 
 In case you are confused about what happened in step 3: 
 We are using *T(n) = n + 1*. When we see *T(n-1)* we just substitue *n-1* in for *n*, yielding *(n-1) + 1* for *T(n-1)*, then we add the extra 1 because we are solving for *T(n)*. 
@@ -199,30 +202,35 @@ Guess *T(n) <= cnlogn* for some constant c
 This says that *T(n) = O(nlogn)*
 
 Proof: 
-- Base Case: show that our guess holds for some base case
-- Assume holds for (n/2): 
-T(n/2) <= c(n/2) log(n/2)
-- Prove it holds for n:
-T(n) = 2(T(n/2)) + n
-<= 2(c(n/2)log(n/2)) + n    (by substitution)
-= cnlog(n/2) + n
-= cnlogn - cnlog2 + n
-= cnlogn - cn + n      (since log2 is just a constant)
+> Base Case: show that our guess holds for some base case
+> Assume it holds for (n/2): 
+    T(n/2) <= c(n/2) log(n/2)
+
+>   Prove it holds for n:
+    T(n) = 2(T(n/2)) + n
+    <= 2(c(n/2)log(n/2)) + n    (by substitution)
+    = cnlog(n/2) + n
+    = cnlogn - cnlog2 + n
+    = cnlogn - cn + n      (since log2 is just a constant)
 
 Example on Binary Search:
 
-Binary Search 
+**Binary Search**
 T(n) = T(n/2) + c
+
 Guess T(n) = Θ(log n)
+
 Verify by substitution T(n) = O(n^2)
-- T(n) <= k n^2 
-- T(n/2) <= k(n/2)^2
-- T(n/2) <= kn^2 /4
-Substituting: 
-- T(n) = T(n/2) + c <= kn^2 /4 + c  <= kn^2 ?    (plugging in T(n/2))
-kn^2  + 4c <= 4kn^2 ?    (mult by 4)
-4c <= 3kn^2 ? 	 (subtract kn^2 from each side)
-Yes. Can choose k = 10c or k = 4/3 c
+
+>    T(n) <= k n^2 
+    - T(n/2) <= k(n/2)^2
+    - T(n/2) <= kn^2 /4
+    
+>    Substituting: 
+    - T(n) = T(n/2) + c <= kn^2 /4 + c  <= kn^2 ?    (plugging in T(n/2))
+    kn^2  + 4c <= 4kn^2 ?    (mult by 4)
+    4c <= 3kn^2 ? 	 (subtract kn^2 from each side)
+    Yes. Can choose k = 10c or k = 4/3 c
 
 [More information on substitution from Cornell University](http://www.cs.cornell.edu/courses/cs3110/2014sp/recitations/24/using-the-substitution-and-master-method.html)
 
@@ -251,7 +259,8 @@ We can replace "T(n) = " with "T(n) <= " or "T(n) >= " to represent O and Ω per
 Example: 
 
 Solve the recurrence below:
-T(n) = 16T(n/4) + 5n^3 
+> T(n) = 16T(n/4) + 5n^3 
+
 Based on the form from above, we know the following:
 a = 16, b = 4, d = 3
 Using the solutions given above:
@@ -279,17 +288,17 @@ The solutions and conditions for the general master method look very similar to 
 
 Example 1:
 
-T(n) = 2T(n/2) + n 
-a = 2, b = 2, f(n) = n, log_b(a) = lg 2 = 1
-Case 2
-T(n) = Θ(nlgn)
+>  T(n) = 2T(n/2) + n 
+    a = 2, b = 2, f(n) = n, log_b(a) = lg 2 = 1
+    Case 2
+    T(n) = Θ(nlgn)
 
 Example 2:
 
-T(n) = 8T(n/2) + n
-a = 8, b=2, f(n) = n, log_b(a) = log_2(8) = 3
-Case 3
-T(n) = Θ(n^3)
+>    T(n) = 8T(n/2) + n
+    a = 8, b=2, f(n) = n, log_b(a) = log_2(8) = 3
+    Case 3
+    T(n) = Θ(n^3)
 
 My suggestion to you: *when you can use the cookie cutter method, use the cookie cutter method.*
 
