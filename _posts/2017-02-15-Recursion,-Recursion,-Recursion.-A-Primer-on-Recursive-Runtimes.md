@@ -18,7 +18,7 @@ Before I start I'll point out that a lot of the material I cover here comes from
 Now let's do some math! But first, explanations. 
 
 
-![alt text](http://tonydelanuez.com/assets/blog/2/Sierpinkski.png "Sierpinski's Triangle")
+![alt text](http://tonydelanuez.com/assets/blog/2/Sierpinski.png "Sierpinski's Triangle")
 
 
 ## What is a recurrence? 
