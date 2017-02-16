@@ -400,7 +400,7 @@ ___
 ___ 
 
 
-Hopefully this guide has been helpful to you, if you'd like more resources on the subject or would like clarification, feel free to post a comment below. 
+Hopefully this guide has been helpful to you; if you'd like more resources on the subject or would like clarification, feel free to post a comment below. 
 
 -Tony
 
