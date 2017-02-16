@@ -50,18 +50,21 @@ for(int i = 0; i < n; i++){
 counter++;
 }
 
-Performance: T(n) = Θ(n)
+**Performance:**
+T(n) = Θ(n)
+
 This is what we call a non-recursive routine. The program above takes a number n, and increments the counter n times. The operation performed inside of the loop is trivial, it does not add any significant terms to the time complexity. 
 
 ### Example 2: 
-> for(int i = 0; i < n; i++){
+for(int i = 0; i < n; i++){
 for(int j = 0; j < n; j++){
 counter++;
 }
 }
 
-Performance:
+**Performance:**
 T(n) = Θ(n^2)
+
 There is now a nested loop. Looking at the outer loop, we can tell from the values of i (0, 1, 2, ... , n) that it iterates n times. 
 Looking at the inner loop: j assumes values (0, 1, 2, ..., n) as well, meaning it also iterates n times. 
 Since the inner loop acts INSIDE of the outer loop, we will MULTIPLY the iterations of each loop because for EACH iteration of the outer loop,
@@ -179,9 +182,10 @@ Techniques to solve recurrences:
 5. If need to prove formally correct, use induction
 
 Using example:
+Step 1.
+
 >	T(n) = T(n-1) + 1, IC T(1) = 2 
 
-1. 
 >   T(1) = 2
 
 >	T(2) = T(1) + 1 = 2 + 1 = 3
@@ -195,8 +199,8 @@ Using example:
 
 Hopefully you have picked up on the pattern, T(n) = n + 1. This is our guess. (Step 2 Complete)
 
+Step 3.
 
-3. 
 >	T(n) = T(n-1) + 1 = [(n-1) + 1] + 1, Open form satisfied 
 
 >	= n + 1
