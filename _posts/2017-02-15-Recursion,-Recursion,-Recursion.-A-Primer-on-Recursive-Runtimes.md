@@ -1,3 +1,18 @@
+---
+layout: post
+title: Recursion, Recursion, Recursion. A Primer on Recursive Runtimes.
+date: 2017-02-15 22:42
+tag:
+- Recursion
+- Solving Recurrences
+- Master Method
+- Asymptotic Complexity
+category: blog
+author: tony
+description: An explanation of recursion, recursive runtimes, and how to solve recurrence equations using substitution, recursion trees, and two forms of the master method. 
+
+---
+
 Before I start I'll point out that a lot of the material I cover here comes from one of my favorite resources on recurrences, listed [here](http://www.radford.edu/~nokie/classes/360/recurrence.eqns.revised.html). 
 
 Now let's do some math! But first, explanations. 
