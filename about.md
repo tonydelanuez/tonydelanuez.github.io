@@ -37,7 +37,7 @@ layout: page
 	<li>Node.js</li>
 	<li>ExpressJS</li>
 	<li>MongoDB</li>
-	<li>PHP</li>
+	<li>JavaScript</li>
 	<li>MySQL</li>
 	<li>PHP</li>
 	<li>Ruby on Rails</li>
