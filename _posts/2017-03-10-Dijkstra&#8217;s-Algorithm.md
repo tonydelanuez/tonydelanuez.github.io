@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dijkstra's Algorithm
+title: Dijkstra&#8217;s Algorithm
 date: 2017-03-10 08:30
 tag:
 - Greedy Algorithms
@@ -8,7 +8,7 @@ tag:
 - Dijkstra
 category: blog
 author: tony
-description: An explanation of Dijkstra's shortest path algorithm and greedy algorithms. 
+description: An explanation of Dijkstra&#8217;s shortest path algorithm and greedy algorithms. 
 
 
 ---
