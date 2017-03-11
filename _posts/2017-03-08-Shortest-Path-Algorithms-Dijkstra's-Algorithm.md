@@ -10,6 +10,7 @@ author: tony
 description: An explanation of Dijkstra's shortest path algorithm and greedy algorithms. 
 
 ---
+
 *This is a reformatting and extension of a study guide I made for Washington University CSE 247 students last semester.*
 
 # Shortest Path Algorithms: Dijkstra's Algorithm
@@ -106,7 +107,7 @@ to 99.
 4. You then expand out B, which has no effect.
 5. Finally, you expand D, which changes d( B ) to -201.
 Notice that at the end of this, though, that d( C ) is still 0, even though the shortest path to C has length -200. Your algorithm thus fails to accurately compute distances in some cases. Moreover, even if you were to store back pointers saying how to get from each node to the start node A, you’d end taking the wrong path back from C to A.”
-Fundamentally, because the algorithm is greedy and looks for local minimum, the negative values can end up tricking it. We’re only processing the nodes once, so we don’t recompute the path upon finding the negative value. We also see that the edge A -> C is not needed for the explanation of the negative values, as it would still break. We cannot send changes back through after ”visiting” a node.
+Fundamentally, because the algorithm is greedy and looks for local minimum, the negative values can end up tricking it. We’re only processing the nodes once, so we don’t recompute the path upon finding the negative value. We also see that the edge A -> C is not needed for the explanation of the negative values, as it would still break. We cannot send changes back through after ”visiting” a node."
 
 ![Negative Weight Problem](http://tonydelanuez.com/assets/blog/3/negweights.png "Negative Weight Problem")
 
@@ -118,6 +119,7 @@ A very important note the poster made in the comments:
 Rather than retyping the correctness proof I suggest looking at page 659 of the Cormen textbook, or if you don’t have the book follow [this](http://www.math.ucsd.edu/~fan/teach/202/notes/04greed.pdf) link.
 
 The proof starts on slide 48 (looking at the bottom corners). It’s not as involved as the one in the book but the ideas are explained well. But seriously, get [the book](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844). It’s extremely helpful.
+
 ___
 
 As always, I hope this has been helpful. If you’d like more resources on the subject or would like clarification, feel free to post a comment below. Thanks for taking the time to read this! 
