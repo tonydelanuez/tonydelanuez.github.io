@@ -3,12 +3,13 @@ layout: post
 title: Dijkstra's Algorithm
 date: 2017-03-10 08:30
 tag:
-- Dijkstra's Algorithm
 - Greedy Algorithms
+- Shortest Path
+- Dijkstra
 category: blog
 author: tony
 description: An explanation of Dijkstra's shortest path algorithm and greedy algorithms. 
-comments: true
+
 
 ---
 
