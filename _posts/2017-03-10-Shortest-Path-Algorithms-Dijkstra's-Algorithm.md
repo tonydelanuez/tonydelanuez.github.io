@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Shortest Path Algorithms Dijkstra's Algorithm
-date: 2017-03-08 19:33
+date: 2017-03-10 08:30
 tag:
 - Dijkstra's Algorithm
 - Greedy Algorithms
