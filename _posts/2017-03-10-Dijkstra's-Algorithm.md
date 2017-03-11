@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shortest Path Algorithms Dijkstra's Algorithm
+title: Dijkstra's Algorithm
 date: 2017-03-10 08:30
 tag:
 - Dijkstra's Algorithm
