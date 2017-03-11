@@ -8,6 +8,7 @@ tag:
 category: blog
 author: tony
 description: An explanation of Dijkstra's shortest path algorithm and greedy algorithms. 
+comments: true
 
 ---
 
