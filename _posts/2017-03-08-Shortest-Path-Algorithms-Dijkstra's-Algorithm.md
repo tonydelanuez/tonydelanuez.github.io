@@ -90,7 +90,8 @@ It would look something like this:
 * Scenery (1 - 100), 100 being worst possible view = s 
 * weight = w
 
-                                w = 10d+7t+2s (5)
+                                w = 10d+7t+2s 
+
 We notice in the above equation that a one mile increase in distance is five times as significant as a one point increase in the quality of the scenery. This way, we’ve properly added priority values to make sure that in order to pick a scenic route over a short one or one with less traffic, it better be like driving along the California coast.
 
 A broken bridge could be simulated by adding in an infinite value to the weight, seeing as you can’t get past a broken bridge (therefore making it an impassable route).
@@ -123,3 +124,5 @@ The proof starts on slide 48 (looking at the bottom corners). It’s not as invo
 ___
 
 As always, I hope this has been helpful. If you’d like more resources on the subject or would like clarification, feel free to post a comment below. Thanks for taking the time to read this! 
+
+- Tony
