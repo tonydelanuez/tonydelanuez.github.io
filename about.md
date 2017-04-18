@@ -46,13 +46,4 @@ layout: page
     <li>ReactJS</li>
 	<li>Ruby on Rails</li>
 </ul>
-<h2>Projects</h2>
 
-<ul>
-	<li><a href="https://www.youtube.com/watch?v=SxzBoIkbFBo&feature=youtu.be">Arduino Fitbit</a></li>
-	<li><a href="https://github.com/tonydelanuez/classadvisor">Class Advisor Web App</a></li>
-	<li><a href="https://github.com/tonydelanuez/Agar-Clone">Agar.io Game Clone</a></li>
-	<li><a href="https://docs.google.com/document/d/1PK9dIS9iV0vjkjP27MZwB_9ElwqGtNZ09YdaC0i59Z0/edit?usp=sharing">Echocardiogram Design Project</a></li>
-	<li><a href="http://lotusprnt.com/">Lotus Print Solutions Homepage</a></li>
-	
-</ul>
