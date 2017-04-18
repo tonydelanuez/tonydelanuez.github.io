@@ -20,6 +20,8 @@ layout: page
 <h3> General Purpose Development</h3>
 <ul class="skill-list">
 	<li>Java</li>
+    <li>Python</li>
+    <li>Swift/XCode</li>
 	<li>Arduino C</li>
 	<li>C++</li>
     <li>Amazon Web Services</li>
@@ -35,11 +37,13 @@ layout: page
 <h3> Back-End Web Development </h3>
 <ul class="skill-list">
 	<li>Node.js</li>
+    <li>PHP</li>
+    <li>Socket.io</li>
 	<li>ExpressJS</li>
 	<li>MongoDB</li>
 	<li>JavaScript</li>
 	<li>MySQL</li>
-	<li>PHP</li>
+    <li>ReactJS</li>
 	<li>Ruby on Rails</li>
 </ul>
 <h2>Projects</h2>
