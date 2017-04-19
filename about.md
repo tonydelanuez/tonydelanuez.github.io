@@ -7,7 +7,7 @@ layout: page
 <h2> Who am I? </h2>
 <p>I'm constantly working on projects or throwing myself into new hobbies. I play a ton of video games, build computers and programs, practice Jiu Jitsu, and do amateur photography. Ever since I was little, my love of computers has directed me towards a career path in computer science. When I was 12, I didn't have the money to play World of Warcraft so I decided to learn how to create a private server and run it off of my mom's desktop so I could emulate the game for myself. This was my intro to web development as well, as I ran a website and forum for my friends to register accounts on my server and send their account info to a SQL database so they could log in and play with me. I then taught myself how to create and compile scripts to generate the objects in the game and allow the emulated game to have similar functionality to the retail version. Once school started back up, I hired some people from our forums to take care of community problems while I was in class. Ever since then, I've been hooked.</p>
 
-<p> <strong> I'm currently a coding seminar instructor and the head teaching assistant for the Data Structures and Algorithms course at Washington University in St. Louis. </strong></p><br>
+<p> <strong> I'm currently a coding seminar instructor and the head teaching assistant for the Data Structures and Algorithms course at Washington University in St. Louis. </strong></p>
 
 <p><strong> This summer I'll be working at <a href="https://www.blackrock.com">BlackRock</a> in San Francisco, CA as a summer analyst in the Aladdin Client Services Division.</strong> </p>
 
@@ -25,8 +25,9 @@ layout: page
 	<li>Java</li>
     <li>Python</li>
     <li>Swift/XCode</li>
-	<li>Arduino C</li>
+	<li>C</li>
 	<li>C++</li>
+    <li>Arduino</li>
     <li>Amazon Web Services</li>
     <li>Linux/UNIX</li>
 </ul>
@@ -39,14 +40,14 @@ layout: page
 </ul>
 <h3> Back-End Web Development </h3>
 <ul class="skill-list">
+    <li>JavaScript</li>
 	<li>Node.js</li>
-    <li>PHP</li>
-    <li>Socket.io</li>
-	<li>ExpressJS</li>
-	<li>MongoDB</li>
-	<li>JavaScript</li>
-	<li>MySQL</li>
     <li>ReactJS</li>
+    <li>ExpressJS</li>
+    <li>Socket.io</li>
+	<li>MySQL</li>
+    <li>PHP</li>
+	<li>MongoDB</li>
 	<li>Ruby on Rails</li>
 </ul>
 
