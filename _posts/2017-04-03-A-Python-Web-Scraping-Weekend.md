@@ -72,14 +72,6 @@ ___
 Hopefully this post has helped you in some way. If you'd like more resources on the subject or would like clarification, feel free to post a comment below. 
 
 -Tony
-		PythonShell.run('scraper.py', function () {
-  //if (err) throw err;
-  console.log('finished running scraper');
-  //console.log(theComment);
-  grabJSON();
-});
-
-
 
 
 
