@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Python Web Scraping Weekend
-date: 2017-03-16 4:12
+date: 2017-04-03 4:12
 tag:
 - Python
 - Web Scraping
