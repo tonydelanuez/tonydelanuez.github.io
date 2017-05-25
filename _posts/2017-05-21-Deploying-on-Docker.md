@@ -25,6 +25,7 @@ Before we get started, here are some key terms that may help you understand the 
 ### Key Terms
 
 From Docker's Docs: 
+
 *Container*: a container is a runtime instance of an image - what the image becomes in memory when actually executed. It runs completely isolated from the host environment by default, only accessing host files and ports if configured to do so. 
 
 *Dockerfile*: the Dockerfile defines what goes on in the environment inside your container. Access to resources like networking interfaces and disk drives is virtualized inside this environment, which is isolated from the rest of your system, so you have to map ports to the outside world, and be specific about what files you want to "copy in" to that environment. 
