@@ -10,7 +10,7 @@ hidden: true # don't count this post in blog pagination
 description: "The site allows a user to view lecture videos while simultaneously taking notes on the same page. Built in JavaScript"
 jemoji: '<img class="emoji" title=":book:" alt=":book:" height="20" width="20" align="absmiddle">'
 category: project
-author: tonydelanuez
+author: tony
 externalLink: false
 ---
 
