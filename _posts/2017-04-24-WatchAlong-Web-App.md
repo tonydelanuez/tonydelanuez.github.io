@@ -1,5 +1,5 @@
 ---
-title: "WatchAlong Web App"
+title: ":book: WatchAlong Web App"
 layout: post
 date: 2017-04-24 08:10
 tag: 
@@ -23,7 +23,9 @@ externalLink: false
 
 ![Screenshot](https://raw.githubusercontent.com/tonydelanuez/WatchAlong-Web-App/master/screenshot.png)
 
-# WatchAlong Web App - Built by Tony De La Nuez and Greg York
+# WatchAlong Web App 
+
+## - Built by Tony De La Nuez and Greg York
 
 We created a lecture video viewing webpage utilizing JavaScript (Node) and MongoDB. The site will allows a user to view lecture videos while simultaneously taking notes on the same page. The notes can be written as markdown and will then be converted as such on the same page for the viewer. The user will then have the option to export their notes to a pdf.
 
