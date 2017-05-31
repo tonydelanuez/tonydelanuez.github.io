@@ -17,7 +17,7 @@ projects: true
 hidden: true # don't count this post in blog pagination
 description: "WatchAlong allows users to add videos from YouTube to a playlist and take notes which are automatically generated into Markdown and exportable into PDF format. NodeJS, YouTube API, jsPDF, etc."
 category: project
-author: tonydelanuez
+author: tony
 externalLink: false
 ---
 
