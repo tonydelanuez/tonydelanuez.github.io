@@ -9,7 +9,7 @@ tag:
 - Web Scraping
 - ExpressJS
 - Beautiful Soup
-image: https://raw.githubusercontent.com/tonydelanuez/Juxtaposition-Generator/master/example_1.png
+image: https://tonydelanuez.com/assets/images/app-previews/juxtapositiongenerator.png
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
@@ -19,7 +19,7 @@ author: tony
 externalLink: false
 ---
 
-![Screenshot](https://raw.githubusercontent.com/tonydelanuez/Juxtaposition-Generator/master/example_1.png)
+![Screenshot](https://tonydelanuez.com/assets/images/app-previews/juxtapositiongenerator.png)
 
 # Juxtaposition Generator 
 
