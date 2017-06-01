@@ -24,7 +24,6 @@ externalLink: false
 
 ## - Built by Tony De La Nuez, Eric Goodman, and Justin Guyton
 
-
 An iOS application (built in Swift 3) designed to help students at WUSTL create, find, and communicate with groups around them.
 
 ![Screenshot](https://tonydelanuez.com/assets/images/app-previews/groupupuses.png)
