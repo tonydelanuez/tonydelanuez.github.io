@@ -1,5 +1,5 @@
 ---
-title: ":phone: GroupUP iOS App"
+title: ":iphone: GroupUP iOS App"
 layout: post
 date: 2017-04-23 08:10
 tag: 
@@ -24,9 +24,11 @@ externalLink: false
 
 ## - Built by Tony De La Nuez, Eric Goodman, and Justin Guyton
 
-![Screenshot](https://tonydelanuez.com/assets/images/app-previews/groupupuses.png)
 
 An iOS application (built in Swift 3) designed to help students at WUSTL create, find, and communicate with groups around them.
+
+![Screenshot](https://tonydelanuez.com/assets/images/app-previews/groupupuses.png)
+
 
 The app has tabs to navigate between a map, groups the user has joined, and a list of nearby groups. 
 In the map tab, users are shown a scrollable map view where they can drop pins and start a meetup. 
