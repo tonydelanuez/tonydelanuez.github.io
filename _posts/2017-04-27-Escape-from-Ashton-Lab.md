@@ -23,7 +23,7 @@ externalLink: false
 
 Escape From Ashton Lab is a game developed in GML(Game Maker Language).
 
-![Screenshot 1]("https://tonydelanuez.com/assets/images/app-previews/ashton1.png")
+![Screenshot 1](https://tonydelanuez.com/assets/images/app-previews/ashton1.png)
 
 ## Features:
 
@@ -36,7 +36,7 @@ Wave after wave of zombies attempt to devour you in each level of Ashton Laborat
 
 With every wave you complete in this atmospheric-top-down-pseudo-hack-and-slash you'll be faced with new challenges. Enemies get stronger and faster and create obstacles for you to maneuver in order to stay alive. How long can you last? Progress and upgrade your player in order to further your zombie-crushing skills. Will you fight as a tank? High-damage and crit? Or simply build a light-hitting, fast-running rogue and beat them around the corners? The choice is yours.
 
-![Screenshot 2]("https://tonydelanuez.com/assets/images/app-previews/ashton2.png")
+![Screenshot 2](https://tonydelanuez.com/assets/images/app-previews/ashton2.png)
 
 You play a lazy college pizza delivery boy who delivered to the wrong house. Trapped inside the Ashton Lab, your only chance at survival is to deliver headshots to the brain-eating inhabitants of each randomly-generated floor of this science project gone wrong! As you slay zombies you grow stronger and unlock points you can use to adapt your character in areas such as agility to make you a more nimble survivor, strength to ignore the bites and scratches of your enemies, and dexterity to make you the most accurate shot in the town.
 
