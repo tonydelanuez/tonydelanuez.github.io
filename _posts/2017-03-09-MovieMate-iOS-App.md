@@ -19,7 +19,7 @@ author: tony
 externalLink: false
 ---
 
-![Screenshot](https://tonydelanuez.com/assets/app-previews/moviesearch.png)
+![Screenshot](https://tonydelanuez.com/assets/images/app-previews/moviesearch.png)
 
 # MovieMate iOS App
 

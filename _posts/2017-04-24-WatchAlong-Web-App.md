@@ -53,6 +53,7 @@ Users playlists also store in the database so they always have them on logging i
 - ExpressJS
 - MongoDB
 - Mongoose
+- Amazon Web Services
 
 ---
 
