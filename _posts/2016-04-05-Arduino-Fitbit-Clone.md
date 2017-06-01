@@ -1,5 +1,5 @@
 ---
-title: ":memo: Arduino Fitbit Clone"
+title: ":muscle: Arduino Fitbit Clone"
 layout: post
 date: 2016-04-05 08:10
 tag: 
