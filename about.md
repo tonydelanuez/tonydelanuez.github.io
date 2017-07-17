@@ -28,6 +28,7 @@ layout: page
     <li>PHP</li>
     <li>Swift</li>
 	<li>C</li>
+	<li>x86 Assembly</li>
 	<li>C++</li>
 </ul>
 <h3> Web & JavaScript Frameworks/Libraries </h3>
