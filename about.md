@@ -9,7 +9,7 @@ layout: page
 
 <p> <strong> I'm currently a coding seminar instructor and the head teaching assistant for the Data Structures and Algorithms course at Washington University in St. Louis. </strong></p>
 
-<p><strong> This summer I'll be working at <a href="https://www.blackrock.com">BlackRock</a> in San Francisco, CA as a summer analyst in the Aladdin Client Services Division.</strong> </p>
+<p><strong> This summer I'm working at <a href="https://www.blackrock.com">BlackRock</a> in San Francisco, CA as a summer analyst in the Aladdin Client Services Division.</strong> </p>
 
 <h2> Education </h2>
 <ul class="skill-list">
@@ -20,34 +20,39 @@ layout: page
 	<li>BA Liberal Arts (Physics Focus), St. Mary's College of California (2015)</li>
 </ul>
 <h2> Skills </h2>
-<h3> General Purpose Development</h3>
+<h3> Programming Languages </h3>
 <ul class="skill-list">
 	<li>Java</li>
+	<li>JavaScript</li>
     <li>Python</li>
-    <li>Swift/XCode</li>
+    <li>PHP</li>
+    <li>Swift</li>
 	<li>C</li>
 	<li>C++</li>
-    <li>Arduino</li>
-    <li>Amazon Web Services</li>
-    <li>Linux/UNIX</li>
 </ul>
-<h3> Front-End Web Development </h3>
+<h3> Web & JavaScript Frameworks/Libraries </h3>
 <ul class="skill-list">
-	<li>HTML</li>
-	<li>CSS, Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript</li>
+	<li>HTML5</li>
+	<li>CSS3 + Bootstrap, Foundation</li>
 	<li>AngularJS</li>
+	<li>Angular2</li>
+	<li>ReactJS</li>
+	<li>Socket.IO</li>
+	<li>ExpressJS</li>
 </ul>
-<h3> Back-End Web Development </h3>
+<h3> Databases </h3>
 <ul class="skill-list">
-    <li>JavaScript</li>
-	<li>Node.js</li>
-    <li>ReactJS</li>
-    <li>ExpressJS</li>
-    <li>Socket.io</li>
-	<li>MySQL</li>
-    <li>PHP</li>
-	<li>MongoDB</li>
-	<li>Ruby on Rails</li>
+	<li>SQL: MySQL, PostgreSQL, T-SQL</li>
+	<li>NoSQL & JSON: MongoDB, Firebase </li>
 </ul>
+<h3>Servers & Deployment (DevOps)</h3>
+<ul class="skill-list">
+	<li>LAMP (Apache)</li>
+	<li>Node.js</li>
+	<li>Linux / Unix </li>
+	<li>Bash</li>
+	<li>AWS (EC2 + S3)</li>
+	<li>Docker</li>
+</ul>
+
 
