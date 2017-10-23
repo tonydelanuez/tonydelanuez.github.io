@@ -11,7 +11,7 @@ author: tony
 description: A case study on the usage of curl vs file_get_contents() in order to consume a REST API.
 
 ---
-![PHP LOGO](https://tonydelanuez.com/assets/blog/5/php.png)
+![PHP Logo](http://tonydelanuez.com/assets/blog/5/php.png "PHP Logo")
 
 Recently I was using PHP to consume some REST APIs with PHP. Normally I had done this through [CURL](http://php.net/manual/en/book.curl.php), but during a code review my reviewer mentioned that I should have just used PHP's file_get_contents(). I had seen a discussion on file_get_contents() vs CURL and decided that since cURL was more adaptable of a tool, it was the better choice. Turns out I was wrong. Metaphorically speaking, file_get_contents() is the trusty flathead screwdriver that gets the job done smooth and easy. I was using a power drill with multiple speed settings, a level, gel grip, and a sweet orange paintjob in order to tighten a loose leg on my chair.
 
