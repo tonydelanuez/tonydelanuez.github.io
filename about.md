@@ -13,14 +13,16 @@ Ever since I was little, my love of computers has directed me towards a career p
 This was my intro to web development, scripting, and databases. 
 I created and ran both a forum and website for my friends to register accounts on my server to play with me. I then taught myself how to create and compile scripts to generate the objects in the game and allow the emulated game to have similar functionality to the retail version. 
 <br />
-Once school started back up, I hired some people from our forums to take care of community problems while I was in class. Ever since then, I've been hooked.</p>
+Once school started back up, I hired some people from our forums to take care of community problems while I was in class. Ever since then, I've been hooked.
+</p>
 
-<p> <strong> I'm currently a coding seminar instructor and the head teaching assistant for the Data Structures and Algorithms course at Washington University in St. Louis. </strong></p>
+<p> <strong> I'm currently a coding seminar instructor and the head teaching assistant for the Data Structures and Algorithms course at Washington University in St. Louis. 
+</strong></p>
 
 <p> <strong> 
 Currently: <br />
 Instructor and Head TA @ Washington University in St. Louis <br />
-</p><strong>
+</strong></p>
 
 <p> <strong> 
 Previously: <br />
