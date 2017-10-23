@@ -5,11 +5,28 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 <h1> Tony De La Nuez </h1> 
 <h2> Who am I? </h2>
-<p>I'm constantly working on projects or throwing myself into new hobbies. I play a ton of video games, build computers and programs, practice Jiu Jitsu, and do amateur photography. Ever since I was little, my love of computers has directed me towards a career path in computer science. When I was 12, I didn't have the money to play World of Warcraft so I decided to learn how to create a private server and run it off of my mom's desktop so I could emulate the game for myself. This was my intro to web development as well, as I ran a website and forum for my friends to register accounts on my server and send their account info to a SQL database so they could log in and play with me. I then taught myself how to create and compile scripts to generate the objects in the game and allow the emulated game to have similar functionality to the retail version. Once school started back up, I hired some people from our forums to take care of community problems while I was in class. Ever since then, I've been hooked.</p>
+<p>
+<strong> I have an intense passion for learning and a knack for problem solving that I use in order to write code that does cool things. </strong>
+<br /> 
+Ever since I was little, my love of computers has directed me towards a career path in computer science. When I was 12, I didn't have the money to play World of Warcraft so I decided to learn how to create a private server and run it off of my mom's desktop to emulate the game for myself. 
+<br /> 
+This was my intro to web development, scripting, and databases. 
+I created and ran both a forum and website for my friends to register accounts on my server to play with me. I then taught myself how to create and compile scripts to generate the objects in the game and allow the emulated game to have similar functionality to the retail version. 
+<br />
+Once school started back up, I hired some people from our forums to take care of community problems while I was in class. Ever since then, I've been hooked.</p>
 
 <p> <strong> I'm currently a coding seminar instructor and the head teaching assistant for the Data Structures and Algorithms course at Washington University in St. Louis. </strong></p>
 
-<p><strong> This summer I'm working at <a href="https://www.blackrock.com">BlackRock</a> in San Francisco, CA as a summer analyst in the Aladdin Client Services Division.</strong> </p>
+<p> <strong> 
+Currently: <br />
+Instructor and Head TA @ Washington University in St. Louis <br />
+</p><strong>
+
+<p> <strong> 
+Previously: <br />
+Summer Analyst @ BlackRock <br />
+5x Intern @ E&J Gallo Winery Modesto <br />
+</strong> </p> 
 
 <h2> Education </h2>
 <ul class="skill-list">
@@ -45,6 +62,12 @@ layout: page
 <ul class="skill-list">
 	<li>SQL: MySQL, PostgreSQL, T-SQL</li>
 	<li>NoSQL & JSON: MongoDB, Firebase </li>
+</ul>
+<h3> Data Science </h3>
+<ul class="skill-list">
+	<li>Apache MapReduce</li>
+	<li>MATLAB</li>
+	<li>scikit-learn</li>
 </ul>
 <h3>Servers & Deployment (DevOps)</h3>
 <ul class="skill-list">
