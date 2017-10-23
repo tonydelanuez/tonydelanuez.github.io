@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PHP - Consuming REST APIs with CURL or file_get_contents
+title: PHP - Consuming REST APIs with cURL or file_get_contents
 date: 2017-10-20 19:45
 tag:
 - PHP
@@ -8,13 +8,13 @@ tag:
 - REST APIs
 category: blog
 author: tony
-description: A case study on the usage of curl vs file_get_contents() in order to consume a REST API.
+description: A case study on the usage of cURL vs file_get_contents() in order to consume a REST API.
 
 ---
 
-Recently I was using PHP to consume some REST APIs with PHP. Normally I had done this through [CURL](http://php.net/manual/en/book.curl.php), but during a code review my reviewer mentioned that I should have just used PHP's file_get_contents(). I had seen a discussion on file_get_contents() vs CURL and decided that since cURL was more adaptable of a tool, it was the better choice. Turns out I was wrong. Metaphorically speaking, file_get_contents() is the trusty flathead screwdriver that gets the job done smooth and easy. I was using a power drill with multiple speed settings, a level, gel grip, and a sweet orange paintjob in order to tighten a loose leg on my chair.
+Recently I was using PHP to consume some REST APIs with PHP. Normally I had done this through [cURL](http://php.net/manual/en/book.curl.php), but during a code review my reviewer mentioned that I should have just used PHP's file_get_contents(). I had seen a discussion on file_get_contents() vs cURL and decided that since cURL was more adaptable of a tool, it was the better choice. Turns out I was wrong. Metaphorically speaking, file_get_contents() is the trusty flathead screwdriver that gets the job done smooth and easy. I was using a power drill with multiple speed settings, a level, gel grip, and a sweet orange paintjob in order to tighten a loose leg on my chair.
 
-## CURL
+## cURL
 Taking from [haxx.se](https://curl.haxx.se/docs/manpage.html): 
 
 Client URL Library (cURL) allows you to transfer data from or to a server using one of the many different networking protocols: 
@@ -76,20 +76,20 @@ As long as I've got the proper configs (allow_url_fopen) set on my php.ini file,
 
 We still get our Google maps API data, exactly the same as before! 
 
-This would've saved me some headache in setting the CURL flags, and is just flat-out easier. 
+This would've saved me some headache in setting the cURL flags, and is just flat-out easier. 
 
 ## How do I know which one to use? 
 
 So clearly, file_get_contents is easier to use when you're consuming APIs. You can even set a stream context in order to send POST/UPDATE requests with file_get_contents. 
 
-You might consider using CURL if: 
+You might consider using cURL if: 
 	
-- You need a very finely tuned request. [See CURL options](http://php.net/manual/en/function.curl-setopt.php)
+- You need a very finely tuned request. [See cURL options](http://php.net/manual/en/function.curl-setopt.php)
 - You don't have allow_url_fopen allowed on your system. 
 - You need multiple parallel handlers
 - You want to handle timeout settings (I guess these all go with the finely tuned request theme)
 
-Basically, if you're doing simple GET/POST requests and file_get_contents() is working for you, you're fine. If you notice for some reason that your file_get_contents() is a little buggy and maybe you need to be a bit more specific with your request, opt for the CURL option. 
+Basically, if you're doing simple GET/POST requests and file_get_contents() is working for you, you're fine. If you notice for some reason that your file_get_contents() is a little buggy and maybe you need to be a bit more specific with your request, opt for the cURL option. 
 
 
 
