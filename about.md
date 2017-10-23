@@ -6,7 +6,7 @@ layout: page
 <h1> Tony De La Nuez </h1> 
 <h2> Who am I? </h2>
 <p>
-<strong> I have an intense passion for learning and a knack for problem solving that I use in order to write code that does cool things. </strong>
+<strong> I have an intense passion for learning and a knack for problem solving that I use in order to write full-stack code that does cool things. </strong>
 <br /> 
 Ever since I was little, my love of computers has directed me towards a career path in computer science. When I was 12, I didn't have the money to play World of Warcraft so I decided to learn how to create a private server and run it off of my mom's desktop to emulate the game for myself. 
 <br /> 

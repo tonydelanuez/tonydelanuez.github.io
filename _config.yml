@@ -1,6 +1,6 @@
 # main text of home
 name: Tony De La Nuez
-bio: Developer, Gamer, Maker
+bio: Full-Stack Engineer.
 
 # twitter summary info
 description: Tony De La Nuez's personal portfolio. I'm a software developer from CA finishing my MS in Computer Science at WUSTL.
@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: /assets/TonyDeLaNuez_Resume.pdf
 
-url: http://tonydelanuez.com
+url: https://tonydelanuez.com
 # your url: http://tonydelanuez.com
 
 permalink: /:title/
