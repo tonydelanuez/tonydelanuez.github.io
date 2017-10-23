@@ -11,6 +11,7 @@ author: tony
 description: A case study on the usage of curl vs file_get_contents() in order to consume a REST API.
 
 ---
+![PHP LOGO](https://tonydelanuez.com/assets/blog/5/php.png)
 
 Recently I was using PHP to consume some REST APIs with PHP. Normally I had done this through [CURL](http://php.net/manual/en/book.curl.php), but during a code review my reviewer mentioned that I should have just used PHP's file_get_contents(). I had seen a discussion on file_get_contents() vs CURL and decided that since cURL was more adaptable of a tool, it was the better choice. Turns out I was wrong. Metaphorically speaking, file_get_contents() is the trusty flathead screwdriver that gets the job done smooth and easy. I was using a power drill with multiple speed settings, a level, gel grip, and a sweet orange paintjob in order to tighten a loose leg on my chair.
 
@@ -84,10 +85,10 @@ So clearly, file_get_contents is easier to use when you're consuming APIs. You c
 
 You might consider using CURL if: 
 	
-	- You need a very finely tuned request. [See CURL options](http://php.net/manual/en/function.curl-setopt.php)
-	- You don't have allow_url_fopen allowed on your system. 
-	- You need multiple parallel handlers
-	- You want to handle timeout settings (I guess these all go with the finely tuned request theme)
+- You need a very finely tuned request. [See CURL options](http://php.net/manual/en/function.curl-setopt.php)
+- You don't have allow_url_fopen allowed on your system. 
+- You need multiple parallel handlers
+- You want to handle timeout settings (I guess these all go with the finely tuned request theme)
 
 Basically, if you're doing simple GET/POST requests and file_get_contents() is working for you, you're fine. If you notice for some reason that your file_get_contents() is a little buggy and maybe you need to be a bit more specific with your request, opt for the CURL option. 
 
