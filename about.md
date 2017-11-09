@@ -65,6 +65,7 @@ Summer Analyst @ BlackRock <br />
 <h3> Data Science </h3>
 <ul class="skill-list">
 	<li>Hadoop MapReduce</li>
+	<li>Apache Spark</li>
 	<li>MATLAB</li>
 	<li>scikit-learn</li>
 </ul>
