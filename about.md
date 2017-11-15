@@ -17,11 +17,12 @@ Once school started back up, I hired some people from our forums to take care of
 </p>
 
 <p> <strong> 
-Currently: <br />
-Instructor and Head TA @ Washington University in St. Louis <br />
+Check out my lastest product, <a href="https://meteonote.io">Meteonote</a>! <br />
 </strong></p>
 
 <p> <strong> 
+Currently: <br />
+Instructor and Head TA @ Washington University in St. Louis <br />
 Previously: <br />
 Summer Analyst @ BlackRock <br />
 5x Intern @ E&J Gallo Winery Modesto <br />
