@@ -20,7 +20,7 @@ category: project
 author: tony
 externalLink: false
 ---
-# Meteonote.io Post-Mortem (Release time!)
+# Meteonote.io Post-Mortem
 
 I just released the beta for [Meteonote.io](https://meteonote.io), and I'm writing to explain a bit about how it went down - starting from idea phase, turning that idea into a prototype, then refining the prototype and turning it into something that I felt I could show off to others. 
 
