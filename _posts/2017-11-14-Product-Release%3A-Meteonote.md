@@ -1,5 +1,5 @@
 ---
-title: ":book: Product Release! Meteonote.io"
+title: ":book: I'm Releasing Meteonote.io!"
 layout: post
 date: 2017-11-14 08:10
 tag: 
@@ -94,9 +94,11 @@ Prior to this app, I didn't plan for my Node apps to be visited by a large (hope
 
 * Try using your app in ways you wouldn't assume people would use it. Click a button 100 times, enter empty values, resize the page, try it on different browers, resolutions. Break it. Fix what you break. Better to catch it now than when it's in someone elses hands. 
 
-## Final Thoughts
+## Takeaways
 
 Building Meteonote has been an extremely gratifying experience for me. Not only did I build something that I've been using on a daily basis, but I learned and grew as a software engineer. I took a product from start to (never finished) release state and put it up for the world to see. I plan to continue working on Metenote and improving it as much as I possibly can.
+
+This project allowed me to gain a deeper understanding of JavaScript (along with ExpressJS, MongoDB, and Node.js), combining asynchronous calls in order to give a smooth user experience, and using the YouTube API to consume and deliver content. 
 
 
 ---
