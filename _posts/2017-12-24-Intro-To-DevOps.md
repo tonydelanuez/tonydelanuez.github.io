@@ -8,14 +8,14 @@ tag:
 - Packer
 category: blog
 author: tony
-description: My notes in preparation for starting a position as an SRE.
+description: My personal notes taken in preparation for starting a position as an SRE.
 I plan to periodically update these notes to cover more tools and best practices.
 
 ---
 
 # DevOps Notes
 
-My notes in preparation for starting a position as an SRE.
+My personal notes taken in preparation for starting a position as an SRE.
 I plan to periodically update these notes to cover more tools and best practices.
 
 ### Resources: 
