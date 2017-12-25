@@ -22,7 +22,7 @@ Check out my lastest product, <a href="https://meteonote.io">Meteonote</a>! <br 
 
 <h2> Employment </h2>
 <ul class="skill-list">
-	<li>**Incoming Site Reliability Engineer @ Atlassian**</li>
+	<li><strong>Incoming Site Reliability Engineer @ Atlassian</strong></li>
 	<li>Instructor and Head TA @ Washington University in St. Louis </li>
 	<li>Summer Analyst @ BlackRock</li>
 	<li>5x Engineering Intern @ E&J Gallo Winery</li>
