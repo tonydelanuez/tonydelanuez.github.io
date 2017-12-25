@@ -67,3 +67,18 @@ You can use Packer in the middle of your continuous delivery pipeline, to mainta
 
 ### Packer Templates
 Packer templates are configuration files (JSON) used to define what image we want built and how.
+**Builders** take a source image that is different for each specific builder. Some builders take ISOs, AMIs; the source image type depends on the type of builder.
+
+**Provisioners** install and configure software within a machine prior to that machine becoming a static image. Provisioners include shell scripts, Puppet scripts.
+
+**Post-processors** take the result of a builder or another post-processor and process that new artifact. You can compress, upload, build a vagrant box, etc. Every builder produces a single artifact.
+
+### Overview
+Working through a template file:
+- For each *builder* Packer will run a build to produce an image.
+- When the machine is up and running on that image, Packer will run provisioners to install and configure software. That is saved as a **modified image**.
+- When that is done, optional post-processors are combined with the modified image to create a *final artifact*.
+
+**Example:**
+*Q:* How would you switch from Ubuntu to CentOS in Packer?
+*A:* Change the **source** in the **builder** configuration.
