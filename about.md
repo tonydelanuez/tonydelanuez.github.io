@@ -32,8 +32,8 @@ Check out my lastest product, <a href="https://meteonote.io">Meteonote</a>! <br 
 <ul class="skill-list">
 	<li>MS Computer Science, Washington University in St. Louis (2018)</li>
 	<li>Master's Focus in Data Science, Embedded Systems</li>
-	<li>BS Computer Science (Minor Electrical Engineering), Washington University in St. Louis (2018)</li>
 	<li>BS Computer Engineering, Washington University in St. Louis (2018)</li>
+	<li>BS Computer Science, Washington University in St. Louis (2018)</li>
 	<li>BA Liberal Arts (Physics Focus), St. Mary's College of California (2015)</li>
 </ul>
 <h2> Skills </h2>
