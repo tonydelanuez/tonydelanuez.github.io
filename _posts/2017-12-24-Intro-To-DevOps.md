@@ -8,8 +8,7 @@ tag:
 - Packer
 category: blog
 author: tony
-description: My personal notes taken in preparation for starting a position as an SRE.
-I plan to periodically update these notes to cover more tools and best practices.
+description: My personal notes taken in preparation for starting a position as an SRE. I plan to periodically update these notes to cover more tools and best practices.
 
 ---
 
@@ -18,7 +17,7 @@ I plan to periodically update these notes to cover more tools and best practices
 My personal notes taken in preparation for starting a position as an SRE.
 I plan to periodically update these notes to cover more tools and best practices.
 
-### Resources: 
+### Resources:
 
 - [The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592)
 - [Site Reliability Engineering](https://landing.google.com/sre/book.html)
@@ -56,19 +55,15 @@ We can also combine these approaches!
 ## [Packer](https://www.packer.io)
 Packer automates the creation of any type of machine image. You can use automated scripts to install and configure the software within your Packer-made images. With Packer you can create identical machine images for multiple platforms from a single source config. Packer works alongside tools like Chef or Puppet to install software onto the image.
 
-A **machine image** is a single static unit that contains a pre-configured operating system and installed software which is used to quickly create new running machines. 
+A **machine image** is a single static unit that contains a pre-configured operating system and installed software which is used to quickly create new running machines.
 
 ### Why use packer? (From Packer [Docs](https://www.packer.io/intro/why.html))
-- **Fast infrastructure deployment**: Packer images allow you to launch completely provisioned and configured machines in seconds. Dev VMs can also be launched in seconds. 
-- **Multi-provider portability**: Since Packer creates identical images for multiple platforms, you can run prod, staging/QA, and dev environments all on an identical machine image. 
-- **Improved Stability**: Packer installs and configures all software for a machine at the time the image is built. Bugs in install scripts are caught early, not after the machine is launched. 
-- **Greater Testability**: After a machine image is built, the machine can be launched and smoke tested to verify that things appear to be working. 
+- **Fast infrastructure deployment**: Packer images allow you to launch completely provisioned and configured machines in seconds. Dev VMs can also be launched in seconds.
+- **Multi-provider portability**: Since Packer creates identical images for multiple platforms, you can run prod, staging/QA, and dev environments all on an identical machine image.
+- **Improved Stability**: Packer installs and configures all software for a machine at the time the image is built. Bugs in install scripts are caught early, not after the machine is launched.
+- **Greater Testability**: After a machine image is built, the machine can be launched and smoke tested to verify that things appear to be working.
 
-You can use Packer in the middle of your continuous delivery pipeline, to maintain consistent work environments, and to create appliances and demos. 
+You can use Packer in the middle of your continuous delivery pipeline, to maintain consistent work environments, and to create appliances and demos.
 
 ### Packer Templates
-Packer templates are configuration files (JSON) used to define what image we want built and how. 
-
-
-
-
+Packer templates are configuration files (JSON) used to define what image we want built and how.

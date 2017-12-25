@@ -21,8 +21,8 @@ Check out my lastest product, <a href="https://meteonote.io">Meteonote</a>! <br 
 </strong></p>
 
 <p> <strong>
-Incoming Site Reliability Engineer @ Atlassian <br />
 Currently: <br />
+Incoming Site Reliability Engineer @ Atlassian <br />
 Instructor and Head TA @ Washington University in St. Louis <br />
 Previously: <br />
 Summer Analyst @ BlackRock <br />
