@@ -20,14 +20,13 @@ Once school started back up, I hired some people from our forums to take care of
 Check out my lastest product, <a href="https://meteonote.io">Meteonote</a>! <br />
 </strong></p>
 
-<p> <strong>
-Currently: <br />
-Incoming Site Reliability Engineer @ Atlassian <br />
-Instructor and Head TA @ Washington University in St. Louis <br />
-Previously: <br />
-Summer Analyst @ BlackRock <br />
-5x Intern @ E&J Gallo Winery Modesto <br />
-</strong> </p>
+<h2> Employment </h2>
+<ul class="skill-list">
+	<li>Incoming Site Reliability Engineer @ Atlassian </li>
+	<li>Instructor and Head TA @ Washington University in St. Louis </li>
+	<li>Summer Analyst @ BlackRock</li>
+	<li>5x Engineering Intern @ E&J Gallo Winery<li>
+</ul>
 
 <h2> Education </h2>
 <ul class="skill-list">
