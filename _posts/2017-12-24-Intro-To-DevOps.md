@@ -132,6 +132,7 @@ Workflow to push from dev to prod:
 writing code -> local tests -> larger tests -> code review -> commit to main branch -> integration + more tests -> staging -> even more tests -> change is live in production
 
 Best Practices for maintaining good releases: 
+
 - Maintain a code repository
 - Automate the build
 - Test the build
@@ -141,6 +142,7 @@ Best Practices for maintaining good releases:
 - Test from clone of production environment
 
 Continuous Integration Products (running compiler and test suite): 
+
 - Jenkins (OS, written in Java, self-hosted)
 - Travis CI (hosted)
 - Circle CI (hosted)
@@ -161,7 +163,7 @@ From a Jenkins configuration we can determine how often we want to run a job, if
 Jenkins also provides console output for all builds. This logging for each compilation allows us to determine where a build went wrong.
 
 
-## Testing
+## Testing and Monitoring
 **Unit Testing:** tests written alongside code, to test the behavior of individual units such as functions or classes. (Makes sure code is working as built)
 
 **Regression Testing:** tests written as part of debugging, which verify that a bug is fixed. Kept in the test suite to ensure the bug is not reintroduced. (Keeps from making same bug twice)
@@ -175,6 +177,24 @@ Jenkins also provides console output for all builds. This logging for each compi
 **Manual QA Testing:** Approval process integrated with continuous delivery
 
 Keep track of code bugs and production problems in a shared bug tracking system (like JIRA!)
+
+**Monitoring Data Sources:**
+
+- External probing, test queries
+- Application-level stats 
+	- queries per second, latency
+- Environment stats
+	- JVM memory profile
+- Host/container stats
+	- load average, disk errors
+
+**Monitoring Data Products:**
+- Alerting
+- Performance analysis
+- Capacity prediction
+- Growth measurement
+- Debugging metrics
+
 
 
 
