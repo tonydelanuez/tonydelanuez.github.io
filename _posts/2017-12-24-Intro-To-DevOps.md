@@ -23,6 +23,9 @@ I plan to periodically update these notes to cover more tools and best practices
 - [Site Reliability Engineering](https://landing.google.com/sre/book.html)
 - [The DevOps Handbook](http://itrevolution.com/devops-handbook)
 - Udacity's [Intro to DevOps](https://www.udacity.com/course/intro-to-devops--ud611)
+- [Building a DevOps Culture](https://smile.amazon.com/gp/product/B00CBM1WFC)
+- [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley-ebook/dp/B003YMNVC0)
+- [Chef-Style DevOps](https://www.youtube.com/watch?v=_DEToXsgrPc)
 
 ## What is DevOps?
 
@@ -82,3 +85,103 @@ Working through a template file:
 **Example:**
 *Q:* How would you switch from Ubuntu to CentOS in Packer?
 *A:* Change the **source** in the **builder** configuration.
+
+### Practice Project ([GitHub Source](https://github.com/udacity/devops-intro-project))
+*Commands to get the webapp running fo the Udacity practice project. If you're not doing the Udacity course linked above, ignore this. I strongly suggest taking a look at this project if you haven't generated machines with Packer*
+
+Packer commands: 
+
+Build an image for virtualbox using the application-server.json template
+$ packer build -only=virtualbox-iso application-server.json
+$ cd virtualbox
+Add the image to your vagrant VMs. 
+$ vagrant box add ubuntu-14.04.5-server-amd64-appserver_virtualbox.box --name devops-appserver
+Bring up the dev environment
+$ vagrant up
+Connect to the server
+$ vagrant ssh
+
+You don't need any special access keys when you are building images for use on a local machine with VirtualBox/Vagrant. 
+
+Once ssh'd into the server, clone and run the webapp. 
+(Local Machine) go to root of cloned repo
+git clone https://github.com/chef/devops-kungfu.git devops-kungfu
+(VM) Install all app dependencies and run grunt tests
+$ cd devops-kungfu
+$ npm install
+$ grunt -v
+
+Use Google Cloud Platform (Compute Engine) to build the image in the cloud. You must enable Cloud Engine API and generate keys!
+
+Once this is all set up, we're running the same environment on both development (local) and prod (cloud)!
+
+## Development and Production Environments
+Environments you may have: 
+
+- Local environment (dev machine)
+- Development environment (deploy branches of code)
+- Integration environment (CI build target or test side effects, changes are merged)
+- Testing environment
+- Staging area (mirror of production)
+- Production 
+
+### From Dev to Production
+Use version control systems to track changes and keep them in sync. 
+
+Workflow to push from dev to prod: 
+writing code -> local tests -> larger tests -> code review -> commit to main branch -> integration + more tests -> staging -> even more tests -> change is live in production
+
+Best Practices for maintaining good releases: 
+- Maintain a code repository
+- Automate the build
+- Test the build
+- Commit your changes often
+- Build each commit 
+- Fix bugs right away
+- Test from clone of production environment
+
+Continuous Integration Products (running compiler and test suite): 
+- Jenkins (OS, written in Java, self-hosted)
+- Travis CI (hosted)
+- Circle CI (hosted)
+
+CI watches repo for new commits - on commit, spawns a new build process which runs and builds data files, compiled binaries. Then the CI system spawns tests that are run on the built artifacts. 
+
+Image from the practice project above (control-server.json) includes Jenkins.
+To build the image for googlecompute we run the command: 
+$ packer build -only=googlecompute control-server.json
+
+The image now appears in the Compute Engine dashboard, then we can launch a new server instance with this image. Find external IP then go to IP/jenkins
+
+### Jenkins
+Jenkins allows you to automate many different tasks related to building, testing, and delivering or deploying software. You can install various plugins to leverage different functionality such as GitHub commits, pull-requests, etc.
+
+From a Jenkins configuration we can determine how often we want to run a job, if we only want to build on a stable release, what commands we want to execute, and many other options. 
+
+Jenkins also provides console output for all builds. This logging for each compilation allows us to determine where a build went wrong.
+
+
+## Testing
+**Unit Testing:** tests written alongside code, to test the behavior of individual units such as functions or classes. (Makes sure code is working as built)
+
+**Regression Testing:** tests written as part of debugging, which verify that a bug is fixed. Kept in the test suite to ensure the bug is not reintroduced. (Keeps from making same bug twice)
+
+**Smoke Testing:** preliminary test of a system just after build, to make sure it runs at all - for instance, doesn't crash on boot. (Keeps broken builds out of test pipeline. "Build verification" test)
+
+**System Integration Testing:** Tests of a whole system, including dependencies such as databases or APIs, under a test load. 
+
+**Automated Acceptance Testing:** scripted tests that verify that user-facing features work as planned. 
+
+**Manual QA Testing:** Approval process integrated with continuous delivery
+
+Keep track of code bugs and production problems in a shared bug tracking system (like JIRA!)
+
+
+
+
+
+
+
+
+
+
