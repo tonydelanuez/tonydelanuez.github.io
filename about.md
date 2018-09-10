@@ -16,14 +16,12 @@ I created and ran both a forum and website for my friends to register accounts o
 Once school started back up, I hired some people from our forums to take care of community problems while I was in class. Ever since then, I've been hooked.
 </p>
 
-<p> <strong>
-Check out my lastest product, <a href="https://meteonote.io">Meteonote</a>! <br />
-</strong></p>
 
 <h2> Employment </h2>
 <ul class="skill-list">
-	<li><strong>Incoming Site Reliability Engineer @ Atlassian</strong></li>
+	<li><strong>Site Reliability Engineer @ Atlassian</strong></li>
 	<li>Instructor and Head TA @ Washington University in St. Louis </li>
+	<li>Software Developer @ Cornell Consulting</li>
 	<li>Summer Analyst @ BlackRock</li>
 	<li>5x Engineering Intern @ E&J Gallo Winery</li>
 </ul>
@@ -48,6 +46,16 @@ Check out my lastest product, <a href="https://meteonote.io">Meteonote</a>! <br 
 	<li>x86 Assembly</li>
 	<li>C++</li>
 </ul>
+<h3>DevOps</h3>
+<ul class="skill-list">
+	<li>Monitoring/Logging with Statsd + Datadog</li>
+	<li>Node.js</li>
+	<li>Linux / Unix </li>
+	<li>Bash</li>
+	<li>AWS (EC2 + S3)</li>
+	<li>Docker</li>
+	<li>Jenkins</li>
+</ul>
 <h3> Web & JavaScript Frameworks/Libraries </h3>
 <ul class="skill-list">
 	<li>HTML5</li>
@@ -69,13 +77,4 @@ Check out my lastest product, <a href="https://meteonote.io">Meteonote</a>! <br 
 	<li>Apache Spark</li>
 	<li>MATLAB</li>
 	<li>scikit-learn</li>
-</ul>
-<h3>DevOps</h3>
-<ul class="skill-list">
-	<li>LAMP (Apache)</li>
-	<li>Node.js</li>
-	<li>Linux / Unix </li>
-	<li>Bash</li>
-	<li>AWS (EC2 + S3)</li>
-	<li>Docker</li>
 </ul>
