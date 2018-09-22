@@ -27,33 +27,44 @@ At work, we build systems that handle **tons** of requests. Sometimes memory get
 
 Let's take an example in python. First, we look at a function called get_strength. 
 
+    ```python
     def get_strength(character_dict): 
     """ Returns the STR attribute of a character (represented by a dictionary) """ 
     return character_dict['STR']
+    ```
     
 Now let's say I have a dictionary that represents a character for a game and each key is an attribute: 
 
+    ```python
     gimli = { 'HP': 16, 'INT': 7, 'STR': 20, 'SPD': 6}
+    ```
 
 I want the above function, **get_strength(character_dict) to return Gimli's STR attribute because we like [getters and setters](https://en.wikipedia.org/wiki/Mutator_method). This works fine with the gimli dictionary, it just returns gimli['STR']
 
+    ```python
     get_strength(gimli)
     >> 20
+    ```
 
 but now when I try get_strength on the dictionary for legolas below, what will happen?
-
+    
+    ```python
     legolas = {'HP': 13, 'INT': 15, 'SPD': 17, 'DEX': 25}
+    ```
 
 There isn't a STR attribute for Legolas in this dictionary, so we'll get a [KeyError](https://wiki.python.org/moin/KeyError) in Python (the key is not in the dictionary). 
 
+    ```python
     >>> get_strength(legolas)
     Traceback (most recent call last):
     File "<stdin>", line 1, in <module>
     File "<stdin>", line 2, in get_strength
     KeyError: 'STR'
+    ```
 
 But we can refactor this code to make it safe! Let's add a try/except (try/catch) block. A try/catch means we're going to *try* to do something and *catch* an exception if it occurs. We specify an exception type (below I use KeyError) and handle it exactly how I want to: by printing a meaningful error message that I can use for debugging.  
 
+    ```python
     def get_strength(character_dict): 
     """ Returns the STR attribute of a character (represented by a dictionary) """ 
     strength = None
@@ -62,14 +73,18 @@ But we can refactor this code to make it safe! Let's add a try/except (try/catch
     except KeyError: 
         print("Oh no! No STR attribute found.") 
     return strength
+    ```
 
 Now what happens when we call get_strength(legolas)?  No more KeyError :) We handle it gracefully instead of letting it crash our program - we provide a meaningful error message and return None in this case. What would you want to return? Maybe 0 is better, maybe some default value. Good thing to consider.
 
+    ```python
     >>> get_strength(legolas)
     Oh no! No STR attribute found.
+    ```
 
 We can even add a **finally** block that executes after both the try and except. Sometimes we want to do something regardless of what occurs during execution - put this in the **finally** section. 
-    ```
+
+    ``` python
     def get_strength(character_dict): 
     """ Returns the STR attribute of a character (represented by a dictionary) """ 
     strength = None
