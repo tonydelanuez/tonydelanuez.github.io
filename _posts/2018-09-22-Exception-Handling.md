@@ -52,7 +52,7 @@ There isn't a STR attribute for Legolas in this dictionary, so we'll get a [KeyE
     File "<stdin>", line 2, in get_strength
     KeyError: 'STR'
 
-But we can refactor this code to make it safe! Let's add a try/except (try/catch) block. 
+But we can refactor this code to make it safe! Let's add a try/except (try/catch) block. A try/catch means we're going to *try* to do something and *catch* an exception if it occurs. We specify an exception type (below I use KeyError) and handle it exactly how I want to: by printing a meaningful error message that I can use for debugging.  
 
     def get_strength(character_dict): 
     """ Returns the STR attribute of a character (represented by a dictionary) """ 
@@ -67,6 +67,24 @@ Now what happens when we call get_strength(legolas)?  No more KeyError :) We han
 
     >>> get_strength(legolas)
     Oh no! No STR attribute found.
+
+We can even add a **finally** block that executes after both the try and except. Sometimes we want to do something regardless of what occurs during execution - put this in the **finally** section. 
+
+    def get_strength(character_dict): 
+    """ Returns the STR attribute of a character (represented by a dictionary) """ 
+    strength = None
+    try: 
+        strength = character_dict['STR']
+    except KeyError: 
+        print("Oh no! No STR attribute found.") 
+    finally: 
+        print("Performed STR lookup")
+    return strength
+
+    >>> g_str = get_strength(gimli)
+    Performed STR lookup
+    >>> g_str
+    20
 
 ## Wrapping up
 
