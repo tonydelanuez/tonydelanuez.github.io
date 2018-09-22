@@ -1,7 +1,7 @@
 ---
 title: "Revamping this blog"
 layout: post
-date: 2017-09-21 12:00
+date: 2018-09-21 12:00
 tag: 
 - meta
 headerImage: false
