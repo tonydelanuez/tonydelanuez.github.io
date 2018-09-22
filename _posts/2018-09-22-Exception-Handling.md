@@ -69,7 +69,7 @@ Now what happens when we call get_strength(legolas)?  No more KeyError :) We han
     Oh no! No STR attribute found.
 
 We can even add a **finally** block that executes after both the try and except. Sometimes we want to do something regardless of what occurs during execution - put this in the **finally** section. 
-
+    ```
     def get_strength(character_dict): 
     """ Returns the STR attribute of a character (represented by a dictionary) """ 
     strength = None
@@ -85,6 +85,7 @@ We can even add a **finally** block that executes after both the try and except.
     Performed STR lookup
     >>> g_str
     20
+    ```
 
 ## Wrapping up
 
