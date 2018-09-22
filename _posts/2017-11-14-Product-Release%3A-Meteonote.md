@@ -1,5 +1,5 @@
 ---
-title: ":book: I'm Releasing Meteonote.io!"
+title: ":book: Meteonote.io"
 layout: post
 date: 2017-11-14 08:10
 tag: 
