@@ -3,7 +3,8 @@ title: "Exception Handling - Why it matters and how to start!"
 layout: post
 date: 2018-09-22 12:00
 tag: 
-- meta
+- python
+- productive
 headerImage: false
 projects: false
 hidden: false # don't count this post in blog pagination
