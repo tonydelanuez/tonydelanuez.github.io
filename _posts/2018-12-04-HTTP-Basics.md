@@ -33,16 +33,7 @@ externalLink: false
 
 A frame begins with a fixed 9-octet header followed by a variable-length payload: 
 
-
-+-----------------------------------------------+
-|                 Length (24)                   |
-+---------------+---------------+---------------+
-|   Type (8)    |   Flags (8)   |
-+-+-------------+---------------+-------------------------------+
-|R|                 Stream Identifier (31)                      |
-+=+=============================================================+
-|                   Frame Payload (0...)                      ...
-+---------------------------------------------------------------+
+![HTTP Frame]('https://isc.sans.edu/diaryimages/images/http2(1).png')
 
 Length: length of the payload as an unsigned 24-bit integer
 Type: 8-bit type of the frame.
