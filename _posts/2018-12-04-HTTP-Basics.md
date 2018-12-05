@@ -31,30 +31,41 @@ externalLink: false
 
 ## HTTP Frames
 
-A frame begins with a fixed 9-octet header followed by a variable-length payload: 
-
-![HTTP Frame]('https://isc.sans.edu/diaryimages/images/http2(1).png')
+A frame begins with a fixed 9-octet header followed by a variable-length payload. A closer look at the fields: 
 
 Length: length of the payload as an unsigned 24-bit integer
+
 Type: 8-bit type of the frame.
+
 Flags: 8-bit field reserved for boolean flags specific to frame type
+
 R: Reserved 1-bit field
+
 Stream Identifier: unsigned 31-bit 
+
+Payload
 
 ## HTTP Requests: 
 
 Requests consist of: 
 HTTP Method: GET/POST/PUT/DELETE, etc. that defines the operation the client wants to perform
+
 Path: path of resource to fetch - URL of the resource without protocol, domain, or port. 
+
 Version: version of the HTTP protocol
+
 Optional headers or body
 
 ## HTTP Responses: 
 
 Version: version of the HTTP protocol
+
 Status code: indicating success/why or why not
+
 Status message: description of status code
+
 HTTP headers
+
 (optional) Body: contains the fetched resource
 
 HTTP requests are usually what you'll use to communicate with a website or an API! 
