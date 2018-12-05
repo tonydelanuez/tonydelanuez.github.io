@@ -32,6 +32,8 @@ externalLink: false
 ## HTTP Frames
 
 A frame begins with a fixed 9-octet header followed by a variable-length payload: 
+
+
 +-----------------------------------------------+
 |                 Length (24)                   |
 +---------------+---------------+---------------+
