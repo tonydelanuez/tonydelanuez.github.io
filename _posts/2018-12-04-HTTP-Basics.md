@@ -43,7 +43,7 @@ R: Reserved 1-bit field
 
 Stream Identifier: unsigned 31-bit 
 
-Payload
+Payload: the representation of some resource - consists of metadata in the form of header fields and data in the form of sequences of octets. 
 
 ## HTTP Requests: 
 
