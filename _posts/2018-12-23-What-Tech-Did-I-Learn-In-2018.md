@@ -57,7 +57,7 @@ I'm trying to pick up Golang as a systems language; I get to use Python at work 
 I've also spent a significant amount of time creating bots that interact with websites exactly as a user would using Python's [Selenium](https://selenium-python.readthedocs.io) library. This library allows you to write Python (or JavaScript) that controls a browser. It's **excellent** for scripting workflows, web scraping, and even as a tool to monitor your service's functionality. 
 
 ### Infrastructure
-- AWS
+- AWS + provisioning resources with Terraform
 - Caching (Redis)
 - Message Brokers/Queues:  Redis, RabbitMQ, SQS
 - Databases (and Postgres): 
