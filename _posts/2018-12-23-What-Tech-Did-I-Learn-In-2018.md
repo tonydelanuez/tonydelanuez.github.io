@@ -69,3 +69,5 @@ In building scalable, resilient systems, I've had the ability to learn about clo
 
 I look at a **ton** of dashboards while at work. This is an interesting one - at school I was never really exposed to monitoring applications and this definitely took me by surprise. Crafting excellent (yet concise enough) monitoring dashboards and alerts (and choosing the right metrics!) is an art I'm consistently amazed at. The [Google SRE Book](https://landing.google.com/sre/books/) does a great job at explaining how you can pick metrics that are meaningful and expose potential problems. 
 
+
+*Feel free to leave a comment if you'd like some resources on any of these areas or want to share what you've studied*
