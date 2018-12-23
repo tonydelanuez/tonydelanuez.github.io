@@ -19,6 +19,9 @@ externalLink: false
 
 Inspired by [this HackerNews post](https://news.ycombinator.com/item?id=18745763), I've decided to reflect on the technologies I've learned or improved on this year. 
 
+2018 has been a great year for learning: I finished my degrees at WashU and St. Mary's College and started my full-time career as a Site Reliability Engineer at Atlassian. My job enables (and requires) me to keep learning at all times as the infrastructure engineering landscape can be a scary place full of monsters for a new grad. Here's a bit of what I've studied from Jan - Dec. 
+
+
 ### Linux: 
 - Networking
 - Syscalls
