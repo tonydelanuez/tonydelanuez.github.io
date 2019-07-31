@@ -17,64 +17,26 @@ Once school started back up, I hired some people from our forums to take care of
 </p>
 
 
-<h2> Employment </h2>
+<h2> What do I do? </h2>
+<p>
+Currently I'm a software engineer at Atlassian where I work on the security of Bitbucket.
+</p>
+
+<h2> What have I done? </h2>
 <ul class="skill-list">
-	<li><strong>Site Reliability Engineer @ Atlassian</strong></li>
+	<li><strong>Software Engineer @ Atlassian</strong></li>
+	<li>Site Reliability Engineer @ Atlassian </li>
 	<li>Instructor and Head TA @ Washington University in St. Louis </li>
 	<li>Software Developer @ Cornell Consulting</li>
 	<li>Summer Analyst @ BlackRock</li>
 	<li>5x Engineering Intern @ E&J Gallo Winery</li>
 </ul>
 
-<h2> Education </h2>
+<h2> What'd I study? </h2>
 <ul class="skill-list">
 	<li>MS Computer Science, Washington University in St. Louis (2018)</li>
 	<li>Master's Focus in Data Science, Embedded Systems</li>
 	<li>BS Computer Engineering, Washington University in St. Louis (2018)</li>
 	<li>BS Computer Science, Washington University in St. Louis (2018)</li>
 	<li>BA Liberal Arts (Physics Focus), St. Mary's College of California (2015)</li>
-</ul>
-<h2> Skills </h2>
-<h3> Programming Languages </h3>
-<ul class="skill-list">
-	<li>Java</li>
-	<li>JavaScript</li>
-    <li>Python</li>
-    <li>PHP</li>
-    <li>Swift</li>
-	<li>C</li>
-	<li>x86 Assembly</li>
-	<li>C++</li>
-</ul>
-<h3>DevOps</h3>
-<ul class="skill-list">
-	<li>Monitoring/Logging with Statsd + Datadog</li>
-	<li>Node.js</li>
-	<li>Linux / Unix </li>
-	<li>Bash</li>
-	<li>AWS (EC2 + S3)</li>
-	<li>Docker</li>
-	<li>Jenkins</li>
-</ul>
-<h3> Web & JavaScript Frameworks/Libraries </h3>
-<ul class="skill-list">
-	<li>HTML5</li>
-	<li>CSS3 + Bootstrap, Foundation</li>
-	<li>AngularJS</li>
-	<li>Angular2</li>
-	<li>ReactJS</li>
-	<li>Socket.IO</li>
-	<li>ExpressJS</li>
-</ul>
-<h3> Databases </h3>
-<ul class="skill-list">
-	<li>SQL: MySQL, PostgreSQL, T-SQL</li>
-	<li>NoSQL & JSON: MongoDB, Firebase </li>
-</ul>
-<h3> Data Science </h3>
-<ul class="skill-list">
-	<li>Hadoop MapReduce</li>
-	<li>Apache Spark</li>
-	<li>MATLAB</li>
-	<li>scikit-learn</li>
 </ul>

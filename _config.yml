@@ -1,9 +1,9 @@
 # main text of home
 name: Tony De La Nuez
-bio: Full-Stack Engineer.
+bio: Software Developer.
 
 # twitter summary info
-description: The inside of my brain, outside. 
+# description: The inside of my brain, outside. 
 
 # if it's an external image, update below for true
 # better with square images
@@ -37,7 +37,7 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: tony.delanuez
+# facebook: tony.delanuez
 twitter: tdelanuez
 # google: mygoogle
 instagram: tonydelanuez
@@ -56,7 +56,7 @@ email: tony.delanuez@gmail.com
 authors:
     tony:
         name: Tony De La nuez
-        bio: Site Reliability Engineer @ Atlassian. Interested in software development, infrastructure, games. 
+        bio: Software Engineer @ Atlassian. Security and Infrastructure.
         external-image: false
         picture: assets/images/profile.jpg
         twitter: tdelanuez
