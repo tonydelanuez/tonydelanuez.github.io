@@ -1,5 +1,5 @@
 ---
-title: ":book: Meteonote.io"
+title: "Thoughts on Building a Note-Taking App with a Markdown Renderer and YouTube Integration"
 layout: post
 date: 2017-11-14 08:10
 tag: 
@@ -16,15 +16,14 @@ headerImage: false
 projects: true
 hidden: false # don't count this post in blog pagination
 description: "Meteonote allows you to make playlists of YouTube videos and take Markdown notes that render while you type. You can queue up a few videos, take notes in the editor, and when you're done, export your notes in a PDF. Or you can save your progress and come back later!"
-category: project
+category: blog
 author: tony
 externalLink: false
 ---
 # Meteonote.io Post-Mortem
 
-I just released the beta for [Meteonote.io](https://meteonote.io), and I'm writing to explain a bit about how it went down - starting from idea phase, turning that idea into a prototype, then refining the prototype and turning it into something that I felt I could show off to others. 
-
-This wasn't without hurdles and there are definitely still bugs in the site and things to be improved on, but at this point in time I think the app is in a stage where people can get some use out of it. In fact, I'm typing this in the app itself!
+I built a web application called Meteonote [Meteonote.io](https://meteonote.io), and I'm writing to explain a bit about how it went down. As of 2019, it's no longer available but I'm leaving this up to talk through my development process - starting from idea phase, turning that idea into a prototype, then refining the prototype and turning it into something that I felt I could show off to others. 
+Take everything in this post as past-tense. 
 
 ## What is Meteonote? 
 Meteonote allows you to make playlists of YouTube videos and take Markdown notes that render while you type. You can queue up a few videos, take notes in the editor, and when you're done, export your notes in a PDF. Or you can save your progress and come back later!

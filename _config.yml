@@ -1,6 +1,6 @@
 # main text of home
 name: Tony De La Nuez
-bio: Software Developer.
+bio: Software/Security.
 
 # twitter summary info
 # description: The inside of my brain, outside. 
@@ -40,7 +40,7 @@ disqus:
 # facebook: tony.delanuez
 twitter: tdelanuez
 # google: mygoogle
-instagram: tonydelanuez
+# instagram: tonydelanuez
 # pinterest: mypinterest
 linkedin: tonydelanuez
 # youtube: myyoutube
@@ -51,7 +51,7 @@ github: tonydelanuez
 # reddit: username
 # medium: medium
 # vimeo: myvimeo
-email: tony.delanuez@gmail.com
+# email: tony.delanuez@gmail.com
 
 authors:
     tony:
@@ -77,7 +77,7 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
 about: true

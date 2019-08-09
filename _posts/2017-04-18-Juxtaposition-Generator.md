@@ -1,5 +1,5 @@
 ---
-title: ":laughing: Juxtaposition Generator"
+title: "Juxtaposition Generator - The Result of me Learning Web Scraping"
 layout: post
 date: 2017-04-18 10:10
 tag: 
@@ -11,10 +11,10 @@ tag:
 - Beautiful Soup
 image: https://tonydelanuez.com/assets/images/app-previews/juxtapositiongenerator.png
 headerImage: false
-projects: true
-hidden: true # don't count this post in blog pagination
+projects: false
+hidden: false # don't count this post in blog pagination
 description: "Web application written in Python and JavaScript that generates combinations of comments from an adult video website and inspirational wallpapers from reddit.com."
-category: project
+category: blog
 author: tony
 externalLink: false
 ---
