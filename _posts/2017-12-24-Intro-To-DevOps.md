@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intro To DevOps
+title: Intro To (some) Common DevOps/SRE Tooling and Ideologies
 date: 2017-12-24 11:28
 tag:
 - DevOps
