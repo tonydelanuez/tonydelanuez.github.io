@@ -1,5 +1,5 @@
 ---
-title: "Attacking Android - Quick Notes Reverse Engineering Android Applications"
+title: "Attacking Android - Quick Notes on Reverse Engineering Android Applications"
 layout: post
 date: 2019-10-28 12:00
 tag: 
