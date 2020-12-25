@@ -12,7 +12,7 @@ headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "Escape From Ashton Lab is a game developed in GML(Game Maker Language)."
-category: project
+category: blog
 author: tony
 externalLink: false
 ---

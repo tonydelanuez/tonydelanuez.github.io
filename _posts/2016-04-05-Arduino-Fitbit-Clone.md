@@ -12,7 +12,7 @@ headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "Arduino fitness tracker with PC communication protocol, step, sleep, and temperature tracking, user interface"
-category: project
+category: blog
 author: tony
 externalLink: false
 ---

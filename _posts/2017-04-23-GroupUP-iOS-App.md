@@ -13,7 +13,7 @@ headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "An iOS application (built in Swift 3) designed to help students at WUSTL create, find, and communicate with groups around them"
-category: project
+category: blog
 author: tony
 externalLink: false
 ---
