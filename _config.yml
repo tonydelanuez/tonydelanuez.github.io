@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: /assets/TonyDeLaNuez_Resume.pdf
 
-url: https://tonydelanuez.com
+url: https://tonydelanuez.github.io
 # your url: http://tonydelanuez.com
 
 permalink: /:title/
