@@ -8,7 +8,7 @@ tag:
 - java
 headerImage: false
 projects: false
-hidden: false # don't count this post in blog pagination
+hidden: true # don't count this post in blog pagination
 description: "In this post I keep notes on tools I use to enumerate and reverse engineer Android applications"
 category: blog
 author: tony

@@ -12,7 +12,7 @@ tag:
 image: https://tonydelanuez.com/assets/images/app-previews/juxtapositiongenerator.png
 headerImage: false
 projects: false
-hidden: false # don't count this post in blog pagination
+hidden: true # don't count this post in blog pagination
 description: "Web application written in Python and JavaScript that generates combinations of comments from an adult video website and inspirational wallpapers from reddit.com."
 category: blog
 author: tony

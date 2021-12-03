@@ -7,7 +7,7 @@ tag:
 - productive
 headerImage: false
 projects: false
-hidden: false # don't count this post in blog pagination
+hidden: true # don't count this post in blog pagination
 description: "In this post I discuss try/catch in Python, and how/when we may do this in production-ready code."
 category: blog
 author: tony

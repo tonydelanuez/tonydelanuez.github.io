@@ -7,6 +7,7 @@ tag:
 - Web Development
 - REST APIs
 category: blog
+hidden: true
 author: tony
 description: A case study on the usage of cURL vs file_get_contents() in order to consume a REST API.
 

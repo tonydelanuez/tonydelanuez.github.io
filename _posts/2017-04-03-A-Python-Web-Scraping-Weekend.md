@@ -11,6 +11,7 @@ tag:
 
 category: blog
 author: tony
+hidden: true
 description: A recap on my weekend where I decided to expand my Python skills; I experimented with web scraping, converting CSV to JSON, running Python scripts (and setting up scheduled events) on a Node.js server, and sending data from the server to client entirely in JavaScript.  
 
 ---

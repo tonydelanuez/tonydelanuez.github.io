@@ -100,7 +100,7 @@ Explanation of Divide-and-Conquer Relations ([Credit: Greg Baker, Simon Fraser U
 
 **Mergesort on n objects: *O(nlogn)***
 
-## How to Reason Through Reccurences
+## How to Reason Through Recurrences
 
 > T(n) = T(n-1) + 6
 
