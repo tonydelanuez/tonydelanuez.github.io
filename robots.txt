@@ -1,1 +1,3 @@
-Sitemap: http://tonydelanuez.com/sitemap.xml
+User-agent: *
+Disallow:
+Sitemap: https://tdoot.com/sitemap.xml
