@@ -5,8 +5,8 @@
     <link>https://tdoot.com/tags/</link>
     <description>Recent content in Tags on tdoot&#39;s odd little bazaar</description>
     <image>
-      <url>https://tdoot.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://tdoot.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://tdoot.com/images/pictures/portrait.jpg</url>
+      <link>https://tdoot.com/images/pictures/portrait.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 21 Jun 2022 19:41:40 -0500</lastBuildDate><atom:link href="https://tdoot.com/tags/index.xml" rel="self" type="application/rss+xml" />
