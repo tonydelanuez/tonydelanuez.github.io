@@ -1,7 +1,7 @@
 baseURL: "https://tdoot.com/"
 title: tdoot's odd little bazaar
 paginate: 5
-theme: PaperMod
+theme: papermod
 
 enableRobotsTXT: true
 buildDrafts: false
