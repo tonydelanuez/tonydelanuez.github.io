@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on tdoot&#39;s odd little bazaar</title>
+    <link>https://tdoot.com/tags/</link>
+    <description>Recent content in Tags on tdoot&#39;s odd little bazaar</description>
+    <image>
+      <url>https://tdoot.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://tdoot.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 21 Jun 2022 19:41:40 -0500</lastBuildDate><atom:link href="https://tdoot.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bnpl</title>
+      <link>https://tdoot.com/tags/bnpl/</link>
+      <pubDate>Tue, 21 Jun 2022 19:41:40 -0500</pubDate>
+      
+      <guid>https://tdoot.com/tags/bnpl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>finance</title>
+      <link>https://tdoot.com/tags/finance/</link>
+      <pubDate>Tue, 21 Jun 2022 19:41:40 -0500</pubDate>
+      
+      <guid>https://tdoot.com/tags/finance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personalfinance</title>
+      <link>https://tdoot.com/tags/personalfinance/</link>
+      <pubDate>Tue, 21 Jun 2022 19:41:40 -0500</pubDate>
+      
+      <guid>https://tdoot.com/tags/personalfinance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
