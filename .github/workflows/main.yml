@@ -30,6 +30,6 @@ jobs:
           #   keep_files: true
           user_name: tonydelanuez
           user_email: tony.delanuez@gmail.com
-          publish_branch: master
+          publish_branch: main
           cname: tdoot.com
         #   cname: example.com
