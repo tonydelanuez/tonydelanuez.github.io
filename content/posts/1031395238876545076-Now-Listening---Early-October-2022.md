@@ -1,14 +1,10 @@
-
 ---
 title: Now Listening - Early October 2022
-
 date: 2022-10-17 02:36:28.306598368 UTC
-
 draft: false
-
 author: "Tony"
 tags: []
-categories: []
+categories: ['music']
 ---
 
 
