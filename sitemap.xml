@@ -11,13 +11,7 @@
     <loc>https://tdoot.com/categories/</loc>
     <lastmod>2022-06-21T19:41:40-05:00</lastmod>
   </url><url>
-    <loc>https://tdoot.com/tags/finance/</loc>
-    <lastmod>2022-06-21T19:41:40-05:00</lastmod>
-  </url><url>
-    <loc>https://tdoot.com/tags/personalfinance/</loc>
-    <lastmod>2022-06-21T19:41:40-05:00</lastmod>
-  </url><url>
-    <loc>https://tdoot.com/categories/personalfinance/</loc>
+    <loc>https://tdoot.com/categories/personal-finance/</loc>
     <lastmod>2022-06-21T19:41:40-05:00</lastmod>
   </url><url>
     <loc>https://tdoot.com/posts/</loc>
@@ -32,6 +26,11 @@
     <loc>https://tdoot.com/</loc>
     <lastmod>2022-06-21T19:41:40-05:00</lastmod>
   </url><url>
-    <loc>https://tdoot.com/posts/1031395238876545076-now-listening---early-october-2022/</loc>
+    <loc>https://tdoot.com/tags/tech/</loc>
+    <lastmod>2022-06-21T19:41:40-05:00</lastmod>
+  </url><url>
+    <loc>https://tdoot.com/categories/music/</loc>
+  </url><url>
+    <loc>https://tdoot.com/posts/now-listening--early-october-2022/</loc>
   </url>
 </urlset>
