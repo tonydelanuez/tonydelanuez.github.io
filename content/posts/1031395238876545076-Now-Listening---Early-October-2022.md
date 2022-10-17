@@ -14,7 +14,7 @@ categories: []
 
 [King Buffalo - Regenerator](https://open.spotify.com/album/3xArGf5JGYwsFcWIo62v4w?si=8bbc53e738144601)
 
-[Rickshaw Billie's Burger Patrol](https://open.spotify.com/album/0ytnRFhM63sEzmTyeQf8YR?si=vxMHwbSlRBCQZsCSjn7dSA)
+[Rickshaw Billie's Burger Patrol - Doom Wop](https://open.spotify.com/album/0ytnRFhM63sEzmTyeQf8YR?si=vxMHwbSlRBCQZsCSjn7dSA)
 
 Psychedelic/stoner/doom metal. [King Buffalo](https://kingbuffalo.com/) is more psychedelic, while [Rickshaw Billie's Burger Patrol](https://rickshawbilliesburgerpatrol.com/) is in-your-face gravely metal fronted by a dude who plays the hell out of an 8-string guitar. And they're from Austin!
 
