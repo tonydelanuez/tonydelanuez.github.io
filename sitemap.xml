@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tdoot.com/posts/</loc>
+    <lastmod>2022-10-17T21:14:37-05:00</lastmod>
+  </url><url>
+    <loc>https://tdoot.com/</loc>
+    <lastmod>2022-10-17T21:14:37-05:00</lastmod>
+  </url><url>
+    <loc>https://tdoot.com/posts/testing-newest-release/</loc>
+    <lastmod>2022-10-17T21:14:37-05:00</lastmod>
+  </url><url>
     <loc>https://tdoot.com/tags/bnpl/</loc>
     <lastmod>2022-06-21T19:41:40-05:00</lastmod>
   </url><url>
@@ -14,16 +23,10 @@
     <loc>https://tdoot.com/categories/personal-finance/</loc>
     <lastmod>2022-06-21T19:41:40-05:00</lastmod>
   </url><url>
-    <loc>https://tdoot.com/posts/</loc>
-    <lastmod>2022-06-21T19:41:40-05:00</lastmod>
-  </url><url>
     <loc>https://tdoot.com/categories/rant/</loc>
     <lastmod>2022-06-21T19:41:40-05:00</lastmod>
   </url><url>
     <loc>https://tdoot.com/tags/</loc>
-    <lastmod>2022-06-21T19:41:40-05:00</lastmod>
-  </url><url>
-    <loc>https://tdoot.com/</loc>
     <lastmod>2022-06-21T19:41:40-05:00</lastmod>
   </url><url>
     <loc>https://tdoot.com/tags/tech/</loc>

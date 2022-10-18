@@ -9,7 +9,18 @@
       <link>https://tdoot.com/images/pictures/portrait.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 21 Jun 2022 19:41:40 -0500</lastBuildDate><atom:link href="https://tdoot.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Oct 2022 21:14:37 -0500</lastBuildDate><atom:link href="https://tdoot.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing newest release</title>
+      <link>https://tdoot.com/posts/testing-newest-release/</link>
+      <pubDate>Mon, 17 Oct 2022 21:14:37 -0500</pubDate>
+      
+      <guid>https://tdoot.com/posts/testing-newest-release/</guid>
+      <description>Check!
+Yet another post
+blah blah</description>
+    </item>
+    
     <item>
       <title>buy now pay later is predatory</title>
       <link>https://tdoot.com/posts/bnpl-is-predatory/</link>
