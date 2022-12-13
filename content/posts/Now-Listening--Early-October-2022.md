@@ -5,6 +5,8 @@ draft: false
 author: "Tony"
 tags: []
 categories: ['music']
+searchHidden: true
+hiddenInHomeList: true
 ---
 
 
