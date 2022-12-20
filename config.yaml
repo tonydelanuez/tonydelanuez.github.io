@@ -81,8 +81,10 @@ params:
       url: "https://twitter.com/tdelanuez"
     - name: github
       url: "https://github.com/tonydelanuez"
-    - name: discord
-      url: "https://smithingsoftware.com/discord"
+    - name: goodreads
+      url: "https://literal.club/tdoot"
+    - name: flickr
+      url: "https://flickr.com/tonydelanuez"
 
 
   analytics:
