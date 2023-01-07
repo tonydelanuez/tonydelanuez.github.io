@@ -15,6 +15,8 @@ minify:
   minifyOutput: true
 
 params:
+  mainSections:
+  - blog
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: tdoot's odd little bazaar
   description: "keep your expectations low and i may surprise you"
@@ -26,12 +28,12 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -126,8 +128,8 @@ menu:
       url: /tags/
       weight: 20
     - identifier: SmithingSoftware
-      name: my software newsletter
-      url: https://smithingsoftware.com
+      name: photos
+      url: /categories/photography
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
