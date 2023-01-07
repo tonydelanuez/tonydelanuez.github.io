@@ -2,28 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tdoot.com/photography/</loc>
+    <lastmod>2023-01-07T11:20:52-05:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://tdoot.com/photography/senbon-torii-2018/</loc>
+    <lastmod>2023-01-07T11:20:52-05:00</lastmod>
+  </url><url>
+    <loc>https://tdoot.com/categories/</loc>
+    <lastmod>2023-01-07T11:20:52-05:00</lastmod>
+  </url><url>
+    <loc>https://tdoot.com/tags/japan/</loc>
+    <lastmod>2023-01-07T11:20:52-05:00</lastmod>
+  </url><url>
+    <loc>https://tdoot.com/categories/photography/</loc>
+    <lastmod>2023-01-07T11:20:52-05:00</lastmod>
+  </url><url>
+    <loc>https://tdoot.com/tags/</loc>
+    <lastmod>2023-01-07T11:20:52-05:00</lastmod>
+  </url><url>
+    <loc>https://tdoot.com/</loc>
+    <lastmod>2023-01-07T11:20:52-05:00</lastmod>
+  </url><url>
+    <loc>https://tdoot.com/photography/sunset-at-redondo-beach-2015/</loc>
+    <lastmod>2023-01-07T11:02:26-05:00</lastmod>
+  </url><url>
+    <loc>https://tdoot.com/tags/beach/</loc>
+    <lastmod>2023-01-07T11:02:26-05:00</lastmod>
+  </url><url>
+    <loc>https://tdoot.com/tags/sunset/</loc>
+    <lastmod>2023-01-07T11:02:26-05:00</lastmod>
+  </url><url>
+    <loc>https://tdoot.com/blog/</loc>
+    <lastmod>2022-06-21T19:41:40-05:00</lastmod>
+    <priority>0</priority>
+  </url><url>
     <loc>https://tdoot.com/tags/bnpl/</loc>
     <lastmod>2022-06-21T19:41:40-05:00</lastmod>
   </url><url>
-    <loc>https://tdoot.com/posts/bnpl-is-predatory/</loc>
-    <lastmod>2022-06-21T19:41:40-05:00</lastmod>
-  </url><url>
-    <loc>https://tdoot.com/categories/</loc>
+    <loc>https://tdoot.com/blog/bnpl-is-predatory/</loc>
     <lastmod>2022-06-21T19:41:40-05:00</lastmod>
   </url><url>
     <loc>https://tdoot.com/categories/personal-finance/</loc>
     <lastmod>2022-06-21T19:41:40-05:00</lastmod>
   </url><url>
-    <loc>https://tdoot.com/posts/</loc>
-    <lastmod>2022-06-21T19:41:40-05:00</lastmod>
-  </url><url>
     <loc>https://tdoot.com/categories/rant/</loc>
-    <lastmod>2022-06-21T19:41:40-05:00</lastmod>
-  </url><url>
-    <loc>https://tdoot.com/tags/</loc>
-    <lastmod>2022-06-21T19:41:40-05:00</lastmod>
-  </url><url>
-    <loc>https://tdoot.com/</loc>
     <lastmod>2022-06-21T19:41:40-05:00</lastmod>
   </url><url>
     <loc>https://tdoot.com/tags/tech/</loc>
