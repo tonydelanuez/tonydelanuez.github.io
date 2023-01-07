@@ -3,8 +3,8 @@ title: "buy now pay later is predatory"
 date: 2022-06-21T19:41:40-05:00
 draft: false
 author: "Tony"
-tags: ['bnpl', 'tech']
-categories: ['rant', 'personal-finance']
+tags: ['bnpl', 'tech', 'rant']
+categories: ['blog']
 ---
 
 There, I said it.

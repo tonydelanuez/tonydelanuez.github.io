@@ -17,6 +17,7 @@ minify:
 params:
   mainSections:
   - blog
+  - photography
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: tdoot's odd little bazaar
   description: "keep your expectations low and i may surprise you"
@@ -75,14 +76,19 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "heads up"
-    Content: these are my scattered thoughts - no money back guarantee here.
+    Title: "here be dragons"
+    Content: |
+      these are my scattered thoughts - no money back guarantee here.
+
+      you can also find me on [cohost](https://cohost.org/tdoot)
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/tdelanuez"
     - name: github
       url: "https://github.com/tonydelanuez"
+    - name: mastodon
+      url: "https://macaw.social/@tdoot"
+    - name: twitter
+      url: "https://twitter.com/tdelanuez"
     - name: goodreads
       url: "https://literal.club/tdoot"
     - name: flickr
@@ -119,18 +125,22 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: blog
+      name: blog
+      url: /categories/blog
+      weight: 1
+    - identifier: photography
+      name: photos
+      url: /categories/photography
+      weight: 2
     - identifier: categories
       name: categories
       url: /categories/
-      weight: 10
+      weight: 3
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
-    - identifier: SmithingSoftware
-      name: photos
-      url: /categories/photography
-      weight: 30
+      weight: 4
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

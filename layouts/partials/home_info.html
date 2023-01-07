@@ -1,0 +1,18 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content">
+        {{ .Content | markdownify }}
+    </div>
+    <div class="entry-content">
+        <h3>Currently reading</h3>
+        <div id="literal-widget" handle="tdoot" status="IS_READING" layout="list"></div>
+        <script src="https://literal.club/js/widget.js"></script>
+    </div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" site.Params.socialIcons }}
+    </footer>
+</article>
+{{- end -}}
