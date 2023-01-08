@@ -1,5 +1,5 @@
 ---
-title: "📷 senbon torii (thousand torii gates) kyoto, japan - jul 2018"
+title: "senbon torii (thousand torii gates) kyoto, japan - jul 2018"
 date: 2023-01-07T11:20:52-05:00
 draft: false
 author: "Tony"

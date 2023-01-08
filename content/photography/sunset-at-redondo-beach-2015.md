@@ -1,5 +1,5 @@
 ---
-title: "📷 sunset at redondo beach - dec 2015"
+title: "sunset at redondo beach - dec 2015"
 date: 2023-01-07T11:02:26-05:00
 draft: false
 author: "Tony"
