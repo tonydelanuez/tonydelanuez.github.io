@@ -13,7 +13,7 @@ For the last two months or so I've been hacking on projects related to Magic the
 
 Long gone are the days of playing League of Legends or Hearthstone late into the night on this badboy. Years ago it met its forever home when I shoved it into a cigarette-smoke stained retro TV I bought off of Facebook marketplace from two folks who were seemingly running a nursery out of their tiny apartment here in Austin.  I was originally going to retrofit the TV into a dry bar, then while removing some of the (non-working) internals I remembered a wet bar was fantastically useless to someone who doesn't drink. Now it holds my [router](https://www.bhphotovideo.com/c/product/1519029-REG/ubiquiti_networks_udm_us_unifi_dream_machine.html/overview?ap=y&ap=y&smp=y&smp=y&lsft=BI%3A5451&gad_source=1&gclid=Cj0KCQiAv8SsBhC7ARIsALIkVT3kxaLn9E22_aENHzBoRC35hKKIcNglzkvx7AU3Hyc2M_mOE1rsf40aAiU2EALw_wcB).
 
-![my retro tv](/images/pictures/bionicles.webp)
+![my retro tv](/images/pictures/retro-tv.jpg)
 
 Anyways, onto the lab setup.
 
