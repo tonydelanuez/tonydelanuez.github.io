@@ -1,5 +1,5 @@
 ---
-title: "doing k8s on the cheap - my "new" homelab"
+title: "doing k8s on the cheap - my \"new\" homelab"
 date: 2023-12-31T18:11:22-05:00
 draft: false
 author: "Tony"
