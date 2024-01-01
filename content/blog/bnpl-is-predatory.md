@@ -1,13 +1,11 @@
 ---
-title: "buy now pay later is predatory"
+title: "why i'm not excited about buy now pay later"
 date: 2022-06-21T19:41:40-05:00
 draft: false
 author: "Tony"
-tags: ['bnpl', 'tech', 'rant']
+tags: ['bnpl', 'tech']
 categories: ['blog']
 ---
-
-There, I said it.
 
 It's a system (sigh) built on getting people to buy things they can't reasonably afford through the veil of "it's only X a month."
 Unnecessary consumer debt sets people up to fail by putting them on a treadmill of excess consumption they believe is under control.
