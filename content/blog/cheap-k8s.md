@@ -50,7 +50,7 @@ Tailscale let me set up a [mesh network](https://tailscale.com/blog/how-tailscal
 
 It's important to note that by default this will lock your setup to traffic **only** on the Tailscale network - this was not what I wanted as I'm running a hobby app [Decked](https://app.decked.gg) on the cluster. To make the k8s master available to the internet, make sure you set the `--advertise-address` and `--node-external-ip` to the external/public IP of the node or else you'll be forever stuck in Tailscale land. This tripped me up for way longer than I'd care to admit.
 
-k3s comes with [traefik](https://traefik.io/traefik/) installed by default as a system service so in order to get some services publicly (and securely) available on the internet all I had to do was set up [cert-manager](https://cert-manager.io/) for certificates and Cloudflare as my CDN / load balancer and create an Ingress for the Service to make it reachable from outside the cluster. 
+k3s comes with [traefik](https://traefik.io/traefik/) installed by default as a system service so in order to get some services publicly (and securely) available on the internet all I had to do was set up [cert-manager](https://cert-manager.io/) for certificates, throw the k8s master behind Cloudflare as a CDN and create an Ingress for the Service to make it reachable from outside the cluster. 
 
 This setup has been fun to work on, but for now, I'm happy to set it and forget it while I work on building stuff that actually runs on it
 
