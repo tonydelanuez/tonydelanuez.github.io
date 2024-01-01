@@ -9,7 +9,25 @@
       <link>https://tdoot.com/images/pictures/portrait.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 07 Jan 2023 11:20:52 -0500</lastBuildDate><atom:link href="https://tdoot.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Dec 2023 18:11:22 -0500</lastBuildDate><atom:link href="https://tdoot.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kubernetes</title>
+      <link>https://tdoot.com/tags/kubernetes/</link>
+      <pubDate>Sun, 31 Dec 2023 18:11:22 -0500</pubDate>
+      
+      <guid>https://tdoot.com/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://tdoot.com/tags/tech/</link>
+      <pubDate>Sun, 31 Dec 2023 18:11:22 -0500</pubDate>
+      
+      <guid>https://tdoot.com/tags/tech/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>japan</title>
       <link>https://tdoot.com/tags/japan/</link>
@@ -43,24 +61,6 @@
       <pubDate>Tue, 21 Jun 2022 19:41:40 -0500</pubDate>
       
       <guid>https://tdoot.com/tags/bnpl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rant</title>
-      <link>https://tdoot.com/tags/rant/</link>
-      <pubDate>Tue, 21 Jun 2022 19:41:40 -0500</pubDate>
-      
-      <guid>https://tdoot.com/tags/rant/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://tdoot.com/tags/tech/</link>
-      <pubDate>Tue, 21 Jun 2022 19:41:40 -0500</pubDate>
-      
-      <guid>https://tdoot.com/tags/tech/</guid>
       <description></description>
     </item>
     

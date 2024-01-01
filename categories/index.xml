@@ -9,22 +9,22 @@
       <link>https://tdoot.com/images/pictures/portrait.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 07 Jan 2023 11:20:52 -0500</lastBuildDate><atom:link href="https://tdoot.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Dec 2023 18:11:22 -0500</lastBuildDate><atom:link href="https://tdoot.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://tdoot.com/categories/blog/</link>
+      <pubDate>Sun, 31 Dec 2023 18:11:22 -0500</pubDate>
+      
+      <guid>https://tdoot.com/categories/blog/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>photography</title>
       <link>https://tdoot.com/categories/photography/</link>
       <pubDate>Sat, 07 Jan 2023 11:20:52 -0500</pubDate>
       
       <guid>https://tdoot.com/categories/photography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://tdoot.com/categories/blog/</link>
-      <pubDate>Tue, 21 Jun 2022 19:41:40 -0500</pubDate>
-      
-      <guid>https://tdoot.com/categories/blog/</guid>
       <description></description>
     </item>
     
