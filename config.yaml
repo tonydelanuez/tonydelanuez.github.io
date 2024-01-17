@@ -76,19 +76,15 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "here be dragons"
+    Title: "nothing to see here"
     Content: |
-      these are my scattered thoughts - no money back guarantee here.
-
-      you can also find me on [cohost](https://cohost.org/tdoot)
+      if you're sticking around i hope you like reading about magic the gathering or infrastructure.
 
   socialIcons:
     - name: github
       url: "https://github.com/tonydelanuez"
     - name: mastodon
       url: "https://macaw.social/@tdoot"
-    - name: twitter
-      url: "https://twitter.com/tdelanuez"
     - name: goodreads
       url: "https://literal.club/tdoot"
     - name: flickr
