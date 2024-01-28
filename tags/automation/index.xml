@@ -8,11 +8,12 @@
       <url>https://tdoot.com/images/pictures/portrait.jpg</url>
       <link>https://tdoot.com/images/pictures/portrait.jpg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://tdoot.com/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 28 Jan 2024 00:17:57 -0500</lastBuildDate><atom:link href="https://tdoot.com/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>building nightly ghost blog backups</title>
       <link>https://tdoot.com/blog/nightly-ghost-backups/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 Jan 2024 00:17:57 -0500</pubDate>
       
       <guid>https://tdoot.com/blog/nightly-ghost-backups/</guid>
       <description>Back in grad school I used to make some extra cash by coaching and writing articles about Hearthstone (an online collectible card game made by Blizzard). I primarily wrote &amp;ldquo;deck techs&amp;rdquo;, guides that explained how to play the most powerful and consistent decks that were dominating the scene. I loved this job, it was a surprisingly technical creative outlet and paid for the occasional treat meals at my favorite restaurant in St.</description>

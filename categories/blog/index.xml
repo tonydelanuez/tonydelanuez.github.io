@@ -9,7 +9,16 @@
       <link>https://tdoot.com/images/pictures/portrait.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 31 Dec 2023 18:11:22 -0500</lastBuildDate><atom:link href="https://tdoot.com/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Jan 2024 00:17:57 -0500</lastBuildDate><atom:link href="https://tdoot.com/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>building nightly ghost blog backups</title>
+      <link>https://tdoot.com/blog/nightly-ghost-backups/</link>
+      <pubDate>Sun, 28 Jan 2024 00:17:57 -0500</pubDate>
+      
+      <guid>https://tdoot.com/blog/nightly-ghost-backups/</guid>
+      <description>Back in grad school I used to make some extra cash by coaching and writing articles about Hearthstone (an online collectible card game made by Blizzard). I primarily wrote &amp;ldquo;deck techs&amp;rdquo;, guides that explained how to play the most powerful and consistent decks that were dominating the scene. I loved this job, it was a surprisingly technical creative outlet and paid for the occasional treat meals at my favorite restaurant in St.</description>
+    </item>
+    
     <item>
       <title>doing k8s on the cheap - my &#34;new&#34; homelab</title>
       <link>https://tdoot.com/blog/cheap-k8s/</link>
@@ -27,15 +36,6 @@
       <guid>https://tdoot.com/blog/bnpl-is-predatory/</guid>
       <description>It&amp;rsquo;s a system (sigh) built on getting people to buy things they can&amp;rsquo;t reasonably afford through the veil of &amp;ldquo;it&amp;rsquo;s only X a month.&amp;rdquo; Unnecessary consumer debt sets people up to fail by putting them on a treadmill of excess consumption they believe is under control.
 Sticker shock is a good thing. If you see the price tag of something and it has your head reeling, there&amp;rsquo;s probably a good reason you shouldn&amp;rsquo;t be buying it.</description>
-    </item>
-    
-    <item>
-      <title>building nightly ghost blog backups</title>
-      <link>https://tdoot.com/blog/nightly-ghost-backups/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tdoot.com/blog/nightly-ghost-backups/</guid>
-      <description>Back in grad school I used to make some extra cash by coaching and writing articles about Hearthstone (an online collectible card game made by Blizzard). I primarily wrote &amp;ldquo;deck techs&amp;rdquo;, guides that explained how to play the most powerful and consistent decks that were dominating the scene. I loved this job, it was a surprisingly technical creative outlet and paid for the occasional treat meals at my favorite restaurant in St.</description>
     </item>
     
   </channel>
