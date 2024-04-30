@@ -127,7 +127,7 @@ menu:
       weight: 1
     - identifier: photography
       name: photos
-      url: /categories/photography
+      url: /photos
       weight: 2
     - identifier: categories
       name: categories
