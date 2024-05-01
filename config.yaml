@@ -78,7 +78,7 @@ params:
   homeInfoParams:
     Title: "nothing to see here"
     Content: |
-      if you're sticking around i hope you like reading about magic the gathering or infrastructure.
+      if you're sticking around i hope you like reading about magic the gathering or cloud infrastructure.
 
   socialIcons:
     - name: github
@@ -125,7 +125,7 @@ menu:
       name: blog
       url: /categories/blog
       weight: 1
-    - identifier: photography
+    - identifier: photos
       name: photos
       url: /photos
       weight: 2
