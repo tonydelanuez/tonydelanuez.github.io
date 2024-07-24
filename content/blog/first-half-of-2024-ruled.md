@@ -6,6 +6,7 @@ author: "Tony"
 tags: ['magic', 'personal']
 categories: ['blog']
 ---
+*in roughly chronological order...*
 
 got convinced by friends to start a magic the gathering team. took it from 6 -> 20 people
 ![magic 512](/images/pictures/h1-2024/team.jpg)
