@@ -18,7 +18,7 @@ got engaged to my college sweetheart and the love of my life
 
 took a trip to Japan where I played in 12+ magic tournaments, got invited to dinner with locals, and found my best man
 ![proposal](/images/pictures/h1-2024/tokyo_group.jpg)
-*left to right: new tokyo magic friend, best man, me*
+*left to right: new tokyo magic friend, me, best man*
 
 got a motorcycle
 ![motorcycle](/images/pictures/h1-2024/motorcycle.jpg)
