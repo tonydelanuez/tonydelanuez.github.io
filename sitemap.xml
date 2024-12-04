@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tdoot.com/thoughts/full-circle-microblog/</loc>
+    <lastmod>2024-12-03T20:34:29-06:00</lastmod>
+  </url><url>
+    <loc>https://tdoot.com/</loc>
+    <lastmod>2024-12-03T20:34:29-06:00</lastmod>
+  </url><url>
+    <loc>https://tdoot.com/thoughts/</loc>
+    <lastmod>2024-12-03T20:34:29-06:00</lastmod>
+  </url><url>
     <loc>https://tdoot.com/blog/</loc>
     <lastmod>2024-08-28T20:23:00-05:00</lastmod>
     <priority>0</priority>
@@ -19,9 +28,6 @@
     <lastmod>2024-08-28T20:23:00-05:00</lastmod>
   </url><url>
     <loc>https://tdoot.com/tags/</loc>
-    <lastmod>2024-08-28T20:23:00-05:00</lastmod>
-  </url><url>
-    <loc>https://tdoot.com/</loc>
     <lastmod>2024-08-28T20:23:00-05:00</lastmod>
   </url><url>
     <loc>https://tdoot.com/blog/first-half-of-2024-ruled/</loc>
