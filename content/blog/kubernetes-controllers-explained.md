@@ -1,6 +1,9 @@
 ---
 title: "kubernetes controllers explained - how your cluster stays in line"
 date: 2024-12-13T15:39:45-06:00
+author: "Tony"
+tags: ['kubernetes']
+categories: ['blog']
 draft: false
 ---
 
