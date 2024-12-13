@@ -9,7 +9,16 @@
       <link>https://tdoot.com/images/pictures/portrait.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 28 Aug 2024 20:23:00 -0500</lastBuildDate><atom:link href="https://tdoot.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Dec 2024 15:39:45 -0600</lastBuildDate><atom:link href="https://tdoot.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kubernetes</title>
+      <link>https://tdoot.com/tags/kubernetes/</link>
+      <pubDate>Fri, 13 Dec 2024 15:39:45 -0600</pubDate>
+      
+      <guid>https://tdoot.com/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>fitness</title>
       <link>https://tdoot.com/tags/fitness/</link>
@@ -61,15 +70,6 @@
       <pubDate>Sun, 28 Jan 2024 00:17:57 -0500</pubDate>
       
       <guid>https://tdoot.com/tags/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kubernetes</title>
-      <link>https://tdoot.com/tags/kubernetes/</link>
-      <pubDate>Sun, 31 Dec 2023 18:11:22 -0500</pubDate>
-      
-      <guid>https://tdoot.com/tags/kubernetes/</guid>
       <description></description>
     </item>
     

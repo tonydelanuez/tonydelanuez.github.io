@@ -9,7 +9,18 @@
       <link>https://tdoot.com/images/pictures/portrait.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 28 Aug 2024 20:23:00 -0500</lastBuildDate><atom:link href="https://tdoot.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Dec 2024 15:39:45 -0600</lastBuildDate><atom:link href="https://tdoot.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kubernetes controllers explained - how your cluster stays in line</title>
+      <link>https://tdoot.com/blog/kubernetes-controllers-explained/</link>
+      <pubDate>Fri, 13 Dec 2024 15:39:45 -0600</pubDate>
+      
+      <guid>https://tdoot.com/blog/kubernetes-controllers-explained/</guid>
+      <description>Controllers aren&amp;rsquo;t just add-ons to Kubernetes - they&amp;rsquo;re fundamental to how the whole system works. They&amp;rsquo;re the caretakers of your cluster, overseeing and orchestrating processes to ensure your defined resources stay on track. Whether it&amp;rsquo;s maintaining pod replicas, managing rolling updates, or handling node lifecycles, controllers are there making sure things run smoothly.
+The Kubernetes documentation explains their job as follows:
+In Kubernetes, controllers are control loops that watch the state of your cluster, then make or request changes where needed.</description>
+    </item>
+    
     <item>
       <title>building a home gym</title>
       <link>https://tdoot.com/blog/building-a-home-gym/</link>
