@@ -1,6 +1,6 @@
 ---
 date: 2025-01-19T10:57:43-06:00
-draft: true
+draft: false
 ---
 
 After listening to the "Man Enough" podcast episode on men's groups with John Wineland, picked up this book from one of the hosts. Surprisingly hadn't heard of her before but I'm halfway through and thoroughly enjoying it.
