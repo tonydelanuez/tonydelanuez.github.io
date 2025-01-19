@@ -129,9 +129,9 @@ menu:
       name: photos
       url: /photos
       weight: 2
-    - identifier: thoughts 
-      name: thoughts 
-      url: /thoughts/
+    - identifier: life
+      name: life 
+      url: /life/
       weight: 3
     # - identifier: categories
     #   name: categories
@@ -144,6 +144,9 @@ menu:
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
     # anchorLineNos: true

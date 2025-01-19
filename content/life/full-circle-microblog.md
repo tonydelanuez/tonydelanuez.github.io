@@ -1,7 +1,7 @@
 ---
 title: "2024-12-03 20:34"
 date: 2024-12-03T20:34:29-06:00
-type: "thought"
+type: "life"
 ---
 hugo posts feel like a terrible way to implement a microblog, but here goes.
 
