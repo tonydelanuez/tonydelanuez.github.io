@@ -1,5 +1,5 @@
 baseURL: "https://tdoot.com/"
-title: tdoot's odd little bazaar
+title: tony de la nuez' personal blog
 paginate: 5
 theme: papermod
 
@@ -19,7 +19,7 @@ params:
   - blog
   - photography
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: tdoot's odd little bazaar
+  title: tony de la nuez' personal blog
   description: "keep your expectations low and i may surprise you"
   keywords: [Blog, Portfolio, Technology"]
   author: Me
