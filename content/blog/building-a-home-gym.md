@@ -1,5 +1,5 @@
 ---
-title: "building a home gym"
+title: "My home gym primer"
 date: 2024-08-28T20:23:00-05:00
 draft: false
 author: "Tony"

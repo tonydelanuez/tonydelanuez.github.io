@@ -55,7 +55,7 @@ params:
     safari_pinned_tab: "/images/icons/apple-touch-icon.png"
 
   label:
-    text: "Home"
+    text: "tdoot"
     icon: /images/icons/apple-touch-icon.png
     iconHeight: 35
 
@@ -129,6 +129,10 @@ menu:
       name: photos
       url: /photos
       weight: 2
+    # - identifier: reading
+    #   name: reading
+    #   url: /reading
+    #   weight: 3
     - identifier: life
       name: life 
       url: /life/
@@ -137,10 +141,10 @@ menu:
     #   name: categories
     #   url: /categories/
     #   weight: 4
-    # - identifier: tags
-    #   name: tags
-    #   url: /tags/
-    #   weight: 5
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 4
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

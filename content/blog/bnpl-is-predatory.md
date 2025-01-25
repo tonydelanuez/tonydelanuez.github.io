@@ -1,5 +1,5 @@
 ---
-title: "why i'm not excited about buy now pay later"
+title: "Why I'm not excited about buy now pay later"
 date: 2022-06-21T19:41:40-05:00
 draft: false
 author: "Tony"

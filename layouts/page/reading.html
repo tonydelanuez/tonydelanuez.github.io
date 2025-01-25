@@ -1,0 +1,14 @@
+{{ define "main" }}
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="entry-content">
+            <a href="https://literal.club/tdoot"><h3>currently reading</h3></a>
+            <div id="literal-widget" handle="tdoot" status="IS_READING" layout="list"></div>
+            <script src="/js/literal-widget.js"></script>
+        </div>
+        <div class="col-lg-8">{{ .Content }}
+        </div>
+    </div>
+</div>
+{{ end }}

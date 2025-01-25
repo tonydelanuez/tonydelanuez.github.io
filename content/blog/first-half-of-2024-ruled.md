@@ -1,5 +1,5 @@
 ---
-title: "first half of 2024 ruled"
+title: "First half of 2024 ruled"
 date: 2024-07-23T10:00:00-05:00
 draft: false
 author: "Tony"

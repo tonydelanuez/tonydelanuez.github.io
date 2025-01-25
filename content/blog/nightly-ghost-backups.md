@@ -1,5 +1,5 @@
 ---
-title: "building nightly ghost blog backups"
+title: "Building nightly ghost blog backups"
 date: 2024-01-28T00:17:57-05:00
 draft: false
 author: "Tony"
