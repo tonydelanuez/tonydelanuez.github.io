@@ -27,10 +27,10 @@
     <loc>https://tdoot.com/categories/blog/</loc>
     <lastmod>2024-12-13T17:50:05-06:00</lastmod>
   </url><url>
-    <loc>https://tdoot.com/blog/building-solid-kubernetes-controllers/</loc>
+    <loc>https://tdoot.com/categories/</loc>
     <lastmod>2024-12-13T17:50:05-06:00</lastmod>
   </url><url>
-    <loc>https://tdoot.com/categories/</loc>
+    <loc>https://tdoot.com/blog/building-solid-kubernetes-controllers/</loc>
     <lastmod>2024-12-13T17:50:05-06:00</lastmod>
   </url><url>
     <loc>https://tdoot.com/tags/kubernetes/</loc>
@@ -45,10 +45,10 @@
     <loc>https://tdoot.com/life/full-circle-microblog/</loc>
     <lastmod>2024-12-03T20:34:29-06:00</lastmod>
   </url><url>
-    <loc>https://tdoot.com/blog/building-a-home-gym/</loc>
+    <loc>https://tdoot.com/tags/fitness/</loc>
     <lastmod>2024-08-28T20:23:00-05:00</lastmod>
   </url><url>
-    <loc>https://tdoot.com/tags/fitness/</loc>
+    <loc>https://tdoot.com/blog/building-a-home-gym/</loc>
     <lastmod>2024-08-28T20:23:00-05:00</lastmod>
   </url><url>
     <loc>https://tdoot.com/blog/first-half-of-2024-ruled/</loc>
@@ -84,5 +84,7 @@
     <loc>https://tdoot.com/bytes/</loc>
   </url><url>
     <loc>https://tdoot.com/photos/</loc>
+  </url><url>
+    <loc>https://tdoot.com/reading/</loc>
   </url>
 </urlset>

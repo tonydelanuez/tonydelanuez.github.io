@@ -11,7 +11,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 13 Dec 2024 17:50:05 -0600</lastBuildDate><atom:link href="https://tdoot.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building Solid Kubernetes Controllers</title>
+      <title>Fundamentals for solid kubernetes controllers</title>
       <link>https://tdoot.com/blog/building-solid-kubernetes-controllers/</link>
       <pubDate>Fri, 13 Dec 2024 17:50:05 -0600</pubDate>
       
@@ -22,7 +22,7 @@ You can absolutely build a controller from scratch using client-go (and sometime
     </item>
     
     <item>
-      <title>kubernetes controllers explained - how your cluster stays in line</title>
+      <title>Kubernetes controllers explained</title>
       <link>https://tdoot.com/blog/kubernetes-controllers-explained/</link>
       <pubDate>Fri, 13 Dec 2024 15:39:45 -0600</pubDate>
       
@@ -33,7 +33,7 @@ In Kubernetes, controllers are control loops that watch the state of your clust
     </item>
     
     <item>
-      <title>building a home gym</title>
+      <title>My home gym primer</title>
       <link>https://tdoot.com/blog/building-a-home-gym/</link>
       <pubDate>Wed, 28 Aug 2024 20:23:00 -0500</pubDate>
       
@@ -42,7 +42,7 @@ In Kubernetes, controllers are control loops that watch the state of your clust
     </item>
     
     <item>
-      <title>first half of 2024 ruled</title>
+      <title>First half of 2024 ruled</title>
       <link>https://tdoot.com/blog/first-half-of-2024-ruled/</link>
       <pubDate>Tue, 23 Jul 2024 10:00:00 -0500</pubDate>
       
@@ -54,7 +54,7 @@ took a trip to Japan where I played in 12+ magic tournaments, got invited to din
     </item>
     
     <item>
-      <title>building nightly ghost blog backups</title>
+      <title>Building nightly ghost blog backups</title>
       <link>https://tdoot.com/blog/nightly-ghost-backups/</link>
       <pubDate>Sun, 28 Jan 2024 00:17:57 -0500</pubDate>
       
@@ -63,7 +63,7 @@ took a trip to Japan where I played in 12+ magic tournaments, got invited to din
     </item>
     
     <item>
-      <title>doing k8s on the cheap - my &#34;new&#34; homelab</title>
+      <title>Doing kubernetes on the cheap</title>
       <link>https://tdoot.com/blog/cheap-k8s/</link>
       <pubDate>Sun, 31 Dec 2023 18:11:22 -0500</pubDate>
       
@@ -72,7 +72,7 @@ took a trip to Japan where I played in 12+ magic tournaments, got invited to din
     </item>
     
     <item>
-      <title>why i&#39;m not excited about buy now pay later</title>
+      <title>Why I&#39;m not excited about buy now pay later</title>
       <link>https://tdoot.com/blog/bnpl-is-predatory/</link>
       <pubDate>Tue, 21 Jun 2022 19:41:40 -0500</pubDate>
       
