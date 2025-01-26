@@ -1,12 +1,15 @@
 baseURL: "https://tdoot.com/"
 title: tony de la nuez' personal blog
-paginate: 5
 theme: papermod
 
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+
+pagination:
+  enabled: true
+  pagerSize: 5
 
 googleAnalytics: G-Y62CJP0177
 
@@ -83,14 +86,16 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/tonydelanuez"
+    - name: bluesky
+      url: "https://bsky.app/profile/tdoot.bsky.social"
+    - name: youtube
+      url: "https://www.youtube.com/@itstdoot"
+    - name: tiktok
+      url: "https://www.tiktok.com/@itstdoot"
+    - name: instagram
+      url: "https://www.instagram.com/itstdoot"
     - name: twitter
       url: "https://twitter.com/tdoot_"
-    - name: goodreads
-      url: "https://literal.club/tdoot"
-    - name: flickr
-      url: "https://flickr.com/tonydelanuez"
-
-
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
