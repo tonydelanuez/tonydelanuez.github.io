@@ -4,7 +4,7 @@ date: 2024-01-28T00:17:57-05:00
 draft: false
 author: "Tony"
 tags: ['tech', 'automation', 'ghost']
-categories: ['blog']
+categories: ['writing']
 ---
 
 Back in grad school I used to make some extra cash by coaching and writing articles about [Hearthstone](https://hearthstone.blizzard.com/en-us) (an online collectible card game made by Blizzard). I primarily wrote "deck techs", guides that explained how to play the most powerful and consistent decks that were dominating the scene. I loved this job, it was a surprisingly technical creative outlet and paid for the occasional treat meals at my favorite restaurant in St. Louis, [Salt n Smoke.](https://www.saltandsmokebbq.com/)

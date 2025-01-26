@@ -4,7 +4,7 @@ date: 2022-06-21T19:41:40-05:00
 draft: false
 author: "Tony"
 tags: ['bnpl', 'tech']
-categories: ['blog']
+categories: ['writing']
 ---
 
 It's a system (sigh) built on getting people to buy things they can't reasonably afford through the veil of "it's only X a month."

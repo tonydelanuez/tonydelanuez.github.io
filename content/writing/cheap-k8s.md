@@ -4,7 +4,7 @@ date: 2023-12-31T18:11:22-05:00
 draft: false
 author: "Tony"
 tags: ['tech', 'kubernetes']
-categories: ['blog']
+categories: ['writing']
 ---
 
 Most SRE-aligned engineers will tell you they have a home lab. Depending on how grey the beard is, it may be an old blade they acquired when a company moved data centers, an intricate setup of Raspberry Pi 4s set up in a custom cooling rack, or like me and many others, it may just be an old gaming computer they no longer use but cannot bring themselves to get rid of. Whatever it may be, it's usually used for learning, tinkering, or to run some of the [/r/selfhosted](https://reddit.com/r/selfhosted) favorites.

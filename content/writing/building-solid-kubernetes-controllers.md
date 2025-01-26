@@ -4,7 +4,7 @@ date: 2024-12-13T17:50:05-06:00
 draft: false
 author: "Tony"
 tags: ['kubernetes']
-categories: ['blog']
+categories: ['writing']
 draft: false
 ---
 

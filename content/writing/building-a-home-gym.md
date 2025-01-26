@@ -4,7 +4,7 @@ date: 2024-08-28T20:23:00-05:00
 draft: false
 author: "Tony"
 tags: ['fitness']
-categories: ['blog']
+categories: ['writing']
 ---
 
 Recently a friend asked for my recommendations for home gym equipment as they wanted to start building out theirs. Little do they know I've spent way too many hours thinking about this. My home gym is nothing special but it keeps me healthy, out of commercial gyms, and never leaves me wishing I had more equipment. I like to think that's due to making the right choices on how to fill it.

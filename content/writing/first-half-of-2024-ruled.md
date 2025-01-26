@@ -4,7 +4,7 @@ date: 2024-07-23T10:00:00-05:00
 draft: false
 author: "Tony"
 tags: ['magic', 'personal']
-categories: ['blog']
+categories: ['writing']
 ---
 *in roughly chronological order...*
 

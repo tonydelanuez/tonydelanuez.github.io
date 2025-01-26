@@ -19,13 +19,13 @@ minify:
 
 params:
   mainSections:
-  - blog
+  - writing
   - photography
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: tony de la nuez' personal blog
   description: "keep your expectations low and i may surprise you"
-  keywords: [Blog, Portfolio, Technology"]
-  author: Me
+  keywords: [Blog, Portfolio, Technology, "Software Engineering", "Kubernetes", "Platform Engineering", "Infrastructure", "Security", "Career Development"]
+  author: Tony
   # author: ["Me", "You"] # multiple authors
   images: ["/images/pictures/portrait.jpg"]
   DateFormat: "January 2, 2006"
@@ -126,9 +126,9 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: blog
-      name: blog
-      url: /categories/blog
+    - identifier: writing
+      name: writing
+      url: /categories/writing
       weight: 1
     - identifier: photos
       name: photos
