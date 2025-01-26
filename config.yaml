@@ -29,8 +29,8 @@ params:
   # author: ["Me", "You"] # multiple authors
   images: ["/images/pictures/portrait.jpg"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  defaultTheme: dark # dark, light
+  disableThemeToggle: true
 
   ShowReadingTime: false
   ShowShareButtons: true
@@ -58,9 +58,9 @@ params:
     safari_pinned_tab: "/images/icons/apple-touch-icon.png"
 
   label:
-    text: "tdoot"
+    text: "tony de la nuez"
     icon: /images/icons/apple-touch-icon.png
-    iconHeight: 35
+    iconHeight: 15
 
   # profile-mode
   profileMode:
