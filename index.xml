@@ -5,157 +5,146 @@
     <link>https://tdoot.com/</link>
     <description>Recent content on tony de la nuez&#39; personal blog</description>
     <image>
+      <title>tony de la nuez&#39; personal blog</title>
       <url>https://tdoot.com/images/pictures/portrait.jpg</url>
       <link>https://tdoot.com/images/pictures/portrait.jpg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Jan 2025 21:21:30 -0600</lastBuildDate><atom:link href="https://tdoot.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Jan 2025 21:21:30 -0600</lastBuildDate>
+    <atom:link href="https://tdoot.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://tdoot.com/life/espresso/</link>
       <pubDate>Mon, 20 Jan 2025 21:21:30 -0600</pubDate>
-      
       <guid>https://tdoot.com/life/espresso/</guid>
-      <description>put together a small tool to help people with their espresso math.</description>
+      <description>&lt;p&gt;put together a small tool to help people with their espresso math.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://espresso.tdoot.com&#34;&gt;&lt;img src=&#34;https://tdoot.com/images/pictures/espresso.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://tdoot.com/life/for-the-love-of-men/</link>
       <pubDate>Sun, 19 Jan 2025 10:57:43 -0600</pubDate>
-      
       <guid>https://tdoot.com/life/for-the-love-of-men/</guid>
-      <description>After listening to the &amp;ldquo;Man Enough&amp;rdquo; podcast episode on men&amp;rsquo;s groups with John Wineland, picked up this book from one of the hosts. Surprisingly hadn&amp;rsquo;t heard of her before but I&amp;rsquo;m halfway through and thoroughly enjoying it. Reading about these issues has been interesting and resonates with my experiences having been in hyper-masculine environments (college sports, paintball, etc). I&amp;rsquo;m glad there are books like this that support healthy discussions of men&amp;rsquo;s issues for all of society to benefit.</description>
+      <description>&lt;p&gt;After listening to the &amp;ldquo;Man Enough&amp;rdquo; podcast episode on men&amp;rsquo;s groups with John Wineland, picked up this book from one of the hosts. Surprisingly hadn&amp;rsquo;t heard of her before but I&amp;rsquo;m halfway through and thoroughly enjoying it. Reading about these issues has been interesting and resonates with my experiences having been in hyper-masculine environments (college sports, paintball, etc). I&amp;rsquo;m glad there are books like this that support healthy discussions of men&amp;rsquo;s issues for all of society to benefit.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://tdoot.com/life/back-to-paintball/</link>
       <pubDate>Sat, 18 Jan 2025 20:48:07 -0600</pubDate>
-      
       <guid>https://tdoot.com/life/back-to-paintball/</guid>
-      <description>started playing paintball again after nearly two years of &amp;ldquo;retirement&amp;rdquo;.
-joined Cap City Charge, a team started by the guy who ran my old team and has a lot of familiar faces.</description>
+      <description>&lt;p&gt;started playing paintball again after nearly two years of &amp;ldquo;retirement&amp;rdquo;.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;joined &lt;a href=&#34;https://instagram.com/capcitycharge&#34;&gt;Cap City Charge&lt;/a&gt;, a team started by the guy who ran my old team and has a lot of familiar faces.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img alt=&#34;cap city charge stretching&#34; loading=&#34;lazy&#34; src=&#34;https://tdoot.com/images/pictures/charge-stretch.jpg&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2025-01-15 21:35</title>
       <link>https://tdoot.com/life/mens-groups/</link>
       <pubDate>Wed, 15 Jan 2025 21:35:54 -0600</pubDate>
-      
       <guid>https://tdoot.com/life/mens-groups/</guid>
-      <description>came across a podcast episode discussing what I think is a healthy view of supportive male friendships.</description>
+      <description>&lt;p&gt;came across a podcast episode discussing what I think is a healthy view of supportive male friendships.&lt;/p&gt;
+&lt;br&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ToFvjI2YlQA?si=qFbA_hMR4NtlgNru&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
-    
     <item>
       <title>Fundamentals for solid kubernetes controllers</title>
       <link>https://tdoot.com/blog/building-solid-kubernetes-controllers/</link>
       <pubDate>Fri, 13 Dec 2024 17:50:05 -0600</pubDate>
-      
       <guid>https://tdoot.com/blog/building-solid-kubernetes-controllers/</guid>
-      <description>In the last post, I explained the utility and purpose of Kubernetes Controllers. This post will explain how to build them, and how to think about designing them. We&amp;rsquo;ll go into Controller patterns, anti-patterns, and sharp edges of the model that you&amp;rsquo;re bound to run into.
-controller-runtime - use it. Or don&amp;rsquo;t, I don&amp;rsquo;t care. It&amp;rsquo;ll probably help though.
-You can absolutely build a controller from scratch using client-go (and sometimes that makes sense), but most of the time you should just get started with controller-runtime.</description>
+      <description>&lt;p&gt;In the last post, I explained the utility and purpose of Kubernetes Controllers. This post will explain how to build them, and how to think about designing them. We&amp;rsquo;ll go into Controller patterns, anti-patterns, and sharp edges of the model that you&amp;rsquo;re bound to run into.&lt;/p&gt;
+&lt;h1 id=&#34;controller-runtime---use-it&#34;&gt;controller-runtime - use it.&lt;/h1&gt;
+&lt;p&gt;Or don&amp;rsquo;t, I don&amp;rsquo;t care. It&amp;rsquo;ll probably help though.&lt;/p&gt;
+&lt;p&gt;You can absolutely build a controller from scratch using &lt;code&gt;client-go&lt;/code&gt; (and sometimes that makes sense), but most of the time you should just get started with &lt;a href=&#34;https://github.com/kubernetes-sigs/controller-runtime&#34;&gt;controller-runtime&lt;/a&gt;. It provides a batteries-included approach to handling &lt;strong&gt;typical&lt;/strong&gt; Kubernetes controller patterns and gives you everything you need when it comes to things like leader election (you want HA, right?), metrics &amp;amp; events, caching, and even webhook setup and serving. When you just need to watch some resources and have your controller reconcile some state when the resource changes, &lt;code&gt;controller-runtime&lt;/code&gt; is awesome.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Kubernetes controllers explained</title>
       <link>https://tdoot.com/blog/kubernetes-controllers-explained/</link>
       <pubDate>Fri, 13 Dec 2024 15:39:45 -0600</pubDate>
-      
       <guid>https://tdoot.com/blog/kubernetes-controllers-explained/</guid>
-      <description>Controllers aren&amp;rsquo;t just add-ons to Kubernetes - they&amp;rsquo;re fundamental to how the whole system works. They&amp;rsquo;re the caretakers of your cluster, overseeing and orchestrating processes to ensure your defined resources stay on track. Whether it&amp;rsquo;s maintaining pod replicas, managing rolling updates, or handling node lifecycles, controllers are there making sure things run smoothly.
-The Kubernetes documentation explains their job as follows:
-In Kubernetes, controllers are control loops that watch the state of your cluster, then make or request changes where needed.</description>
+      <description>&lt;p&gt;Controllers aren&amp;rsquo;t just add-ons to Kubernetes - they&amp;rsquo;re fundamental to how the whole system works. They&amp;rsquo;re the caretakers of your cluster, overseeing and orchestrating processes to ensure your defined resources stay on track. Whether it&amp;rsquo;s &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/replicaset/replica_set.go&#34;&gt;maintaining pod replicas&lt;/a&gt;, &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/deployment/deployment_controller.go&#34;&gt;managing rolling updates&lt;/a&gt;, or &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/nodelifecycle/node_lifecycle_controller.go&#34;&gt;handling node lifecycles&lt;/a&gt;, controllers are there making sure things run smoothly.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://kubernetes.io/docs/concepts/architecture/controller/&#34;&gt;Kubernetes documentation&lt;/a&gt; explains their job as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In Kubernetes, controllers are control loops that watch the state of your &lt;a href=&#34;https://kubernetes.io/docs/reference/glossary/?all=true#term-cluster&#34;&gt;cluster&lt;/a&gt;, then make or request changes where needed. Each controller tries to move the current cluster state closer to the desired state.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2024-12-03 20:34</title>
       <link>https://tdoot.com/life/full-circle-microblog/</link>
       <pubDate>Tue, 03 Dec 2024 20:34:29 -0600</pubDate>
-      
       <guid>https://tdoot.com/life/full-circle-microblog/</guid>
-      <description>hugo posts feel like a terrible way to implement a microblog, but here goes.
-hugo files
-theme css (still need to sync this fork)
-surely this gets me to write here more often</description>
+      <description>&lt;p&gt;hugo posts feel like a terrible way to implement a microblog, but here goes.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/tonydelanuez/tonydelanuez.github.io/commit/38d81a4308e0cb8dbeecdc16ee3e4baf43be6ba1&#34;&gt;hugo files&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/tonydelanuez/hugo-PaperMod/commit/45283af9cc6646c98a4e4a20578915f783e3a91b&#34;&gt;theme css (still need to sync this fork)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;surely this gets me to write here more often&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My home gym primer</title>
       <link>https://tdoot.com/blog/building-a-home-gym/</link>
       <pubDate>Wed, 28 Aug 2024 20:23:00 -0500</pubDate>
-      
       <guid>https://tdoot.com/blog/building-a-home-gym/</guid>
-      <description>Recently a friend asked for my recommendations for home gym equipment as they wanted to start building out theirs. Little do they know I&amp;rsquo;ve spent way too many hours thinking about this. My home gym is nothing special but it keeps me healthy, out of commercial gyms, and never leaves me wishing I had more equipment. I like to think that&amp;rsquo;s due to making the right choices on how to fill it.</description>
+      <description>&lt;p&gt;Recently a friend asked for my recommendations for home gym equipment as they wanted to start building out theirs. Little do they know I&amp;rsquo;ve spent way too many hours thinking about this. My home gym is nothing special but it keeps me healthy, out of commercial gyms, and never leaves me wishing I had more equipment. I like to think that&amp;rsquo;s due to making the right choices on how to fill it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>First half of 2024 ruled</title>
       <link>https://tdoot.com/blog/first-half-of-2024-ruled/</link>
       <pubDate>Tue, 23 Jul 2024 10:00:00 -0500</pubDate>
-      
       <guid>https://tdoot.com/blog/first-half-of-2024-ruled/</guid>
-      <description>in roughly chronological order&amp;hellip;
-got convinced by friends to start a magic the gathering team. took it from 6 -&amp;gt; 20 people not everyone pictured
-got engaged to my college sweetheart and the love of my life been waiting a while for this one.
-took a trip to Japan where I played in 12+ magic tournaments, got invited to dinner with locals, and found my best man left to right: new tokyo magic friend, me, best man</description>
+      <description>&lt;p&gt;&lt;em&gt;in roughly chronological order&amp;hellip;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;got convinced by friends to start a magic the gathering team. took it from 6 -&amp;gt; 20 people
+&lt;img alt=&#34;magic 512&#34; loading=&#34;lazy&#34; src=&#34;https://tdoot.com/images/pictures/h1-2024/team.jpg&#34;&gt;
+&lt;em&gt;not everyone pictured&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;got engaged to my college sweetheart and the love of my life
+&lt;img alt=&#34;proposal&#34; loading=&#34;lazy&#34; src=&#34;https://tdoot.com/images/pictures/h1-2024/proposal.jpg&#34;&gt;
+&lt;em&gt;been waiting a while for this one.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;took a trip to Japan where I played in 12+ magic tournaments, got invited to dinner with locals, and found my best man
+&lt;img alt=&#34;proposal&#34; loading=&#34;lazy&#34; src=&#34;https://tdoot.com/images/pictures/h1-2024/tokyo_group.jpg&#34;&gt;
+&lt;em&gt;left to right: new tokyo magic friend, me, best man&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Building nightly ghost blog backups</title>
       <link>https://tdoot.com/blog/nightly-ghost-backups/</link>
       <pubDate>Sun, 28 Jan 2024 00:17:57 -0500</pubDate>
-      
       <guid>https://tdoot.com/blog/nightly-ghost-backups/</guid>
-      <description>Back in grad school I used to make some extra cash by coaching and writing articles about Hearthstone (an online collectible card game made by Blizzard). I primarily wrote &amp;ldquo;deck techs&amp;rdquo;, guides that explained how to play the most powerful and consistent decks that were dominating the scene. I loved this job, it was a surprisingly technical creative outlet and paid for the occasional treat meals at my favorite restaurant in St.</description>
+      <description>&lt;p&gt;Back in grad school I used to make some extra cash by coaching and writing articles about &lt;a href=&#34;https://hearthstone.blizzard.com/en-us&#34;&gt;Hearthstone&lt;/a&gt; (an online collectible card game made by Blizzard). I primarily wrote &amp;ldquo;deck techs&amp;rdquo;, guides that explained how to play the most powerful and consistent decks that were dominating the scene. I loved this job, it was a surprisingly technical creative outlet and paid for the occasional treat meals at my favorite restaurant in St. Louis, &lt;a href=&#34;https://www.saltandsmokebbq.com/&#34;&gt;Salt n Smoke.&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Doing kubernetes on the cheap</title>
       <link>https://tdoot.com/blog/cheap-k8s/</link>
       <pubDate>Sun, 31 Dec 2023 18:11:22 -0500</pubDate>
-      
       <guid>https://tdoot.com/blog/cheap-k8s/</guid>
-      <description>Most SRE-aligned engineers will tell you they have a home lab. Depending on how grey the beard is, it may be an old blade they acquired when a company moved data centers, an intricate setup of Raspberry Pi 4s set up in a custom cooling rack, or like me and many others, it may just be an old gaming computer they no longer use but cannot bring themselves to get rid of.</description>
+      <description>&lt;p&gt;Most SRE-aligned engineers will tell you they have a home lab. Depending on how grey the beard is, it may be an old blade they acquired when a company moved data centers, an intricate setup of Raspberry Pi 4s set up in a custom cooling rack, or like me and many others, it may just be an old gaming computer they no longer use but cannot bring themselves to get rid of. Whatever it may be, it&amp;rsquo;s usually used for learning, tinkering, or to run some of the &lt;a href=&#34;https://reddit.com/r/selfhosted&#34;&gt;/r/selfhosted&lt;/a&gt; favorites.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Why I&#39;m not excited about buy now pay later</title>
       <link>https://tdoot.com/blog/bnpl-is-predatory/</link>
       <pubDate>Tue, 21 Jun 2022 19:41:40 -0500</pubDate>
-      
       <guid>https://tdoot.com/blog/bnpl-is-predatory/</guid>
-      <description>It&amp;rsquo;s a system (sigh) built on getting people to buy things they can&amp;rsquo;t reasonably afford through the veil of &amp;ldquo;it&amp;rsquo;s only X a month.&amp;rdquo; Unnecessary consumer debt sets people up to fail by putting them on a treadmill of excess consumption they believe is under control.
-Sticker shock is a good thing. If you see the price tag of something and it has your head reeling, there&amp;rsquo;s probably a good reason you shouldn&amp;rsquo;t be buying it.</description>
+      <description>&lt;p&gt;It&amp;rsquo;s a system (sigh) built on getting people to buy things they can&amp;rsquo;t reasonably afford through the veil of &amp;ldquo;it&amp;rsquo;s only X a month.&amp;rdquo;
+Unnecessary consumer debt sets people up to fail by putting them on a treadmill of excess consumption they believe is under control.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Dude falling off of treadmill&#34; loading=&#34;lazy&#34; src=&#34;https://media.giphy.com/media/inAeEKMJ2CkdW/giphy.gif#center&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Sticker shock is a good thing. If you see the price tag of something and it has your head reeling, there&amp;rsquo;s probably a good reason you shouldn&amp;rsquo;t be buying it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Photos</title>
       <link>https://tdoot.com/bytes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://tdoot.com/bytes/</guid>
       <description>Complex Simple and Easy to Understand!</description>
     </item>
-    
     <item>
       <title>Photos</title>
       <link>https://tdoot.com/photos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://tdoot.com/photos/</guid>
       <description>Complex Simple and Easy to Understand!</description>
     </item>
-    
     <item>
       <title>Reading</title>
       <link>https://tdoot.com/reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://tdoot.com/reading/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>tech on tony de la nuez&#39; personal blog</title>
+    <title>Tech on tony de la nuez&#39; personal blog</title>
     <link>https://tdoot.com/tags/tech/</link>
-    <description>Recent content in tech on tony de la nuez&#39; personal blog</description>
+    <description>Recent content in Tech on tony de la nuez&#39; personal blog</description>
     <image>
+      <title>tony de la nuez&#39; personal blog</title>
       <url>https://tdoot.com/images/pictures/portrait.jpg</url>
       <link>https://tdoot.com/images/pictures/portrait.jpg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Jan 2024 00:17:57 -0500</lastBuildDate><atom:link href="https://tdoot.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 28 Jan 2024 00:17:57 -0500</lastBuildDate>
+    <atom:link href="https://tdoot.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building nightly ghost blog backups</title>
       <link>https://tdoot.com/blog/nightly-ghost-backups/</link>
       <pubDate>Sun, 28 Jan 2024 00:17:57 -0500</pubDate>
-      
       <guid>https://tdoot.com/blog/nightly-ghost-backups/</guid>
-      <description>Back in grad school I used to make some extra cash by coaching and writing articles about Hearthstone (an online collectible card game made by Blizzard). I primarily wrote &amp;ldquo;deck techs&amp;rdquo;, guides that explained how to play the most powerful and consistent decks that were dominating the scene. I loved this job, it was a surprisingly technical creative outlet and paid for the occasional treat meals at my favorite restaurant in St.</description>
+      <description>&lt;p&gt;Back in grad school I used to make some extra cash by coaching and writing articles about &lt;a href=&#34;https://hearthstone.blizzard.com/en-us&#34;&gt;Hearthstone&lt;/a&gt; (an online collectible card game made by Blizzard). I primarily wrote &amp;ldquo;deck techs&amp;rdquo;, guides that explained how to play the most powerful and consistent decks that were dominating the scene. I loved this job, it was a surprisingly technical creative outlet and paid for the occasional treat meals at my favorite restaurant in St. Louis, &lt;a href=&#34;https://www.saltandsmokebbq.com/&#34;&gt;Salt n Smoke.&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Doing kubernetes on the cheap</title>
       <link>https://tdoot.com/blog/cheap-k8s/</link>
       <pubDate>Sun, 31 Dec 2023 18:11:22 -0500</pubDate>
-      
       <guid>https://tdoot.com/blog/cheap-k8s/</guid>
-      <description>Most SRE-aligned engineers will tell you they have a home lab. Depending on how grey the beard is, it may be an old blade they acquired when a company moved data centers, an intricate setup of Raspberry Pi 4s set up in a custom cooling rack, or like me and many others, it may just be an old gaming computer they no longer use but cannot bring themselves to get rid of.</description>
+      <description>&lt;p&gt;Most SRE-aligned engineers will tell you they have a home lab. Depending on how grey the beard is, it may be an old blade they acquired when a company moved data centers, an intricate setup of Raspberry Pi 4s set up in a custom cooling rack, or like me and many others, it may just be an old gaming computer they no longer use but cannot bring themselves to get rid of. Whatever it may be, it&amp;rsquo;s usually used for learning, tinkering, or to run some of the &lt;a href=&#34;https://reddit.com/r/selfhosted&#34;&gt;/r/selfhosted&lt;/a&gt; favorites.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Why I&#39;m not excited about buy now pay later</title>
       <link>https://tdoot.com/blog/bnpl-is-predatory/</link>
       <pubDate>Tue, 21 Jun 2022 19:41:40 -0500</pubDate>
-      
       <guid>https://tdoot.com/blog/bnpl-is-predatory/</guid>
-      <description>It&amp;rsquo;s a system (sigh) built on getting people to buy things they can&amp;rsquo;t reasonably afford through the veil of &amp;ldquo;it&amp;rsquo;s only X a month.&amp;rdquo; Unnecessary consumer debt sets people up to fail by putting them on a treadmill of excess consumption they believe is under control.
-Sticker shock is a good thing. If you see the price tag of something and it has your head reeling, there&amp;rsquo;s probably a good reason you shouldn&amp;rsquo;t be buying it.</description>
+      <description>&lt;p&gt;It&amp;rsquo;s a system (sigh) built on getting people to buy things they can&amp;rsquo;t reasonably afford through the veil of &amp;ldquo;it&amp;rsquo;s only X a month.&amp;rdquo;
+Unnecessary consumer debt sets people up to fail by putting them on a treadmill of excess consumption they believe is under control.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Dude falling off of treadmill&#34; loading=&#34;lazy&#34; src=&#34;https://media.giphy.com/media/inAeEKMJ2CkdW/giphy.gif#center&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Sticker shock is a good thing. If you see the price tag of something and it has your head reeling, there&amp;rsquo;s probably a good reason you shouldn&amp;rsquo;t be buying it.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
