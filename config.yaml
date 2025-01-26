@@ -87,7 +87,7 @@ params:
     - name: github
       url: "https://github.com/tonydelanuez"
     - name: bluesky
-      url: "https://bsky.app/profile/tdoot.bsky.social"
+      url: "https://bsky.app/profile/tdoot.com"
     - name: youtube
       url: "https://www.youtube.com/@itstdoot"
     - name: tiktok
