@@ -58,7 +58,7 @@ params:
     safari_pinned_tab: "/images/icons/apple-touch-icon.png"
 
   label:
-    text: "tony de la nuez"
+    text: "tdoot"
     icon: /images/icons/apple-touch-icon.png
     iconHeight: 15
 
@@ -79,9 +79,11 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "nothing to see here"
+    Title: Tony De La Nuez
     Content: |
-      if you're sticking around i hope you like reading about magic the gathering or cloud infrastructure.
+      I'm a software developer based in Austin, Texas who specializes in Kubernetes, platform engineering, and
+      infrastructure security. I've built platforms for large companies like Atlassian, Twitter, Discord, and now Airbnb.
+      Aside from tech I enjoy working outside, fitness, paintball, and Magic the Gathering.
 
   socialIcons:
     - name: github
@@ -134,22 +136,22 @@ menu:
       name: photos
       url: /photos
       weight: 2
-    # - identifier: reading
-    #   name: reading
-    #   url: /reading
-    #   weight: 3
+    - identifier: reading
+      name: reading
+      url: /reading
+      weight: 3
     - identifier: life
       name: life 
-      url: /life/
-      weight: 3
+      url: /life
+      weight: 4
     # - identifier: categories
     #   name: categories
     #   url: /categories/
     #   weight: 4
     - identifier: tags
       name: tags
-      url: /tags/
-      weight: 4
+      url: /tags
+      weight: 5
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
