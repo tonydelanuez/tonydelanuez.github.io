@@ -85,5 +85,7 @@
     <loc>https://tdoot.com/photos/</loc>
   </url><url>
     <loc>https://tdoot.com/reading/</loc>
+  </url><url>
+    <loc>https://tdoot.com/search/</loc>
   </url>
 </urlset>
