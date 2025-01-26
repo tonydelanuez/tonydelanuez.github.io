@@ -152,10 +152,10 @@ menu:
       name: tags
       url: /tags
       weight: 5
-    - identifier: search
-      name: search
-      url: /search
-      weight: 6
+    # - identifier: search
+    #   name: search
+    #   url: /search
+    #   weight: 6
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
