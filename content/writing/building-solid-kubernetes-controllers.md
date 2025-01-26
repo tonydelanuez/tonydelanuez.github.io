@@ -21,7 +21,7 @@ If you need super fine-grained control over the watching behavior or caching (fo
 Additionally, if you have extremely complex state machine transitions or want to take actions against different *kinds* of updates (create/delete/update) against your resources, the standard `.Reconcile(object)` approach that `controller-runtime` gives you may leave you fighting against the framework.
 
 Here's an extremely simple example controller implementation from their [examples](https://github.com/kubernetes-sigs/controller-runtime/tree/main/examples/builtins):
-```
+```golang
 // reconcileReplicaSet reconciles ReplicaSets
 type reconcileReplicaSet struct {
 	// client can be used to retrieve objects from the APIServer.

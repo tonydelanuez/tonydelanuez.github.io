@@ -21,7 +21,7 @@ Turns out this feature has partially broken since release 20 months ago - you ca
 The `ghost` CLI has a `--no-prompt` option presumably used for automation (the CLI is interactive by default and prompts you for command arguments) but it seems to have never worked with `backup` because the arguments supplied to the command are never sent anywhere (like to the necessary auth check).
 
 
-```
+```bash
 tdoot@util-arm:/var/www/decked$ ghost backup --no-prompt --username test@test.com --password foo
 
 Love open source? We’re hiring JavaScript Engineers to work on Ghost full-time.
@@ -62,7 +62,7 @@ FWIW I assume this has remained broken because folks primarily use the web-based
 
 Opening up a [quick PR](https://github.com/TryGhost/Ghost-CLI/pull/1817) and pulling my fork onto our VM in the meantime got me back on the path of building a janky backup system. 
 
-```
+```bash
 tdoot@util-arm:/var/www/decked$ ghost backup --no-prompt --username <redacted> --password <redacted>
 
 Love open source? We’re hiring JavaScript Engineers to work on Ghost full-time.
@@ -91,7 +91,7 @@ I wrote a wrapper script that:
   
 The backup script looks something like this:
 
-```
+```bash
 #!/bin/sh
 set -e
 
@@ -111,7 +111,7 @@ curl -X POST $WEBHOOK_URL -d "content=Backup synced ($BACKUP_FILE)"
 ```
 
 To run this nightly I tossed a quick entry in the crontab (`crontab -e`):
-```
+```bash
 # m h  dom mon dow   command
 0 0 * * * /bin/bash /var/www/decked/backup.sh
 ```

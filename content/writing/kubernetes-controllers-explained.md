@@ -27,7 +27,7 @@ This constant vigilance is what makes Kubernetes so reliable. If a pod crashes? 
 
 The heart of every Kubernetes controller is essentially this endless loop of checking and fixing. Here's what it looks like in its simplest form:
 
-```
+```python
 def run():
     while True:  # The controller never stops running
         desired := getDesiredState()    # What you declared in your YAML
