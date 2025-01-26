@@ -22,8 +22,8 @@ params:
   - writing
   - photography
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: tony de la nuez' personal blog
-  description: "keep your expectations low and i may surprise you"
+  title: Tony De La Nuez
+  description: "I'm an infrastructure engineer who help companies build robust, secure, and resilient platforms."
   keywords: [Blog, Portfolio, Technology, "Software Engineering", "Kubernetes", "Platform Engineering", "Infrastructure", "Security", "Career Development"]
   author: Tony
   # author: ["Me", "You"] # multiple authors
