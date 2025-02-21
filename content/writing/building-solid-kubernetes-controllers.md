@@ -305,7 +305,7 @@ func (r *Reconciler) updateResource(ctx context.Context, resource *myv1.MyResour
 }
 ```
 
-### finalizers - wake me up before you go go
+### finalizers - programmable deletion hooks
 
 Finalizers are one of those Kubernetes features that seem simple at first glance but have some fascinating complexity under the hood. They're like the close door button in an elevator - they don't make the deletion happen faster, but they ensure it happens safely.
 
@@ -358,7 +358,7 @@ func (r *Reconciler) handleDeletion(ctx context.Context, resource *myv1.MyResour
 }
 ```
 
-### rate limiting - cool off
+### use rate limiting to delay work and protect your resources
 
 Rate limiting in controllers is more complex than just adding some simple delays. We need to handle multiple types of rate limiting:
 
@@ -372,7 +372,7 @@ Number 3 brings up a not-so-fond memory of working with a very popular CD tool w
 When you look to implement rate-limiting in your controller, check out `workqueue.RateLimiter` from the `client-go` package. 
 [Here's ](https://github.com/kubernetes/client-go/blob/master/examples/workqueue/main.go#L171)an example in their codebase.
 
-### deep copy - don't double dip the chip
+### deep copy is necessary for concurrent writes
 
 Deep copying in controllers is about more than just avoiding mutations - it's about handling concurrent access to objects correctly. The client-go cache is shared across all controllers, so we need to be extremely careful about modifications.
 
