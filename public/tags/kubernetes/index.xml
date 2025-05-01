@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Kubernetes on Tony De La Nuez</title>
-    <link>http://localhost:1313/tags/kubernetes/</link>
+    <link>https://tdoot.com/tags/kubernetes/</link>
     <description>Recent content in Kubernetes on Tony De La Nuez</description>
     <image>
       <title>Tony De La Nuez</title>
-      <url>http://localhost:1313/images/pictures/portrait.jpg</url>
-      <link>http://localhost:1313/images/pictures/portrait.jpg</link>
+      <url>https://tdoot.com/images/pictures/portrait.jpg</url>
+      <link>https://tdoot.com/images/pictures/portrait.jpg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 13 Dec 2024 17:50:05 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tdoot.com/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fundamentals for solid kubernetes controllers</title>
-      <link>http://localhost:1313/writing/building-solid-kubernetes-controllers/</link>
+      <link>https://tdoot.com/writing/building-solid-kubernetes-controllers/</link>
       <pubDate>Fri, 13 Dec 2024 17:50:05 -0600</pubDate>
-      <guid>http://localhost:1313/writing/building-solid-kubernetes-controllers/</guid>
+      <guid>https://tdoot.com/writing/building-solid-kubernetes-controllers/</guid>
       <description>&lt;p&gt;In the last post, I explained the utility and purpose of Kubernetes Controllers. This post will explain how to build them, and how to think about designing them. We&amp;rsquo;ll go into Controller patterns, anti-patterns, and sharp edges of the model that you&amp;rsquo;re bound to run into.&lt;/p&gt;
 &lt;h1 id=&#34;controller-runtime---use-it&#34;&gt;controller-runtime - use it.&lt;/h1&gt;
 &lt;p&gt;Or don&amp;rsquo;t, I don&amp;rsquo;t care. It&amp;rsquo;ll probably help though.&lt;/p&gt;
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>Kubernetes controllers explained</title>
-      <link>http://localhost:1313/writing/kubernetes-controllers-explained/</link>
+      <link>https://tdoot.com/writing/kubernetes-controllers-explained/</link>
       <pubDate>Fri, 13 Dec 2024 15:39:45 -0600</pubDate>
-      <guid>http://localhost:1313/writing/kubernetes-controllers-explained/</guid>
+      <guid>https://tdoot.com/writing/kubernetes-controllers-explained/</guid>
       <description>&lt;p&gt;Controllers aren&amp;rsquo;t just add-ons to Kubernetes - they&amp;rsquo;re fundamental to how the whole system works. They&amp;rsquo;re the caretakers of your cluster, overseeing and orchestrating processes to ensure your defined resources stay on track. Whether it&amp;rsquo;s &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/replicaset/replica_set.go&#34;&gt;maintaining pod replicas&lt;/a&gt;, &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/deployment/deployment_controller.go&#34;&gt;managing rolling updates&lt;/a&gt;, or &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/nodelifecycle/node_lifecycle_controller.go&#34;&gt;handling node lifecycles&lt;/a&gt;, controllers are there making sure things run smoothly.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://kubernetes.io/docs/concepts/architecture/controller/&#34;&gt;Kubernetes documentation&lt;/a&gt; explains their job as follows:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -35,9 +35,9 @@
     </item>
     <item>
       <title>Doing kubernetes on the cheap</title>
-      <link>http://localhost:1313/writing/cheap-k8s/</link>
+      <link>https://tdoot.com/writing/cheap-k8s/</link>
       <pubDate>Sun, 31 Dec 2023 18:11:22 -0500</pubDate>
-      <guid>http://localhost:1313/writing/cheap-k8s/</guid>
+      <guid>https://tdoot.com/writing/cheap-k8s/</guid>
       <description>&lt;p&gt;Most SRE-aligned engineers will tell you they have a home lab. Depending on how grey the beard is, it may be an old blade they acquired when a company moved data centers, an intricate setup of Raspberry Pi 4s set up in a custom cooling rack, or like me and many others, it may just be an old gaming computer they no longer use but cannot bring themselves to get rid of. Whatever it may be, it&amp;rsquo;s usually used for learning, tinkering, or to run some of the &lt;a href=&#34;https://reddit.com/r/selfhosted&#34;&gt;/r/selfhosted&lt;/a&gt; favorites.&lt;/p&gt;</description>
     </item>
   </channel>

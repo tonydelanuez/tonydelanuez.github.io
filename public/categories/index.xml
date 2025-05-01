@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Tony De La Nuez</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://tdoot.com/categories/</link>
     <description>Recent content in Categories on Tony De La Nuez</description>
     <image>
       <title>Tony De La Nuez</title>
-      <url>http://localhost:1313/images/pictures/portrait.jpg</url>
-      <link>http://localhost:1313/images/pictures/portrait.jpg</link>
+      <url>https://tdoot.com/images/pictures/portrait.jpg</url>
+      <link>https://tdoot.com/images/pictures/portrait.jpg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 13 Dec 2024 17:50:05 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tdoot.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Writing</title>
-      <link>http://localhost:1313/categories/writing/</link>
+      <link>https://tdoot.com/categories/writing/</link>
       <pubDate>Fri, 13 Dec 2024 17:50:05 -0600</pubDate>
-      <guid>http://localhost:1313/categories/writing/</guid>
+      <guid>https://tdoot.com/categories/writing/</guid>
       <description></description>
     </item>
   </channel>

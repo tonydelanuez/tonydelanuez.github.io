@@ -2,90 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/life/espresso/</loc>
+    <loc>https://tdoot.com/life/espresso/</loc>
     <lastmod>2025-01-20T21:21:30-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/life/</loc>
+    <loc>https://tdoot.com/life/</loc>
     <lastmod>2025-01-20T21:21:30-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://tdoot.com/</loc>
     <lastmod>2025-01-20T21:21:30-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/life/for-the-love-of-men/</loc>
+    <loc>https://tdoot.com/life/for-the-love-of-men/</loc>
     <lastmod>2025-01-19T10:57:43-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/life/back-to-paintball/</loc>
+    <loc>https://tdoot.com/life/back-to-paintball/</loc>
     <lastmod>2025-01-18T20:48:07-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/life/mens-groups/</loc>
+    <loc>https://tdoot.com/life/mens-groups/</loc>
     <lastmod>2025-01-15T21:35:54-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing/</loc>
+    <loc>https://tdoot.com/writing/</loc>
     <lastmod>2024-12-13T17:50:05-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://tdoot.com/categories/</loc>
     <lastmod>2024-12-13T17:50:05-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing/building-solid-kubernetes-controllers/</loc>
+    <loc>https://tdoot.com/writing/building-solid-kubernetes-controllers/</loc>
     <lastmod>2024-12-13T17:50:05-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/kubernetes/</loc>
+    <loc>https://tdoot.com/tags/kubernetes/</loc>
     <lastmod>2024-12-13T17:50:05-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://tdoot.com/tags/</loc>
     <lastmod>2024-12-13T17:50:05-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/writing/</loc>
+    <loc>https://tdoot.com/categories/writing/</loc>
     <lastmod>2024-12-13T17:50:05-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing/kubernetes-controllers-explained/</loc>
+    <loc>https://tdoot.com/writing/kubernetes-controllers-explained/</loc>
     <lastmod>2024-12-13T15:39:45-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/life/full-circle-microblog/</loc>
+    <loc>https://tdoot.com/life/full-circle-microblog/</loc>
     <lastmod>2024-12-03T20:34:29-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fitness/</loc>
+    <loc>https://tdoot.com/tags/fitness/</loc>
     <lastmod>2024-08-28T20:23:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing/building-a-home-gym/</loc>
+    <loc>https://tdoot.com/writing/building-a-home-gym/</loc>
     <lastmod>2024-08-28T20:23:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing/first-half-of-2024-ruled/</loc>
+    <loc>https://tdoot.com/writing/first-half-of-2024-ruled/</loc>
     <lastmod>2024-07-23T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/magic/</loc>
+    <loc>https://tdoot.com/tags/magic/</loc>
     <lastmod>2024-07-23T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/personal/</loc>
+    <loc>https://tdoot.com/tags/personal/</loc>
     <lastmod>2024-07-23T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/automation/</loc>
+    <loc>https://tdoot.com/tags/automation/</loc>
     <lastmod>2024-01-28T00:17:57-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing/nightly-ghost-backups/</loc>
+    <loc>https://tdoot.com/writing/nightly-ghost-backups/</loc>
     <lastmod>2024-01-28T00:17:57-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ghost/</loc>
+    <loc>https://tdoot.com/tags/ghost/</loc>
     <lastmod>2024-01-28T00:17:57-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tech/</loc>
+    <loc>https://tdoot.com/tags/tech/</loc>
     <lastmod>2024-01-28T00:17:57-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing/cheap-k8s/</loc>
+    <loc>https://tdoot.com/writing/cheap-k8s/</loc>
     <lastmod>2023-12-31T18:11:22-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/bnpl/</loc>
+    <loc>https://tdoot.com/tags/bnpl/</loc>
     <lastmod>2022-06-21T19:41:40-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing/bnpl-is-predatory/</loc>
+    <loc>https://tdoot.com/writing/bnpl-is-predatory/</loc>
     <lastmod>2022-06-21T19:41:40-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bytes/</loc>
+    <loc>https://tdoot.com/bytes/</loc>
   </url><url>
-    <loc>http://localhost:1313/photos/</loc>
+    <loc>https://tdoot.com/photos/</loc>
   </url><url>
-    <loc>http://localhost:1313/reading/</loc>
+    <loc>https://tdoot.com/reading/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://tdoot.com/search/</loc>
   </url>
 </urlset>
