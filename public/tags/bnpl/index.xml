@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Bnpl on tony de la nuez&#39; personal blog</title>
+    <title>Bnpl on Tony De La Nuez</title>
     <link>http://localhost:1313/tags/bnpl/</link>
-    <description>Recent content in Bnpl on tony de la nuez&#39; personal blog</description>
+    <description>Recent content in Bnpl on Tony De La Nuez</description>
     <image>
-      <title>tony de la nuez&#39; personal blog</title>
+      <title>Tony De La Nuez</title>
       <url>http://localhost:1313/images/pictures/portrait.jpg</url>
       <link>http://localhost:1313/images/pictures/portrait.jpg</link>
     </image>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Tue, 21 Jun 2022 19:41:40 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/bnpl/index.xml" rel="self" type="application/rss+xml" />
