@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Dec 2024 17:50:05 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 03 May 2025 12:01:14 -0500</lastBuildDate>
     <atom:link href="https://tdoot.com/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Kubernetes Deployments, ReplicaSets, and HPAs Work Together</title>
+      <link>https://tdoot.com/writing/understanding-k8s-deployments-replicasets-hpas/</link>
+      <pubDate>Sat, 03 May 2025 12:01:14 -0500</pubDate>
+      <guid>https://tdoot.com/writing/understanding-k8s-deployments-replicasets-hpas/</guid>
+      <description>We walk through a real-world scenario where a Kubernetes Deployment rollout and HPA clashed — and everything was technically working. Here&amp;#39;s how control loops interact under pressure and how to debug autoscaling failures that don’t show up in staging.</description>
+    </item>
     <item>
       <title>Fundamentals for solid kubernetes controllers</title>
       <link>https://tdoot.com/writing/building-solid-kubernetes-controllers/</link>
