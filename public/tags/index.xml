@@ -2,71 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Tony De La Nuez</title>
-    <link>https://tdoot.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Tony De La Nuez</description>
     <image>
       <title>Tony De La Nuez</title>
-      <url>https://tdoot.com/images/pictures/portrait.jpg</url>
-      <link>https://tdoot.com/images/pictures/portrait.jpg</link>
+      <url>http://localhost:1313/images/pictures/portrait.jpg</url>
+      <link>http://localhost:1313/images/pictures/portrait.jpg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Dec 2024 17:50:05 -0600</lastBuildDate>
-    <atom:link href="https://tdoot.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 May 2025 12:01:14 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hpa</title>
+      <link>http://localhost:1313/tags/hpa/</link>
+      <pubDate>Sat, 03 May 2025 12:01:14 -0500</pubDate>
+      <guid>http://localhost:1313/tags/hpa/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Kubernetes</title>
-      <link>https://tdoot.com/tags/kubernetes/</link>
-      <pubDate>Fri, 13 Dec 2024 17:50:05 -0600</pubDate>
-      <guid>https://tdoot.com/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fitness</title>
-      <link>https://tdoot.com/tags/fitness/</link>
-      <pubDate>Wed, 28 Aug 2024 20:23:00 -0500</pubDate>
-      <guid>https://tdoot.com/tags/fitness/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Magic</title>
-      <link>https://tdoot.com/tags/magic/</link>
-      <pubDate>Tue, 23 Jul 2024 10:00:00 -0500</pubDate>
-      <guid>https://tdoot.com/tags/magic/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Personal</title>
-      <link>https://tdoot.com/tags/personal/</link>
-      <pubDate>Tue, 23 Jul 2024 10:00:00 -0500</pubDate>
-      <guid>https://tdoot.com/tags/personal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Automation</title>
-      <link>https://tdoot.com/tags/automation/</link>
-      <pubDate>Sun, 28 Jan 2024 00:17:57 -0500</pubDate>
-      <guid>https://tdoot.com/tags/automation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ghost</title>
-      <link>https://tdoot.com/tags/ghost/</link>
-      <pubDate>Sun, 28 Jan 2024 00:17:57 -0500</pubDate>
-      <guid>https://tdoot.com/tags/ghost/</guid>
+      <link>http://localhost:1313/tags/kubernetes/</link>
+      <pubDate>Sat, 03 May 2025 12:01:14 -0500</pubDate>
+      <guid>http://localhost:1313/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
-      <link>https://tdoot.com/tags/tech/</link>
+      <link>http://localhost:1313/tags/tech/</link>
+      <pubDate>Sat, 03 May 2025 12:01:14 -0500</pubDate>
+      <guid>http://localhost:1313/tags/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fitness</title>
+      <link>http://localhost:1313/tags/fitness/</link>
+      <pubDate>Wed, 28 Aug 2024 20:23:00 -0500</pubDate>
+      <guid>http://localhost:1313/tags/fitness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Magic</title>
+      <link>http://localhost:1313/tags/magic/</link>
+      <pubDate>Tue, 23 Jul 2024 10:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/tags/magic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal</title>
+      <link>http://localhost:1313/tags/personal/</link>
+      <pubDate>Tue, 23 Jul 2024 10:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/tags/personal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>http://localhost:1313/tags/automation/</link>
       <pubDate>Sun, 28 Jan 2024 00:17:57 -0500</pubDate>
-      <guid>https://tdoot.com/tags/tech/</guid>
+      <guid>http://localhost:1313/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ghost</title>
+      <link>http://localhost:1313/tags/ghost/</link>
+      <pubDate>Sun, 28 Jan 2024 00:17:57 -0500</pubDate>
+      <guid>http://localhost:1313/tags/ghost/</guid>
       <description></description>
     </item>
     <item>
       <title>Bnpl</title>
-      <link>https://tdoot.com/tags/bnpl/</link>
+      <link>http://localhost:1313/tags/bnpl/</link>
       <pubDate>Tue, 21 Jun 2022 19:41:40 -0500</pubDate>
-      <guid>https://tdoot.com/tags/bnpl/</guid>
+      <guid>http://localhost:1313/tags/bnpl/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,22 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tony De La Nuez</title>
-    <link>https://tdoot.com/writing/</link>
+    <link>http://localhost:1313/writing/</link>
     <description>Recent content on Tony De La Nuez</description>
     <image>
       <title>Tony De La Nuez</title>
-      <url>https://tdoot.com/images/pictures/portrait.jpg</url>
-      <link>https://tdoot.com/images/pictures/portrait.jpg</link>
+      <url>http://localhost:1313/images/pictures/portrait.jpg</url>
+      <link>http://localhost:1313/images/pictures/portrait.jpg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Dec 2024 17:50:05 -0600</lastBuildDate>
-    <atom:link href="https://tdoot.com/writing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 May 2025 12:01:14 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Kubernetes Deployments, ReplicaSets, and HPAs Work Together</title>
+      <link>http://localhost:1313/writing/understanding-k8s-deployments-replicasets-hpas/</link>
+      <pubDate>Sat, 03 May 2025 12:01:14 -0500</pubDate>
+      <guid>http://localhost:1313/writing/understanding-k8s-deployments-replicasets-hpas/</guid>
+      <description>We walk through a real-world scenario where a Kubernetes Deployment rollout and HPA clashed — and everything was technically working. Here&amp;#39;s how control loops interact under pressure and how to debug autoscaling failures that don’t show up in staging.</description>
+    </item>
     <item>
       <title>Fundamentals for solid kubernetes controllers</title>
-      <link>https://tdoot.com/writing/building-solid-kubernetes-controllers/</link>
+      <link>http://localhost:1313/writing/building-solid-kubernetes-controllers/</link>
       <pubDate>Fri, 13 Dec 2024 17:50:05 -0600</pubDate>
-      <guid>https://tdoot.com/writing/building-solid-kubernetes-controllers/</guid>
+      <guid>http://localhost:1313/writing/building-solid-kubernetes-controllers/</guid>
       <description>&lt;p&gt;In the last post, I explained the utility and purpose of Kubernetes Controllers. This post will explain how to build them, and how to think about designing them. We&amp;rsquo;ll go into Controller patterns, anti-patterns, and sharp edges of the model that you&amp;rsquo;re bound to run into.&lt;/p&gt;
 &lt;h1 id=&#34;controller-runtime---use-it&#34;&gt;controller-runtime - use it.&lt;/h1&gt;
 &lt;p&gt;Or don&amp;rsquo;t, I don&amp;rsquo;t care. It&amp;rsquo;ll probably help though.&lt;/p&gt;
@@ -25,9 +32,9 @@
     </item>
     <item>
       <title>Kubernetes controllers explained</title>
-      <link>https://tdoot.com/writing/kubernetes-controllers-explained/</link>
+      <link>http://localhost:1313/writing/kubernetes-controllers-explained/</link>
       <pubDate>Fri, 13 Dec 2024 15:39:45 -0600</pubDate>
-      <guid>https://tdoot.com/writing/kubernetes-controllers-explained/</guid>
+      <guid>http://localhost:1313/writing/kubernetes-controllers-explained/</guid>
       <description>&lt;p&gt;Controllers aren&amp;rsquo;t just add-ons to Kubernetes - they&amp;rsquo;re fundamental to how the whole system works. They&amp;rsquo;re the caretakers of your cluster, overseeing and orchestrating processes to ensure your defined resources stay on track. Whether it&amp;rsquo;s &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/replicaset/replica_set.go&#34;&gt;maintaining pod replicas&lt;/a&gt;, &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/deployment/deployment_controller.go&#34;&gt;managing rolling updates&lt;/a&gt;, or &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/nodelifecycle/node_lifecycle_controller.go&#34;&gt;handling node lifecycles&lt;/a&gt;, controllers are there making sure things run smoothly.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://kubernetes.io/docs/concepts/architecture/controller/&#34;&gt;Kubernetes documentation&lt;/a&gt; explains their job as follows:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -35,46 +42,46 @@
     </item>
     <item>
       <title>My home gym primer</title>
-      <link>https://tdoot.com/writing/building-a-home-gym/</link>
+      <link>http://localhost:1313/writing/building-a-home-gym/</link>
       <pubDate>Wed, 28 Aug 2024 20:23:00 -0500</pubDate>
-      <guid>https://tdoot.com/writing/building-a-home-gym/</guid>
+      <guid>http://localhost:1313/writing/building-a-home-gym/</guid>
       <description>&lt;p&gt;Recently a friend asked for my recommendations for home gym equipment as they wanted to start building out theirs. Little do they know I&amp;rsquo;ve spent way too many hours thinking about this. My home gym is nothing special but it keeps me healthy, out of commercial gyms, and never leaves me wishing I had more equipment. I like to think that&amp;rsquo;s due to making the right choices on how to fill it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>First half of 2024 ruled</title>
-      <link>https://tdoot.com/writing/first-half-of-2024-ruled/</link>
+      <link>http://localhost:1313/writing/first-half-of-2024-ruled/</link>
       <pubDate>Tue, 23 Jul 2024 10:00:00 -0500</pubDate>
-      <guid>https://tdoot.com/writing/first-half-of-2024-ruled/</guid>
+      <guid>http://localhost:1313/writing/first-half-of-2024-ruled/</guid>
       <description>&lt;p&gt;&lt;em&gt;in roughly chronological order&amp;hellip;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;got convinced by friends to start a magic the gathering team. took it from 6 -&amp;gt; 20 people
-&lt;img alt=&#34;magic 512&#34; loading=&#34;lazy&#34; src=&#34;https://tdoot.com/images/pictures/h1-2024/team.jpg&#34;&gt;
+&lt;img alt=&#34;magic 512&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/pictures/h1-2024/team.jpg&#34;&gt;
 &lt;em&gt;not everyone pictured&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;got engaged to my college sweetheart and the love of my life
-&lt;img alt=&#34;proposal&#34; loading=&#34;lazy&#34; src=&#34;https://tdoot.com/images/pictures/h1-2024/proposal.jpg&#34;&gt;
+&lt;img alt=&#34;proposal&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/pictures/h1-2024/proposal.jpg&#34;&gt;
 &lt;em&gt;been waiting a while for this one.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;took a trip to Japan where I played in 12+ magic tournaments, got invited to dinner with locals, and found my best man
-&lt;img alt=&#34;proposal&#34; loading=&#34;lazy&#34; src=&#34;https://tdoot.com/images/pictures/h1-2024/tokyo_group.jpg&#34;&gt;
+&lt;img alt=&#34;proposal&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/pictures/h1-2024/tokyo_group.jpg&#34;&gt;
 &lt;em&gt;left to right: new tokyo magic friend, me, best man&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building nightly ghost blog backups</title>
-      <link>https://tdoot.com/writing/nightly-ghost-backups/</link>
+      <link>http://localhost:1313/writing/nightly-ghost-backups/</link>
       <pubDate>Sun, 28 Jan 2024 00:17:57 -0500</pubDate>
-      <guid>https://tdoot.com/writing/nightly-ghost-backups/</guid>
+      <guid>http://localhost:1313/writing/nightly-ghost-backups/</guid>
       <description>&lt;p&gt;Back in grad school I used to make some extra cash by coaching and writing articles about &lt;a href=&#34;https://hearthstone.blizzard.com/en-us&#34;&gt;Hearthstone&lt;/a&gt; (an online collectible card game made by Blizzard). I primarily wrote &amp;ldquo;deck techs&amp;rdquo;, guides that explained how to play the most powerful and consistent decks that were dominating the scene. I loved this job, it was a surprisingly technical creative outlet and paid for the occasional treat meals at my favorite restaurant in St. Louis, &lt;a href=&#34;https://www.saltandsmokebbq.com/&#34;&gt;Salt n Smoke.&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Doing kubernetes on the cheap</title>
-      <link>https://tdoot.com/writing/cheap-k8s/</link>
+      <link>http://localhost:1313/writing/cheap-k8s/</link>
       <pubDate>Sun, 31 Dec 2023 18:11:22 -0500</pubDate>
-      <guid>https://tdoot.com/writing/cheap-k8s/</guid>
+      <guid>http://localhost:1313/writing/cheap-k8s/</guid>
       <description>&lt;p&gt;Most SRE-aligned engineers will tell you they have a home lab. Depending on how grey the beard is, it may be an old blade they acquired when a company moved data centers, an intricate setup of Raspberry Pi 4s set up in a custom cooling rack, or like me and many others, it may just be an old gaming computer they no longer use but cannot bring themselves to get rid of. Whatever it may be, it&amp;rsquo;s usually used for learning, tinkering, or to run some of the &lt;a href=&#34;https://reddit.com/r/selfhosted&#34;&gt;/r/selfhosted&lt;/a&gt; favorites.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I&#39;m not excited about buy now pay later</title>
-      <link>https://tdoot.com/writing/bnpl-is-predatory/</link>
+      <link>http://localhost:1313/writing/bnpl-is-predatory/</link>
       <pubDate>Tue, 21 Jun 2022 19:41:40 -0500</pubDate>
-      <guid>https://tdoot.com/writing/bnpl-is-predatory/</guid>
+      <guid>http://localhost:1313/writing/bnpl-is-predatory/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s a system (sigh) built on getting people to buy things they can&amp;rsquo;t reasonably afford through the veil of &amp;ldquo;it&amp;rsquo;s only X a month.&amp;rdquo;
 Unnecessary consumer debt sets people up to fail by putting them on a treadmill of excess consumption they believe is under control.&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;Dude falling off of treadmill&#34; loading=&#34;lazy&#34; src=&#34;https://media.giphy.com/media/inAeEKMJ2CkdW/giphy.gif#center&#34;&gt;&lt;/p&gt;
