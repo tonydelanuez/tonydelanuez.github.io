@@ -14,11 +14,11 @@
     <lastBuildDate>Sat, 03 May 2025 12:01:14 -0500</lastBuildDate>
     <atom:link href="https://tdoot.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How Kubernetes Deployments, ReplicaSets, and HPAs Work Together</title>
+      <title>How Kubernetes Deployments, ReplicaSets, and HPAs coordinate</title>
       <link>https://tdoot.com/writing/understanding-k8s-deployments-replicasets-hpas/</link>
       <pubDate>Sat, 03 May 2025 12:01:14 -0500</pubDate>
       <guid>https://tdoot.com/writing/understanding-k8s-deployments-replicasets-hpas/</guid>
-      <description>We walk through a real-world scenario where a Kubernetes Deployment rollout and HPA clashed — and everything was technically working. Here&amp;#39;s how control loops interact under pressure and how to debug autoscaling failures that don’t show up in staging.</description>
+      <description>Let&amp;#39;s walk through a real-world scenario where a Kubernetes Deployment rollout and HPA clashed yet everything was technically working. Here&amp;#39;s how these important control loops interact under pressure and how to debug autoscaling failures that don’t show up in staging.</description>
     </item>
     <item>
       <title></title>
@@ -60,20 +60,16 @@
       <link>https://tdoot.com/writing/building-solid-kubernetes-controllers/</link>
       <pubDate>Fri, 13 Dec 2024 17:50:05 -0600</pubDate>
       <guid>https://tdoot.com/writing/building-solid-kubernetes-controllers/</guid>
-      <description>&lt;p&gt;In the last post, I explained the utility and purpose of Kubernetes Controllers. This post will explain how to build them, and how to think about designing them. We&amp;rsquo;ll go into Controller patterns, anti-patterns, and sharp edges of the model that you&amp;rsquo;re bound to run into.&lt;/p&gt;
-&lt;h1 id=&#34;controller-runtime---use-it&#34;&gt;controller-runtime - use it.&lt;/h1&gt;
-&lt;p&gt;Or don&amp;rsquo;t, I don&amp;rsquo;t care. It&amp;rsquo;ll probably help though.&lt;/p&gt;
-&lt;p&gt;You can absolutely build a controller from scratch using &lt;code&gt;client-go&lt;/code&gt; (and sometimes that makes sense), but most of the time you should just get started with &lt;a href=&#34;https://github.com/kubernetes-sigs/controller-runtime&#34;&gt;controller-runtime&lt;/a&gt;. It provides a batteries-included approach to handling &lt;strong&gt;typical&lt;/strong&gt; Kubernetes controller patterns and gives you everything you need when it comes to things like leader election (you want HA, right?), metrics &amp;amp; events, caching, and even webhook setup and serving. When you just need to watch some resources and have your controller reconcile some state when the resource changes, &lt;code&gt;controller-runtime&lt;/code&gt; is awesome.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;em&gt;This is the second post in my Kubernetes Controllers series. In the &lt;a href=&#34;https://tdoot.com/writing/kubernetes-controllers-explained&#34;&gt;first post&lt;/a&gt;, we explored what controllers are and how they maintain your desired state through continuous reconciliation.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In the last post, I explained the utility and purpose of Kubernetes Controllers. This post will explain how to build them, and how to think about designing them. We&amp;rsquo;ll go into Controller patterns, anti-patterns, and sharp edges of the model that you&amp;rsquo;re bound to run into.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes controllers explained</title>
       <link>https://tdoot.com/writing/kubernetes-controllers-explained/</link>
       <pubDate>Fri, 13 Dec 2024 15:39:45 -0600</pubDate>
       <guid>https://tdoot.com/writing/kubernetes-controllers-explained/</guid>
-      <description>&lt;p&gt;Controllers aren&amp;rsquo;t just add-ons to Kubernetes - they&amp;rsquo;re fundamental to how the whole system works. They&amp;rsquo;re the caretakers of your cluster, overseeing and orchestrating processes to ensure your defined resources stay on track. Whether it&amp;rsquo;s &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/replicaset/replica_set.go&#34;&gt;maintaining pod replicas&lt;/a&gt;, &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/deployment/deployment_controller.go&#34;&gt;managing rolling updates&lt;/a&gt;, or &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/nodelifecycle/node_lifecycle_controller.go&#34;&gt;handling node lifecycles&lt;/a&gt;, controllers are there making sure things run smoothly.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://kubernetes.io/docs/concepts/architecture/controller/&#34;&gt;Kubernetes documentation&lt;/a&gt; explains their job as follows:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In Kubernetes, controllers are control loops that watch the state of your &lt;a href=&#34;https://kubernetes.io/docs/reference/glossary/?all=true#term-cluster&#34;&gt;cluster&lt;/a&gt;, then make or request changes where needed. Each controller tries to move the current cluster state closer to the desired state.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;em&gt;This is the first post in my Kubernetes Controllers series. In the &lt;a href=&#34;https://tdoot.com/writing/building-solid-kubernetes-controllers&#34;&gt;second post&lt;/a&gt; I walk through how to build stable controllers from scratch.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Controllers aren&amp;rsquo;t just add-ons to Kubernetes - they&amp;rsquo;re fundamental to how the whole system works. They&amp;rsquo;re the caretakers of your cluster, overseeing and orchestrating processes to ensure your defined resources stay on track. Whether it&amp;rsquo;s &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/replicaset/replica_set.go&#34;&gt;maintaining pod replicas&lt;/a&gt;, &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/deployment/deployment_controller.go&#34;&gt;managing rolling updates&lt;/a&gt;, or &lt;a href=&#34;https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/nodelifecycle/node_lifecycle_controller.go&#34;&gt;handling node lifecycles&lt;/a&gt;, controllers are there making sure things run smoothly.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024-12-03 20:34</title>
