@@ -5,8 +5,10 @@ draft: false
 author: "Tony"
 tags: ['kubernetes']
 categories: ['writing']
+series: ["Kubernetes Controllers"]
 draft: false
 ---
+*This is the second post in my Kubernetes Controllers series. In the [first post](/writing/kubernetes-controllers-explained), we explored what controllers are and how they maintain your desired state through continuous reconciliation.*
 
 In the last post, I explained the utility and purpose of Kubernetes Controllers. This post will explain how to build them, and how to think about designing them. We'll go into Controller patterns, anti-patterns, and sharp edges of the model that you're bound to run into.
 

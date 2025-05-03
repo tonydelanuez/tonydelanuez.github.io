@@ -4,8 +4,11 @@ date: 2024-12-13T15:39:45-06:00
 author: "Tony"
 tags: ['kubernetes']
 categories: ['writing']
+series: ["Kubernetes Controllers"]
 draft: false
 ---
+
+*This is the first post in my Kubernetes Controllers series. In the [second post](/writing/building-solid-kubernetes-controllers) I walk through how to build stable controllers from scratch.*
 
 Controllers aren't just add-ons to Kubernetes - they're fundamental to how the whole system works. They're the caretakers of your cluster, overseeing and orchestrating processes to ensure your defined resources stay on track. Whether it's [maintaining pod replicas](https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/replicaset/replica_set.go), [managing rolling updates](https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/deployment/deployment_controller.go), or [handling node lifecycles](https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/nodelifecycle/node_lifecycle_controller.go), controllers are there making sure things run smoothly.
 
