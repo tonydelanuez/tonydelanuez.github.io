@@ -4,6 +4,10 @@ date: 2025-05-03T12:01:14-05:00
 description: "Let's walk through a real-world scenario where a Kubernetes Deployment rollout and HPA clashed yet everything was technically working. Here's how these important control loops interact under pressure and how to debug autoscaling failures that don’t show up in staging."
 tags: ['tech', 'kubernetes', 'hpa']
 series: ["Kubernetes Controllers"]
+cover:
+  image: "/images/hpa.png"
+  alt: "Kubernetes HPA rollout coordination"
+  caption: ""
 categories: ['writing']
 featured_image: 
 draft: false
