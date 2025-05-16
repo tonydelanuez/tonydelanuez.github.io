@@ -146,12 +146,6 @@ That said, some tools (like [Argo Rollouts](https://argoproj.github.io/rollouts/
 
 ---
 
-## What this `podTemplateHash` I'm seeing everywhere?
-
-Each ReplicaSet created by a Deployment gets a unique `pod-template-hash` label. This is how Deployments tell them apart. It’s a hash of the Pod template spec, so even small changes create a new hash.
-
----
-
 ## Tuning rollout behavior
 
 If your application is experiencing some issues during deploys, take a look at tuning your rollout config.
