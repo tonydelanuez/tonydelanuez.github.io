@@ -5,6 +5,8 @@ draft: false
 author: "Tony"
 tags: ['tinkering']
 categories: ['writing']
+cover:
+    image: images/covers/wtf-wav.png
 ---
 
 On a walk recently, I started wondering: What’s actually in a sound file?
