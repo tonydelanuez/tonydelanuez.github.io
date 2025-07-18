@@ -1,12 +1,16 @@
 ---
-title: "How Do We Represent Sound"
+title: "(WIP) - WTF is a WAV"
 date: 2025-07-17T22:18:21-05:00
 draft: false
+author: "Tony"
+tags: ['tinkering']
+categories: ['writing']
 ---
 
-Today on a walk I started thinking about audio files, so I tried to walk through them from first principles and explore deeper when I got home.
+Today on a walk I started thinking about audio files, so I tried to reason through them from first principles.
+The main question was "wtf is in a sound file"
 
-# Notes
+# Thinkin
 On my walk, I recorded assumptions in my Notes app - partially using voice, typing when that failed.
 I hadn't validated these, but they were the start of my train of thought.
 
