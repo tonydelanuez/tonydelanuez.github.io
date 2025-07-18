@@ -14,12 +14,13 @@
     <lastBuildDate>Thu, 17 Jul 2025 22:18:21 -0500</lastBuildDate>
     <atom:link href="https://tdoot.com/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How Do We Represent Sound</title>
+      <title>(WIP) - WTF is a WAV</title>
       <link>https://tdoot.com/writing/wtf-is-a-wav/</link>
       <pubDate>Thu, 17 Jul 2025 22:18:21 -0500</pubDate>
       <guid>https://tdoot.com/writing/wtf-is-a-wav/</guid>
-      <description>&lt;p&gt;Today on a walk I started thinking about audio files, so I tried to walk through them from first principles and explore deeper when I got home.&lt;/p&gt;
-&lt;h1 id=&#34;notes&#34;&gt;Notes&lt;/h1&gt;
+      <description>&lt;p&gt;Today on a walk I started thinking about audio files, so I tried to reason through them from first principles.
+The main question was &amp;ldquo;wtf is in a sound file&amp;rdquo;&lt;/p&gt;
+&lt;h1 id=&#34;thinkin&#34;&gt;Thinkin&lt;/h1&gt;
 &lt;p&gt;On my walk, I recorded assumptions in my Notes app - partially using voice, typing when that failed.
 I hadn&amp;rsquo;t validated these, but they were the start of my train of thought.&lt;/p&gt;
 &lt;ol&gt;
