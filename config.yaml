@@ -88,6 +88,8 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/tonydelanuez"
+    - name: twitter
+      url: "https://twitter.com/tdoot_"
     - name: bluesky
       url: "https://bsky.app/profile/tdoot.com"
     - name: youtube
@@ -96,8 +98,6 @@ params:
       url: "https://www.tiktok.com/@itstdoot"
     - name: instagram
       url: "https://www.instagram.com/itstdoot"
-    - name: twitter
-      url: "https://twitter.com/tdoot_"
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
