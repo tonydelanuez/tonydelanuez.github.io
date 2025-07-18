@@ -11,8 +11,41 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Jul 2025 20:04:43 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 17 Jul 2025 22:18:21 -0500</lastBuildDate>
     <atom:link href="https://tdoot.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Do We Represent Sound</title>
+      <link>https://tdoot.com/writing/wtf-is-a-wav/</link>
+      <pubDate>Thu, 17 Jul 2025 22:18:21 -0500</pubDate>
+      <guid>https://tdoot.com/writing/wtf-is-a-wav/</guid>
+      <description>&lt;p&gt;Today on a walk I started thinking about audio files, so I tried to walk through them from first principles and explore deeper when I got home.&lt;/p&gt;
+&lt;h1 id=&#34;notes&#34;&gt;Notes&lt;/h1&gt;
+&lt;p&gt;On my walk, I recorded assumptions in my Notes app - partially using voice, typing when that failed.
+I hadn&amp;rsquo;t validated these, but they were the start of my train of thought.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Humans experience sound though vibrations transmitted through the ear drum and small bones in the ear, then to the cochlea, which vibrates little hairs that send electrical signals to the brain via the auditory nerve (I think? this is why cochlear implants are so effective - they&amp;rsquo;re about as direct we can get to interacting with the brain)&lt;/li&gt;
+&lt;li&gt;To express sound, we probably need to express frequency, loudness, and &amp;hellip; &amp;ldquo;sound&amp;rdquo;? Like.. whatever makes a violin playing a C note at the same volume sound different than a piano
+&lt;ul&gt;
+&lt;li&gt;(I later learned I was dancing around &lt;a href=&#34;https://en.wikipedia.org/wiki/Timbre&#34;&gt;&amp;ldquo;timbre&amp;rdquo;&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;In order to represent this data in a way that can be stored on a computer, we need to come up with a multi-dimensional representation that expresses a &amp;hellip; frame? of sound. Frame is probably the wrong way to describe it, but a snapshot of the &amp;ldquo;sound data&amp;rdquo; at a specific point in time.&lt;/li&gt;
+&lt;li&gt;To &amp;ldquo;replay&amp;rdquo; the file, we need metadata that gives the player information about the sound - I assume one of the key pieces here is the rate at which we process frames? Unless that&amp;rsquo;s standard across filetypes? I doubt we&amp;rsquo;ve been able to standardize on a number but I &lt;strong&gt;believe&lt;/strong&gt; this is sample rate and is expressed in Hertz
+&lt;ul&gt;
+&lt;li&gt;(bingo)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Similar to pictures or binaries, the metadata is probably represented as a byte sequence in the header / first few bytes of the file. I&amp;rsquo;ve messed with hex editors before with games, I&amp;rsquo;ll just look up the .wav or .mp3 header when I get home.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.fileformat.com/audio/wav/&#34;&gt;wav file&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Based on reddit threads I remember from arguments about &amp;ldquo;lossless&amp;rdquo; music, I imagine &amp;ldquo;simpler&amp;rdquo; formats (.wav) just contain less rich data about the source sound than their FLAC counterparts. Either they&amp;rsquo;re less expressive in the dimensionality of their frames and/or there are less frames per unit of time? Anyway, apparently without listening to lossless music I&amp;rsquo;m not experiencing the full glory of Modest Mouse but instead drinking what must feel like a Lemon Lime La Croix to a margarita.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;tinkering&#34;&gt;Tinkering&lt;/h1&gt;
+&lt;p&gt;So here&amp;rsquo;s the &lt;a href=&#34;https://docs.fileformat.com/audio/wav/#wav-file-header&#34;&gt;WAV File Header&lt;/a&gt;.
+I downloaded a &lt;a href=&#34;https://github.com/pdx-cs-sound/wavs/blob/main/voice.wav&#34;&gt;sample wav&lt;/a&gt; file and started messing around with it.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Would the Person I Want to Be Work Here?</title>
       <link>https://tdoot.com/writing/would-the-person-i-want-to-be-work-here/</link>
