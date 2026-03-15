@@ -32,7 +32,9 @@ considerably less bad. Now it's something I'm comfortable putting in front of ot
 
 ## how it works
 
-vx has two pieces.
+vx has two pieces and runs as a status bar application.
+
+![vx statusbar](/images/pictures/vx-statusbar.png)
 
 **vx-rs** is a Rust binary that does the actual transcription. It reads an audio stream, runs Whisper locally (usually `ggml-tiny.en` or `small.en`), and returns plain text.
 
