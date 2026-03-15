@@ -1,7 +1,10 @@
 ---
 title: "vx"
 date: 2026-03-14T20:55:25-05:00
-draft: true
+draft: false
+author: "Tony"
+tags: ['tech', 'apps']
+categories: ['tools']
 ---
 
 # vx
