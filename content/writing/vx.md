@@ -5,6 +5,8 @@ draft: false
 author: "Tony"
 tags: ['tech', 'apps']
 categories: ['tools']
+cover:
+    image: images/covers/vx-cover.png
 ---
 
 # vx
