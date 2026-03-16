@@ -23,11 +23,10 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/tonydelanuez/vx-releases/releases&#34;&gt;download latest release here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;vx tooltip&#34; loading=&#34;lazy&#34; src=&#34;https://tdoot.com/images/pictures/vx.png&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;I was working as a security engineer and noticed I was spending a lot of time typing. Enough
-that it felt like the bottleneck. I also couldn&amp;rsquo;t use any of the existing voice tools - they
-all sent audio over-the-wire, which wasn&amp;rsquo;t really an option.&lt;/p&gt;
-&lt;p&gt;So I built one that didn&amp;rsquo;t.&lt;/p&gt;
-&lt;p&gt;All I needed was press a key, speak, release. Words appear where the cursor is. Nothing leaves the machine.&lt;/p&gt;</description>
+&lt;p&gt;While working it&amp;rsquo;s felt like a lot of the lag in my workflows has been due to typing.
+Even after optimizing my keyboard setup, the ability for my fingers to keep up with my brain was slowing me down.&lt;/p&gt;
+&lt;p&gt;I looked into voice to text tools, but all the popular ones at the time sent data over the wire, which wasn&amp;rsquo;t really an option.
+So I built one that didn&amp;rsquo;t.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WTF is in a WAV File?</title>
