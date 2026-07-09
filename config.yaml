@@ -81,9 +81,9 @@ params:
   homeInfoParams:
     Title: Tony De La Nuez
     Content: |
-      Staff Software Engineer at Discord
-      
-      Building infrastructure that feels like magic.
+      I make software that helps people make software.
+
+      Currently: Staff Software Engineer at Discord.
   socialIcons:
     - name: github
       url: "https://github.com/tonydelanuez"
