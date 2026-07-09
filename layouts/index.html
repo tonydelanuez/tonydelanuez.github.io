@@ -1,0 +1,6 @@
+{{- define "main" }}
+{{- if and site.Params.homeInfoParams (not site.Params.profileMode.enabled) }}
+{{- partial "home_info.html" . }}
+{{- end }}
+{{- partial "side_projects.html" . }}
+{{- end }}

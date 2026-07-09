@@ -81,23 +81,24 @@ params:
   homeInfoParams:
     Title: Tony De La Nuez
     Content: |
-      I'm a software developer based in Austin, Texas who specializes in Kubernetes, platform engineering, and
-      infrastructure security. I've built platforms for large companies like Atlassian, Twitter, Discord, and Airbnb.
-      Aside from tech I enjoy gardening, fitness, volleyball, and magic the gathering.
-
+      Staff Software Engineer at Discord
+      
+      Building infrastructure that feels like magic.
   socialIcons:
     - name: github
       url: "https://github.com/tonydelanuez"
     - name: twitter
       url: "https://twitter.com/tdoot_"
-    - name: bluesky
-      url: "https://bsky.app/profile/tdoot.com"
-    - name: youtube
-      url: "https://www.youtube.com/@itstdoot"
-    - name: tiktok
-      url: "https://www.tiktok.com/@itstdoot"
-    - name: instagram
-      url: "https://www.instagram.com/itstdoot"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/tonydelanuez/"
+    # - name: bluesky
+    #   url: "https://bsky.app/profile/tdoot.com"
+    # - name: youtube
+    #   url: "https://www.youtube.com/@itstdoot"
+    # - name: tiktok
+    #   url: "https://www.tiktok.com/@itstdoot"
+    # - name: instagram
+    #   url: "https://www.instagram.com/itstdoot"
   analytics:
     google:
       SiteVerificationTag: "XYZabc"

@@ -1,0 +1,125 @@
+<style>
+.home-info.first-entry {
+  min-height: unset;
+  justify-content: flex-start;
+  margin-bottom: var(--gap);
+}
+
+.side-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 0;
+}
+
+.side-projects__eyebrow {
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #77777e;
+  font-weight: 600;
+  border: none;
+}
+
+.side-projects__list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.project-card {
+  text-decoration: none;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #232326;
+  border: 1px solid #303035;
+  display: flex;
+  align-items: stretch;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.project-card:hover {
+  background: #28282c;
+  border-color: #3a3a40;
+}
+
+.project-card--reverse {
+  flex-direction: row-reverse;
+}
+
+.project-card__image {
+  width: 340px;
+  flex-shrink: 0;
+  background-color: #2a2a30;
+  background-image: repeating-linear-gradient(135deg, #2a2a30 0px, #2a2a30 12px, #313138 12px, #313138 24px);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+  padding: 16px;
+}
+
+.project-card__image-placeholder {
+  font-family: monospace;
+  font-size: 11px;
+  color: #6a6a70;
+}
+
+.project-card__body {
+  padding: 32px 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.project-card__title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #f4f4f6;
+}
+
+.project-card__desc {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #a6a6ad;
+  max-width: 560px;
+}
+
+.project-card__link {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #8f90f5;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .project-card,
+  .project-card--reverse {
+    flex-direction: column;
+  }
+
+  .project-card__image {
+    width: 100%;
+    height: 150px;
+  }
+
+  .project-card__body {
+    padding: 18px 20px 22px;
+    gap: 8px;
+  }
+
+  .project-card__title {
+    font-size: 20px;
+  }
+
+  .project-card__desc {
+    font-size: 14px;
+  }
+
+  .side-projects__eyebrow {
+    font-size: 12px;
+  }
+}
+</style>

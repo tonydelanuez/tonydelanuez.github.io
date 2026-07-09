@@ -1,0 +1,12 @@
+- name: vx - voice dictation for macOS
+  description: "Offline-first, super fast voice dictation for macOS. I maintain this in my free time and use it daily."
+  url: "https://vxdictate.com"
+  link_label: "vxdictate.com"
+  image: "/images/projects/vx.png"
+  image_position: "20% center"
+
+- name: "The Classic+ Project"
+  description: "If you know about WoW Classic, you probably know about the Classic+ Project. I worked on development of the site and still run all of the infra, deployment tooling, and automation."
+  url: "https://wowclassic.plus"
+  link_label: "wowclassic.plus"
+  image: "/images/projects/classicplus.png"

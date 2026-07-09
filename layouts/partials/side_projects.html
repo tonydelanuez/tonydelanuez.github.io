@@ -1,0 +1,21 @@
+{{- with site.Data.projects }}
+<section class="side-projects">
+  <h2 class="side-projects__eyebrow">Projects</h2>
+  <div class="side-projects__list">
+    {{- range $i, $p := . }}
+    <a href="{{ $p.url }}" target="_blank" rel="noopener noreferrer"
+       class="project-card{{ if eq (mod $i 2) 1 }} project-card--reverse{{ end }}">
+      <div class="project-card__image"
+           {{- if $p.image }} style="background-image:url('{{ $p.image }}');{{ with $p.image_position }} background-position:{{ . }};{{ end }}"{{ end }}>
+        {{- if not $p.image }}<span class="project-card__image-placeholder">product shot</span>{{ end }}
+      </div>
+      <div class="project-card__body">
+        <div class="project-card__title">{{ $p.name }}</div>
+        <div class="project-card__desc">{{ $p.description }}</div>
+        <div class="project-card__link">{{ $p.link_label }} &rarr;</div>
+      </div>
+    </a>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
