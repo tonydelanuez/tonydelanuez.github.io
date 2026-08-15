@@ -36,13 +36,6 @@ So I built one that didn&amp;rsquo;t.&lt;/p&gt;</description>
       <description>Let&amp;#39;s walk through a real-world scenario where a Kubernetes Deployment rollout and HPA clashed yet everything was technically working. Here&amp;#39;s how these important control loops interact under pressure and how to debug autoscaling failures that don’t show up in staging.</description>
     </item>
     <item>
-      <title>Building nightly ghost blog backups</title>
-      <link>https://tdoot.com/writing/nightly-ghost-backups/</link>
-      <pubDate>Sun, 28 Jan 2024 00:17:57 -0500</pubDate>
-      <guid>https://tdoot.com/writing/nightly-ghost-backups/</guid>
-      <description>&lt;p&gt;Back in grad school I used to make some extra cash by coaching and writing articles about &lt;a href=&#34;https://hearthstone.blizzard.com/en-us&#34;&gt;Hearthstone&lt;/a&gt; (an online collectible card game made by Blizzard). I primarily wrote &amp;ldquo;deck techs&amp;rdquo;, guides that explained how to play the most powerful and consistent decks that were dominating the scene. I loved this job, it was a surprisingly technical creative outlet and paid for the occasional treat meals at my favorite restaurant in St. Louis, &lt;a href=&#34;https://www.saltandsmokebbq.com/&#34;&gt;Salt n Smoke.&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Doing kubernetes on the cheap</title>
       <link>https://tdoot.com/writing/cheap-k8s/</link>
       <pubDate>Sun, 31 Dec 2023 18:11:22 -0500</pubDate>
