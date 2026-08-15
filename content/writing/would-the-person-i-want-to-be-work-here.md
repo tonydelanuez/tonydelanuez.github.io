@@ -4,7 +4,7 @@ date: 2025-07-16T20:04:43-05:00
 author: "Tony"
 tags: ["career"]
 categories: ['writing']
-draft: false
+draft: true
 description: 'The best jobs are a forcing function for becoming the person you want to be.'
 ---
 

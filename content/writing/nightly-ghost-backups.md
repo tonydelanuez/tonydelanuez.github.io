@@ -1,7 +1,7 @@
 ---
 title: "Building nightly ghost blog backups"
 date: 2024-01-28T00:17:57-05:00
-draft: false
+draft: true
 author: "Tony"
 tags: ['tech', 'automation', 'ghost']
 categories: ['writing']
