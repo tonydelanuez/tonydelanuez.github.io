@@ -29,17 +29,6 @@ Even after optimizing my keyboard setup, the ability for my fingers to keep up w
 So I built one that didn&amp;rsquo;t.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>WTF is in a WAV File?</title>
-      <link>https://tdoot.com/writing/wtf-wav/</link>
-      <pubDate>Thu, 17 Jul 2025 22:18:21 -0500</pubDate>
-      <guid>https://tdoot.com/writing/wtf-wav/</guid>
-      <description>&lt;p&gt;On a walk recently, I started wondering: What’s actually in a sound file?&lt;/p&gt;
-&lt;p&gt;Not like &amp;ldquo;oh, it&amp;rsquo;s music&amp;rdquo;.. but what are the actual bytes doing? How does a .wav file stored on a computer capture something as rich and human as a voice?&lt;/p&gt;
-&lt;p&gt;So I started poking at it. Here&amp;rsquo;s what I learned.&lt;/p&gt;
-&lt;h1 id=&#34;first-principles-guesswork&#34;&gt;First principles guesswork&lt;/h1&gt;
-&lt;p&gt;While walking, I jotted some thoughts in my Notes app. These weren’t facts, just things I assumed to be true (memory from a physics degree long past):&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>How Kubernetes Deployments, ReplicaSets, and HPAs coordinate</title>
       <link>https://tdoot.com/writing/understanding-k8s-deployments-replicasets-hpas/</link>
       <pubDate>Sat, 03 May 2025 12:01:14 -0500</pubDate>
